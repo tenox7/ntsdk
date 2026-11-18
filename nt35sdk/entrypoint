@@ -1,0 +1,5 @@
+#!/bin/sh
+# Print the instructions when run without a command, otherwise run the command.
+[ $# -gt 0 ] || set -- help
+case $1 in help|-h|--help) exec cat /usr/local/share/nt35sdk/README.md ;; esac
+exec "$@"

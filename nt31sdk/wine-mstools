@@ -1,0 +1,21 @@
+#!/bin/sh
+# wine-mstools TOOL ARGS...: run an NT 3.1 SDK tool (cl386, link32, nmake, rc, lib32,
+# masm386, ...) under Wine. An absolute Unix path, alone or after an option (-Fo/abs,
+# -I/abs, -out:/abs), becomes a Z: path. CPU, INCLUDE, LIB and WINEPATH come from the
+# image; docker run -e changes them.
+t=$1; shift
+b=${MSTOOLS:-/opt/mstools}/bin
+e=$(ls "$b" | grep -i -x -m1 "$t\.exe")
+[ -n "$e" ] || { echo "nt31sdk: no tool $t in $b" >&2; exit 127; }
+abs() { d=$(dirname "$1"); [ "$d" != / ] && [ -d "$d" ]; }
+for a; do
+  shift
+  case $a in
+  /*) if abs "$a"; then a="Z:$a"
+      else p=$(printf '%s' "$a" | sed -nE 's#^/[A-Za-z]+:?(/.*)$#\1#p'); [ -n "$p" ] && abs "$p" && a="${a%"$p"}Z:$p"; fi ;;
+  -*) p=$(printf '%s' "$a" | sed -nE 's#^-[A-Za-z]+:?(/.*)$#\1#p'); [ -n "$p" ] && abs "$p" && a="${a%"$p"}Z:$p" ;;
+  esac
+  set -- "$@" "$a"
+done
+export WINEDEBUG=${WINEDEBUG:--all}
+exec wine "$b/$e" "$@"

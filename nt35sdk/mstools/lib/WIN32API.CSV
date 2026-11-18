@@ -1,0 +1,3088 @@
+API or Message Name,Windows NT,Chicago,Win32s,Subsystem,Import Library,Platform Notes,History,Unicode
+AbortSystemShutdown,Yes,No,No,adv services,advapi32.lib,,New,Yes
+AccessCheck,Yes,No,No,adv services,advapi32.lib,,New,No
+AccessCheckAndAuditAlarm,Yes,No,No,adv services,advapi32.lib,,New,Yes
+AddAccessAllowedAce,Yes,No,No,adv services,advapi32.lib,,New,No
+AddAccessDeniedAce,Yes,No,No,adv services,advapi32.lib,,New,No
+AddAce,Yes,No,No,adv services,advapi32.lib,,New,No
+AddAuditAccessAce,Yes,No,No,adv services,advapi32.lib,,New,No
+AdjustTokenGroups,Yes,No,No,adv services,advapi32.lib,,New ,No
+AdjustTokenPrivileges,Yes,No,No,adv services,advapi32.lib,,New,No
+AllocateAndInitializeSid,Yes,No,No,adv services,advapi32.lib,,New,No
+AllocateLocallyUniqueId,Yes,No,No,adv services,advapi32.lib,,New,No
+AreAllAccessesGranted,Yes,No,No,adv services,advapi32.lib,,New,No
+AreAnyAccessesGranted,Yes,No,No,adv services,advapi32.lib,,New,No
+BackupEventLog,Yes,No,No,adv services,advapi32.lib,,New,Yes
+ChangeServiceConfig,Yes,No,No,adv services,advapi32.lib,,New,Yes
+ClearEventLog,Yes,No,No,adv services,advapi32.lib,,New,Yes
+CloseEventLog,Yes,No,No,adv services,advapi32.lib,,New,No
+CloseServiceHandle,Yes,No,No,adv services,advapi32.lib,,New,No
+ControlService,Yes,No,No,adv services,advapi32.lib,,New,No
+CopySid,Yes,No,No,adv services,advapi32.lib,,New,No
+CreatePrivateObjectSecurity,Yes,No,No,adv services,advapi32.lib,,New,No
+CreateService,Yes,No,No,adv services,advapi32.lib,,New,Yes
+DeleteAce,Yes,No,No,adv services,advapi32.lib,,New,No
+DeleteService,Yes,No,No,adv services,advapi32.lib,,New,No
+DeregisterEventSource,Yes,No,No,adv services,advapi32.lib,,New,No
+DestroyPrivateObjectSecurity,Yes,No,No,adv services,advapi32.lib,,New,No
+DuplicateToken,Yes,No,No,adv services,advapi32.lib,,New,No
+EnumDependentServices,Yes,No,No,adv services,advapi32.lib,,New,Yes
+EnumServicesStatus,Yes,No,No,adv services,advapi32.lib,,New,Yes
+EqualPrefixSid,Yes,No,No,adv services,advapi32.lib,,New,No
+EqualSid,Yes,No,No,adv services,advapi32.lib,,New,No
+FindFirstFreeAce,Yes,No,No,adv services,advapi32.lib,,New,No
+FreeSid,Yes,No,No,adv services,advapi32.lib,,New,No
+GetAce,Yes,No,No,adv services,advapi32.lib,,New,No
+GetAclInformation,Yes,No,No,adv services,advapi32.lib,,New,No
+GetFileSecurity,Yes,No,No,adv services,advapi32.lib,,New,Yes
+GetKernelObjectSecurity,Yes,No,No,adv services,advapi32.lib,,New,No
+GetLengthSid,Yes,No,No,adv services,advapi32.lib,,New,No
+GetNumberOfEventLogRecords,Yes,No,No,adv services,advapi32.lib,,New,No
+GetOldestEventLogRecord,Yes,No,No,adv services,advapi32.lib,,New,No
+GetPrivateObjectSecurity,Yes,No,No,adv services,advapi32.lib,,New,No
+GetSecurityDescriptorControl,Yes,No,No,adv services,advapi32.lib,,New,No
+GetSecurityDescriptorDacl,Yes,No,No,adv services,advapi32.lib,,New,No
+GetSecurityDescriptorGroup,Yes,No,No,adv services,advapi32.lib,,New,No
+GetSecurityDescriptorLength,Yes,No,No,adv services,advapi32.lib,,New,No
+GetSecurityDescriptorOwner,Yes,No,No,adv services,advapi32.lib,,New,No
+GetSecurityDescriptorSacl,Yes,No,No,adv services,advapi32.lib,,New,No
+GetServiceDisplayName,Yes,No,No,adv services,advapi32.lib,,New,Yes
+GetServiceKeyName,Yes,No,No,adv services,advapi32.lib,,New,Yes
+GetSidIdentifierAuthority,Yes,No,No,adv services,advapi32.lib,,New,No
+GetSidLengthRequired,Yes,No,No,adv services,advapi32.lib,,New,No
+GetSidSubAuthority,Yes,No,No,adv services,advapi32.lib,,New,No
+GetSidSubAuthorityCount,Yes,No,No,adv services,advapi32.lib,,New,No
+GetTokenInformation,Yes,No,No,adv services,advapi32.lib,,New,No
+GetUserName,Yes,No,No,adv services,advapi32.lib,,New,Yes
+I_ScSetServiceBits,Yes,No,No,adv services,advapi32.lib,,New,Yes
+ImpersonateNamedPipeClient,Yes,No,No,adv services,advapi32.lib,,New,No
+ImpersonateSelf,Yes,No,No,adv services,advapi32.lib,,New,No
+InitializeAcl,Yes,No,No,adv services,advapi32.lib,,New,No
+InitializeSecurityDescriptor,Yes,No,No,adv services,advapi32.lib,,New,No
+InitializeSid,Yes,No,No,adv services,advapi32.lib,,New,No
+InitiateSystemShutdown,Yes,No,No,adv services,advapi32.lib,,New,Yes
+IsValidAcl,Yes,No,No,adv services,advapi32.lib,,New,No
+IsValidSecurityDescriptor,Yes,No,No,adv services,advapi32.lib,,New,No
+IsValidSid,Yes,No,No,adv services,advapi32.lib,,New,No
+LockServiceDatabase,Yes,No,No,adv services,advapi32.lib,,New,No
+LookupAccountName,Yes,No,No,adv services,advapi32.lib,,New,Yes
+LookupAccountSid,Yes,No,No,adv services,advapi32.lib,,New,Yes
+LookupPrivilegeDisplayName,Yes,No,No,adv services,advapi32.lib,,New,Yes
+LookupPrivilegeName,Yes,No,No,adv services,advapi32.lib,,New,Yes
+LookupPrivilegeValue,Yes,No,No,adv services,advapi32.lib,,New,Yes
+MakeAbsoluteSD,Yes,No,No,adv services,advapi32.lib,,New,No
+MakeSelfRelativeSD,Yes,No,No,adv services,advapi32.lib,,New,No
+MapGenericMask,Yes,No,No,adv services,advapi32.lib,,New,No
+NotifyBootConfigStatus,Yes,No,No,adv services,advapi32.lib,,New,No
+NotifyChangeEventLog,New,No,New,adv services,advapi32.lib,,New,No
+ObjectCloseAuditAlarm,Yes,No,No,adv services,advapi32.lib,,New,Yes
+ObjectOpenAuditAlarm,Yes,No,No,adv services,advapi32.lib,,New,Yes
+ObjectPrivilegeAuditAlarm,Yes,No,No,adv services,advapi32.lib,,New,Yes
+OpenBackupEventLog,Yes,No,No,adv services,advapi32.lib,,New,Yes
+OpenEventLog,Yes,No,No,adv services,advapi32.lib,,New,Yes
+OpenProcessToken,Yes,No,No,adv services,advapi32.lib,,New,No
+OpenSCManager,Yes,No,No,adv services,advapi32.lib,,New,Yes
+OpenService,Yes,No,No,adv services,advapi32.lib,,New,Yes
+OpenThreadToken,Yes,No,No,adv services,advapi32.lib,,New,No
+PrivilegeCheck,Yes,No,No,adv services,advapi32.lib,,New,No
+PrivilegedServiceAuditAlarm,Yes,No,No,adv services,advapi32.lib,,New,Yes
+QueryServiceConfig,Yes,No,No,adv services,advapi32.lib,,New,Yes
+QueryServiceLockStatus,Yes,No,No,adv services,advapi32.lib,,New,Yes
+QueryServiceObjectSecurity,Yes,No,No,adv services,advapi32.lib,,New,No
+QueryServiceStatus,Yes,No,No,adv services,advapi32.lib,,New,No
+ReadEventLog,Yes,No,No,adv services,advapi32.lib,,New,Yes
+RegCloseKey,Yes,Yes,Yes,adv services,advapi32.lib,,New,No
+RegConnectRegistry,Yes,No,No,adv services,advapi32.lib,,New,Yes
+RegCreateKey,Yes,Yes,Yes,adv services,advapi32.lib,,Widened,Yes
+RegCreateKeyEx,Yes,Yes,No,adv services,advapi32.lib,,New,Yes
+RegDeleteKey,Yes,Yes,Yes,adv services,advapi32.lib,,Widened,Yes
+RegDeleteValue,Yes,Yes,No,adv services,advapi32.lib,,New,Yes
+RegEnumKey,Yes,Yes,Yes,adv services,advapi32.lib,,Widened,Yes
+RegEnumKeyEx,Yes,Yes,No,adv services,advapi32.lib,,New,Yes
+RegEnumValue,Yes,Yes,Yes,adv services,advapi32.lib,,New,Yes
+RegFlushKey,Yes,Yes,No,adv services,advapi32.lib,,New,No
+RegGetKeySecurity,Yes,No,No,adv services,advapi32.lib,,New,No
+RegisterEventSource,Yes,No,No,adv services,advapi32.lib,,New,Yes
+RegisterServiceCtrlHandler,Yes,No,No,adv services,advapi32.lib,,New,Yes
+RegLoadKey,Yes,Yes,No,adv services,advapi32.lib,,New,Yes
+RegNotifyChangeKeyValue,Yes,No,No,adv services,advapi32.lib,,New,No
+RegOpenKey,Yes,Yes,Yes,adv services,advapi32.lib,,Widened,Yes
+RegOpenKeyEx,Yes,Yes,No,adv services,advapi32.lib,,New,Yes
+RegQueryInfoKey,Yes,Yes,No,adv services,advapi32.lib,,New,Yes
+RegQueryValue,Yes,Yes,Yes,adv services,advapi32.lib,,Widened,Yes
+RegQueryValueEx,Yes,Yes,Yes,adv services,advapi32.lib,,New,Yes
+RegReplaceKey,Yes,No,No,adv services,advapi32.lib,,New,Yes
+RegRestoreKey,Yes,Yes,No,adv services,advapi32.lib,,New,Yes
+RegSaveKey,Yes,Yes,No,adv services,advapi32.lib,,New,Yes
+RegSetKeySecurity,Yes,No,No,adv services,advapi32.lib,,New,No
+RegSetValue,Yes,Yes,Yes,adv services,advapi32.lib,,Widened,Yes
+RegSetValueEx,Yes,Yes,No,adv services,advapi32.lib,,New,Yes
+RegUnLoadKey,Yes,Yes,No,adv services,advapi32.lib,,New,Yes
+ReportEvent,Yes,No,No,adv services,advapi32.lib,,New,Yes
+RevertToSelf,Yes,No,No,adv services,advapi32.lib,,New,No
+SetAclInformation,Yes,No,No,adv services,advapi32.lib,,New,No
+SetFileSecurity,Yes,No,No,adv services,advapi32.lib,,New,Yes
+SetKernelObjectSecurity,Yes,No,No,adv services,advapi32.lib,,New,No
+SetPrivateObjectSecurity,Yes,No,No,adv services,advapi32.lib,,New,No
+SetSecurityDescriptorDacl,Yes,No,No,adv services,advapi32.lib,,New,No
+SetSecurityDescriptorGroup,Yes,No,No,adv services,advapi32.lib,,New,No
+SetSecurityDescriptorOwner,Yes,No,No,adv services,advapi32.lib,,New,No
+SetSecurityDescriptorSacl,Yes,No,No,adv services,advapi32.lib,,New,No
+SetServiceBits,New,No,New,adv services,advapi32.lib,,New,No
+SetServiceObjectSecurity,Yes,No,No,adv services,advapi32.lib,,New,No
+SetServiceStatus,Yes,No,No,adv services,advapi32.lib,,New,No
+SetTokenInformation,Yes,No,No,adv services,advapi32.lib,,New,No
+StartService,Yes,No,No,adv services,advapi32.lib,,New,Yes
+StartServiceCtrlDispatcher,Yes,No,No,adv services,advapi32.lib,,New,Yes
+UnlockServiceDatabase,Yes,No,No,adv services,advapi32.lib,,New,No
+ChooseColor,Yes,Yes,Yes,shell/commdlg,comdlg32.lib,,Widened,Yes
+ChooseFont,Yes,Yes,Yes,shell/commdlg,comdlg32.lib,,Widened,Yes
+CommDlgExtendedError,Yes,Yes,Yes,shell/commdlg,comdlg32.lib,,Widened,No
+FindText,Yes,Yes,Yes,shell/commdlg,comdlg32.lib,,Widened,Yes
+GetFileTitle,Yes,Yes,Yes,shell/commdlg,comdlg32.lib,,Widened,Yes
+GetOpenFileName,Yes,Yes,Yes,shell/commdlg,comdlg32.lib,,New,Yes
+GetSaveFileName,Yes,Yes,Yes,shell/commdlg,comdlg32.lib,,New,Yes
+LoadAlterBitmap,Yes,No,No,shell/commdlg,comdlg32.lib,,New,No
+PrintDlg,Yes,Yes,Yes,shell/commdlg,comdlg32.lib,,New,Yes
+ReplaceText,Yes,Yes,Yes,shell/commdlg,comdlg32.lib,,New,Yes
+AcsLan,Yes,,No,dlc,dlcapi.lib,,New,No
+DeviceCapabilitiesEx,New,Yes,New,GDI,gdi32.lib,,New,No
+BitBlt,Yes,Yes,Yes,GDI/Bitmap,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+CreateBitmap,Yes,Yes,Yes,GDI/Bitmap,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+CreateBitmapIndirect,Yes,Yes,Yes,GDI/Bitmap,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+CreateCompatibleBitmap,Yes,Yes,Yes,GDI/Bitmap,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+CreateDiscardableBitmap,Yes,Yes,Yes,GDI/Bitmap,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+GetBitmapBits,Yes,Yes,Yes,GDI/Bitmap,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+GetBitmapDimensionEx,Yes,Yes,Yes,GDI/Bitmap,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+MaskBlt,Yes,No,No,GDI/Bitmap,gdi32.lib,"""Chicago: 16-bit coordinates only""",New,No
+PlgBlt,Yes,No,No,GDI/Bitmap,gdi32.lib,,New,No
+SetBitmapBits,Yes,Yes,Yes,GDI/Bitmap,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+SetBitmapDimensionEx,Yes,Yes,Yes,GDI/Bitmap,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+StretchBlt,Yes,Yes,Yes,GDI/Bitmap,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+CancelDC,Yes,No,No,GDI/DC,gdi32.lib,,New,No
+CreateCompatibleDC,Yes,Yes,Yes,GDI/DC,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+CreateDC,Yes,Yes,Yes,GDI/DC,gdi32.lib,"""Chicago: int == 16 bits""",Widened,Yes
+CreateIC,Yes,Yes,Yes,GDI/DC,gdi32.lib,"""Chicago: int == 16 bits""",Widened,Yes
+DeleteDC,Yes,Yes,Yes,GDI/DC,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+RestoreDC,Yes,Yes,Yes,GDI/DC,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+SaveDC,Yes,Yes,Yes,GDI/DC,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+FixBrushOrgEx,Yes,Yes,Yes,GDI/DC Info,gdi32.lib,,,No
+GetArcDirection,Yes,Yes,No,GDI/DC info,gdi32.lib,"""Chicago: int == 16 bits""",New,No
+GetAspectRatioFilterEx,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+GetBkColor,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+GetBkMode,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+GetBrushOrgEx,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+GetColorAdjustment,Yes,No,No,GDI/DC info,gdi32.lib,"""Chicago: int == 16 bits""",New,No
+GetCurrentObject,Yes,No,No,GDI/DC info,gdi32.lib,"""Chicago: int == 16 bits""",New,No
+GetCurrentPositionEx,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+GetDCOrg,No,No,No,GDI/DC info,gdi32.lib,,Dropped,No
+GetDCOrgEx,Yes,Yes,No,GDI/DC info,gdi32.lib,"""Chicago: int == 16 bits""",New,No
+GetDeviceCaps,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+GetGraphicsMode,Yes,Yes,No,GDI/DC info,gdi32.lib,"""Chicago: Only GM_COMPATIBLE is supported""",New,No
+GetMapMode,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+GetMiterLimit,Yes,Yes,No,GDI/DC info,gdi32.lib,,New,No
+GetPolyFillMode,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+GetROP2,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+GetStretchBltMode,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+GetSystemPaletteEntries,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+GetSystemPaletteUse,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+GetViewportExtEx,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+GetViewportOrgEx,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+GetWindowExtEx,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+GetWindowOrgEx,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+OffsetViewportOrgEx,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+OffsetWindowOrgEx,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+PtVisible,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+RectVisible,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+ScaleViewportExtEx,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+ScaleWindowExtEx,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+SetArcDirection,Yes,Yes,No,GDI/DC info,gdi32.lib,"""Chicago: 16-bit coordinates only""",New,No
+SetBkColor,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+SetBkMode,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+SetBoundsRect,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+SetBrushOrgEx,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: 16-bit coordinates only""",New,No
+SetColorAdjustment,Yes,No,No,GDI/DC info,gdi32.lib,"""Chicago: int == 16 bits""",New,No
+SetGraphicsMode,Yes,No,No,GDI/DC info,gdi32.lib,"""Chicago: Only GM_COMPATIBLE is supported""",New,No
+SetMapMode,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+SetMiterLimit,Yes,Yes,No,GDI/DC info,gdi32.lib,"""Chicago: int == 16 bits""",New,No
+SetPolyFillMode,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+SetROP2,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+SetStretchBltMode,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+SetSystemPaletteUse,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+SetViewportExtEx,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+SetViewportOrgEx,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+SetWindowExtEx,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+SetWindowOrgEx,Yes,Yes,Yes,GDI/DC info,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+CreateDIBitmap,Yes,Yes,Yes,GDI/DIB,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+CreateDIBSection,New,Yes,No,GDI/DIB,gdi32.lib,,New,No
+GetDIBits,Yes,Yes,Yes,GDI/DIB,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+SetDIBits,Yes,Yes,Yes,GDI/DIB,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+SetDIBitsToDevice,Yes,Yes,Yes,GDI/DIB,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+StretchDIBits,Yes,Yes,Yes,GDI/DIB,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+AngleArc,Yes,No,No,GDI/Drawing,gdi32.lib,,New,No
+Arc,Yes,Yes,Yes,GDI/Drawing,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+ArcTo,Yes,No,No,GDI/Drawing,gdi32.lib,,New,No
+Chord,Yes,Yes,Yes,GDI/Drawing,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+Ellipse,Yes,Yes,Yes,GDI/Drawing,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+ExtFloodFill,Yes,Yes,Yes,GDI/Drawing,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+FloodFill,Yes,Yes,Yes,GDI/Drawing,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+GetPixel,Yes,Yes,Yes,GDI/Drawing,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+LineTo,Yes,Yes,Yes,GDI/Drawing,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+MoveToEx,Yes,Yes,Yes,GDI/Drawing,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+PaintRgn,Yes,Yes,Yes,GDI/Drawing,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+PatBlt,Yes,Yes,Yes,GDI/Drawing,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+Pie,Yes,Yes,Yes,GDI/Drawing,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+PolyBezier,Yes,Yes,No,GDI/Drawing,gdi32.lib,"""Chicago: 16-bit coordinates only""",New,No
+PolyBezierTo,Yes,Yes,No,GDI/Drawing,gdi32.lib,"""Chicago: 16-bit coordinates only""",New,No
+PolyDraw,Yes,No,No,GDI/Drawing,gdi32.lib,,New,No
+Polygon,Yes,Yes,Yes,GDI/Drawing,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+Polyline,Yes,Yes,Yes,GDI/Drawing,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+PolylineTo,Yes,Yes,No,GDI/Drawing,gdi32.lib,"""Chicago: 16-bit coordinates only""",New,No
+PolyPolygon,Yes,Yes,Yes,GDI/Drawing,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+PolyPolyline,Yes,Yes,No,GDI/Drawing,gdi32.lib,"""Chicago: 16-bit coordinates only""",New,No
+Rectangle,Yes,Yes,Yes,GDI/Drawing,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+RoundRect,Yes,Yes,Yes,GDI/Drawing,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+SetPixel,Yes,Yes,Yes,GDI/Drawing,gdi32.lib,,,No
+SetPixelV,Yes,Yes,No,GDI/Drawing,gdi32.lib,"""Chicago: 16-bit coordinates only""",New,No
+CloseEnhMetaFile,Yes,Yes,No,GDI/EnhMetafile,gdi32.lib,,New,No
+CopyEnhMetaFile,Yes,Yes,No,GDI/EnhMetafile,gdi32.lib,,New,Yes
+CreateEnhMetaFile,Yes,Yes,No,GDI/EnhMetafile,gdi32.lib,,New,Yes
+DeleteEnhMetaFile,Yes,Yes,No,GDI/EnhMetafile,gdi32.lib,"""Chicago: int == 16 bits""",New,No
+EnumEnhMetaFile,Yes,Yes,No,GDI/EnhMetafile,gdi32.lib,,New,No
+GdiComment,Yes,Yes,No,GDI/EnhMetafile,gdi32.lib,"""Chicago: int == 16 bits""",New,No
+GetEnhMetaFile,Yes,Yes,No,GDI/EnhMetafile,gdi32.lib,,New,Yes
+GetEnhMetaFileBits,Yes,Yes,No,GDI/EnhMetafile,gdi32.lib,,New,No
+GetEnhMetaFileDescription,Yes,Yes,No,GDI/EnhMetafile,gdi32.lib,,New,Yes
+GetEnhMetaFileHeader,Yes,Yes,No,GDI/EnhMetafile,gdi32.lib,,New,No
+GetEnhMetaFilePaletteEntries,Yes,Yes,No,GDI/EnhMetafile,gdi32.lib,,New,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GetMetaRgn,Yes,Yes,No,GDI/EnhMetafile,gdi32.lib,"""Chicago: int == 16 bits""",New,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GetWinMetaFileBits,Yes,Yes,No,GDI/EnhMetafile,gdi32.lib,,New,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PlayEnhMetaFile,Yes,Yes,No,GDI/EnhMetafile,gdi32.lib,"""Chicago: Skips records which couldn't be processed under Chicago's GDI: greater than 16-bit coordinates, no shearing or rotations, no dashed widelines, etc.""",New,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PlayEnhMetaFileRecord,Yes,Yes,No,GDI/EnhMetafile,gdi32.lib,"""Chicago: Skips records which couldn't be processed under Chicago's GDI: greater than 16-bit coordinates, no shearing or rotations, no dashed widelines, etc.""",New,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SetEnhMetaFileBits,Yes,Yes,No,GDI/EnhMetafile,gdi32.lib,,New,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SetMetaRgn,Yes,Yes,No,GDI/EnhMetafile,gdi32.lib,"""Chicago: 16-bit coordinates only""",New,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SetWinMetaFileBits,Yes,Yes,No,GDI/EnhMetafile,gdi32.lib,,New,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EnableDIC,No,Yes,No,GDI/ICM,gdi32.lib,,New,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EnumNamedDeviceColors,No,Yes,No,GDI/ICM,gdi32.lib,,New,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GetCharacterizationTable,No,Yes,No,GDI/ICM,gdi32.lib,,New,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GetColorSpace,No,Yes,No,GDI/ICM,gdi32.lib,,New,No,,,,,,,,,,,,,,,Available,,,,,,,,Available,,,,,,,,Available
+GetDIBColorTable,New,Yes,No,GDI/ICM,gdi32.lib,,New,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SetCharacterizationTable,No,Yes,No,GDI/ICM,gdi32.lib,,New,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SetColorSpace,No,Yes,No,GDI/ICM,gdi32.lib,,New,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SetDIBColorTable,New,Yes,No,GDI/ICM,gdi32.lib,,New,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SetOverprint,No,Yes,No,GDI/ICM,gdi32.lib,,New,No
+StartSeparation,No,Yes,No,GDI/ICM,gdi32.lib,,New,No
+CloseMetaFile,Yes,Yes,Yes,GDI/Metafile,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+CopyMetaFile,Yes,Yes,Yes,GDI/Metafile,gdi32.lib,"""Chicago: int == 16 bits""",Widened,Yes
+CreateMetaFile,Yes,Yes,Yes,GDI/Metafile,gdi32.lib,"""Chicago: int == 16 bits""",Widened,Yes
+DeleteMetaFile,Yes,Yes,Yes,GDI/Metafile,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+EnumMetaFile,Yes,Yes,Yes,GDI/Metafile,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+GetMetaFile,Yes,Yes,Yes,GDI/Metafile,gdi32.lib,"""Chicago: int == 16 bits""",Widened,Yes
+GetMetaFileBitsEx,Yes,Yes,Yes,GDI/Metafile,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+PlayMetaFile,Yes,Yes,Yes,GDI/Metafile,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+PlayMetaFileRecord,Yes,Yes,Yes,GDI/Metafile,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+SetMetaFileBitsEx,Yes,Yes,Yes,GDI/Metafile,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+CreateBrushIndirect,Yes,Yes,Yes,GDI/Objects,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+CreateDIBPatternBrush,Yes,Yes,Yes,GDI/Objects,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+CreateDIBPatternBrushPt,Yes,No,No,GDI/Objects,gdi32.lib,,New,No
+CreateHatchBrush,Yes,Yes,Yes,GDI/Objects,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+CreatePatternBrush,Yes,Yes,Yes,GDI/Objects,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+CreatePen,Yes,Yes,Yes,GDI/Objects,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+CreatePenIndirect,Yes,Yes,Yes,GDI/Objects,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+CreateSolidBrush,Yes,Yes,Yes,GDI/Objects,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+DeleteObject,Yes,Yes,Yes,GDI/Objects,gdi32.lib,"""Chicago: Suceeds the deletion if the object is currently selected into a DC and creates a Zombie object. Windows NT: Fails the call.""",Widened,No
+EnumObjects,Yes,Yes,Yes,GDI/Objects,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+ExtCreatePen,Yes,Yes,No,GDI/Objects,gdi32.lib,"""Chicago: Only supports solid colors (e.g., BS_SOLID brushes); also int == 16 bits""",New,No
+GetObject,Yes,Yes,Yes,GDI/Objects,gdi32.lib,"""Chicago: int == 16 bits""",Widened,Yes
+GetObjectType,Yes,No,No,GDI/Objects,gdi32.lib,,New,No
+GetStockObject,Yes,Yes,Yes,GDI/Objects,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+UnrealizeObject,Yes,Yes,Yes,GDI/Objects,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+ChoosePixelFormat,New,No,New,GDI/Opengl,gdi32.lib,,New,No
+DescribePixelFormat,New,No,New,GDI/Opengl,gdi32.lib,,New,No
+GetPixelFormat,New,No,New,GDI/Opengl,gdi32.lib,,New,No
+SetPixelFormat,New,No,New,GDI/Opengl,gdi32.lib,,New,No
+SwapBuffers,New,No,New,GDI/Opengl,gdi32.lib,,New,No
+wglCreateContext,New,No,New,GDI/Opengl,gdi32.lib,,New,No
+wglDeleteContext,New,No,New,GDI/Opengl,gdi32.lib,,New,No
+wglGetCurrentContext,New,No,New,GDI/Opengl,gdi32.lib,,New,No
+wglGetCurrentDC,New,No,New,GDI/Opengl,gdi32.lib,,New,No
+wglMakeCurrent,New,No,New,GDI/Opengl,gdi32.lib,,New,No
+wglUseFontBitmaps,New,No,New,GDI/Opengl,gdi32.lib,,New,No
+DPtoLP,Yes,Yes,Yes,GDI/Other,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+GdiFlush,Yes,No,Yes,GDI/Other,gdi32.lib,,New,No
+GdiGetBatchLimit,Yes,No,No,GDI/Other,gdi32.lib,,New,No
+GdiSetBatchLimit,Yes,No,No,GDI/Other,gdi32.lib,,New,No
+LPtoDP,Yes,Yes,Yes,GDI/Other,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+AnimatePalette,Yes,Yes,Yes,GDI/Palette,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+CreateHalftonePalette,Yes,No,No,GDI/Palette,gdi32.lib,,New,No
+CreatePalette,Yes,Yes,Yes,GDI/Palette,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+GetNearestColor,Yes,Yes,Yes,GDI/Palette,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+GetNearestPaletteIndex,Yes,Yes,Yes,GDI/Palette,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+GetPaletteEntries,Yes,Yes,Yes,GDI/Palette,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+RealizePalette,Yes,Yes,Yes,GDI/Palette,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+ResizePalette,Yes,Yes,Yes,GDI/Palette,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+SelectPalette,Yes,Yes,Yes,GDI/Palette,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+SetPaletteEntries,Yes,Yes,Yes,GDI/Palette,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+UpdateColors,Yes,Yes,Yes,GDI/Palette,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+AbortPath,Yes,Yes,No,GDI/Paths,gdi32.lib,"""Chicago: 16-bit coordinates only""",New,No
+BeginPath,Yes,Yes,No,GDI/Paths,gdi32.lib,"""Chicago: 16-bit coordinates only""",New,No
+CloseFigure,Yes,Yes,No,GDI/Paths,gdi32.lib,"""Chicago: 16-bit coordinates only""",New,No
+EndPath,Yes,Yes,No,GDI/Paths,gdi32.lib,"""Chicago: 16-bit coordinates only""",New,No
+FillPath,Yes,Yes,No,GDI/Paths,gdi32.lib,"""Chicago: 16-bit coordinates only""",New,No
+FlattenPath,Yes,Yes,No,GDI/Paths,gdi32.lib,"""Chicago: 16-bit coordinates only""",New,No
+GetPath,Yes,Yes,No,GDI/Paths,gdi32.lib,"""Chicago: 16-bit coordinates only""",New,No
+PathToRegion,Yes,Yes,No,GDI/Paths,gdi32.lib,"""Chicago: 16-bit coordinates only""",New,No
+SelectClipPath,Yes,Yes,No,GDI/Paths,gdi32.lib,"""Chicago: 16-bit coordinates only""",New,No
+StrokeAndFillPath,Yes,Yes,No,GDI/Paths,gdi32.lib,"""Chicago: 16-bit coordinates only""",New,No
+StrokePath,Yes,Yes,No,GDI/Paths,gdi32.lib,"""Chicago: 16-bit coordinates only""",New,No
+WidenPath,Yes,Yes,No,GDI/Paths,gdi32.lib,"""Chicago: 16-bit coordinates only""",New,No
+AbortDoc,Yes,Yes,Yes,GDI/Print,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+EndDoc,Yes,Yes,Yes,GDI/Print,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+EndPage,Yes,Yes,Yes,GDI/Print,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+Escape,Yes,Yes,Yes,GDI/Print,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+ExtEscape,Yes,Yes,Yes,GDI/Print,gdi32.lib,"""Chicago: int == 16 bits""",New,No
+ResetDC,Yes,Yes,Yes,GDI/Print,gdi32.lib,"""Chicago: int == 16 bits""",Widened,Yes
+SetAbortProc,Yes,Yes,Yes,GDI/Print,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+StartDoc,Yes,Yes,Yes,GDI/Print,gdi32.lib,"""Chicago: int == 16 bits""",Widened,Yes
+StartPage,Yes,Yes,Yes,GDI/Print,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+AbortPrinter,Yes,Yes,No,GDI/PrintSubSys,gdi32.lib,,New,No
+WaitForPrinterChange,Yes,Yes,No,GDI/PrintSubSys,gdi32.lib,"""Chicago: PRINTER_CHANGE_FORM is not supported""",New,No
+CombineRgn,Yes,Yes,Yes,GDI/Region,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+CreateEllipticRgn,Yes,Yes,Yes,GDI/Region,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+CreateEllipticRgnIndirect,Yes,Yes,Yes,GDI/Region,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+CreatePolygonRgn,Yes,Yes,Yes,GDI/Region,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+CreatePolyPolygonRgn,Yes,Yes,Yes,GDI/Region,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+CreateRectRgn,Yes,Yes,Yes,GDI/Region,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+CreateRectRgnIndirect,Yes,Yes,Yes,GDI/Region,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+CreateRoundRectRgn,Yes,Yes,Yes,GDI/Region,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+EqualRgn,Yes,Yes,Yes,GDI/Region,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+ExcludeClipRect,Yes,Yes,Yes,GDI/Region,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+ExtCreateRegion,Yes,Yes,No,GDI/Region,gdi32.lib,"""Chicago: Fails if the transform involves a shearing or rotation; int == 16 bits""",New,No
+ExtSelectClipRgn,Yes,Yes,No,GDI/Region,gdi32.lib,"""Chicago: 16-bit coordinates only""",New,No
+FillRgn,Yes,Yes,Yes,GDI/Region,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+FrameRgn,Yes,Yes,Yes,GDI/Region,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+GetBoundsRect,Yes,Yes,Yes,GDI/Region,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+GetClipBox,Yes,Yes,Yes,GDI/Region,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+GetClipRgn,Yes,Yes,No,GDI/Region,gdi32.lib,"""Chicago: 16-bit coordinates only""",New,No
+GetRegionData,Yes,Yes,No,GDI/Region,gdi32.lib,"""Chicago: int == 16 bits""",New,No
+GetRgnBox,Yes,Yes,Yes,GDI/Region,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+IntersectClipRect,Yes,Yes,Yes,GDI/Region,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+InvertRgn,Yes,Yes,Yes,GDI/Region,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+OffsetClipRgn,Yes,Yes,Yes,GDI/Region,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+OffsetRgn,Yes,Yes,Yes,GDI/Region,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+PtInRegion,Yes,Yes,Yes,GDI/Region,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+RectInRegion,Yes,Yes,Yes,GDI/Region,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+SelectClipRgn,Yes,Yes,Yes,GDI/Region,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+SetRectRgn,Yes,Yes,Yes,GDI/Region,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,No
+AddFontResource,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",Changed,Yes
+CreateFont,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",Widened,Yes
+CreateFontIndirect,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",Widened,Yes
+CreateScalableFontResource,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",Widened,Yes
+EnumFontFamilies,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",Widened,Yes
+EnumFonts,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",Widened,Yes
+ExtTextOut,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,Yes
+GetCharABCWidths,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",Widened,Yes
+GetCharABCWidthsFloat,Yes,No,No,GDI/Text,gdi32.lib,,New,Yes
+GetCharWidth,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",Widened,Yes
+GetCharWidth32,Yes,Yes,No,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",New,Yes
+GetCharWidthFloat,Yes,Yes,No,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",New,Yes
+GetFontData,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+GetFontResourceInfo,Yes,Yes,No,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",New,No
+GetGlyphOutline,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+GetKerningPairs,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",New,No
+GetOutlineTextMetrics,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",Widened,Yes
+GetRasterizerCaps,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+GetTextAlign,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+GetTextCharacterExtra,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+GetTextColor,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+GetTextExtentExPoint,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",Widened,Yes
+GetTextExtentPoint,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",Widened,Yes
+GetTextExtentPoint32,Yes,Yes,No,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",New,Yes
+GetTextFace,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",Widened,Yes
+GetTextMetrics,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",Widened,Yes
+PolyTextOut,Yes,Yes,No,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",New,Yes
+RemoveFontResource,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",Changed,Yes
+SetMapperFlags,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+SetTextAlign,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+SetTextCharacterExtra,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+SetTextColor,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+SetTextJustification,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: int == 16 bits""",Widened,No
+TextOut,Yes,Yes,Yes,GDI/Text,gdi32.lib,"""Chicago: 16-bit coordinates only""",Widened,Yes
+CombineTransform,Yes,No,No,GDI/Transforms,gdi32.lib,,New,No
+GetWorldTransform,Yes,No,No,GDI/Transforms,gdi32.lib,,New,No
+ModifyWorldTransform,Yes,No,No,GDI/Transforms,gdi32.lib,,New,No
+SetWorldTransform,Yes,No,No,GDI/Transforms,gdi32.lib,,New,No
+DrawEscape,Yes,No,No,GDI/Video,gdi32.lib,,New,No
+BuildCommDCB,No,Yes,No,Comm,kernel32.lib,,Widened,Yes
+BuildCommDCBAndTimeouts,No,Yes,No,Comm,kernel32.lib,,New,Yes
+ClearCommBreak,No,Yes,No,Comm,kernel32.lib,,Widened,No
+ClearCommError,No,Yes,No,Comm,kernel32.lib,,New,No
+EnumCommDevices,No,Yes,No,Comm,kernel32.lib,,New,No
+EscapeCommFunction,No,Yes,No,Comm,kernel32.lib,,Widened,No
+GetCommEvent,No,Yes,No,Comm,kernel32.lib,,New,No
+GetCommMask,No,Yes,No,Comm,kernel32.lib,,New,No
+GetCommModemStatus,No,Yes,No,Comm,kernel32.lib,,New,No
+GetCommProperties,No,Yes,No,Comm,kernel32.lib,,New,No
+GetCommState,No,Yes,No,Comm,kernel32.lib,,Widened,No
+GetCommTimeouts,No,Yes,No,Comm,kernel32.lib,,New,No
+ModemAnswer,No,Yes,No,Comm,kernel32.lib,,New,No
+ModemClose,No,Yes,No,Comm,kernel32.lib,,New,No
+ModemCommand,No,Yes,No,Comm,kernel32.lib,,New,No
+ModemDial,No,Yes,No,Comm,kernel32.lib,,New,No
+ModemGetCommand,No,Yes,No,Comm,kernel32.lib,,New,No
+ModemHangUp,No,Yes,No,Comm,kernel32.lib,,New,No
+ModemOpen,No,Yes,No,Comm,kernel32.lib,,New,No
+PurgeComm,No,Yes,No,Comm,kernel32.lib,,New,No
+SetCommBreak,No,Yes,No,Comm,kernel32.lib,,New,No
+SetCommMask,No,Yes,No,Comm,kernel32.lib,,New,No
+SetCommState,No,Yes,No,Comm,kernel32.lib,,New,No
+SetCommTimeouts,No,Yes,No,Comm,kernel32.lib,,New,No
+SetCommUsage,No,Yes,No,Comm,kernel32.lib,,New,No
+SetupComm,No,Yes,No,Comm,kernel32.lib,,New,No
+TransmitCommChar,No,Yes,No,Comm,kernel32.lib,,New,No
+WaitCommEvent,No,Yes,No,Comm,kernel32.lib,,New,No
+_hread,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+_hwrite,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+_lclose,Yes,Yes,Yes,Kernel,kernel32.lib,,,No
+_lcreat,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+_llseek,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+_lopen,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+_lread,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+_lwrite,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+AddAtom,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+AreFileApisANSI,New,,No,Kernel,kernel32.lib,,,No
+CloseHandle,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+CommandLineToArgvW,New,No,New,Kernel,kernel32.lib,,New,No
+CopyFile,Yes,Yes,Yes,Kernel,kernel32.lib,,New,Yes
+CreateDirectory,Yes,Yes,Yes,Kernel,kernel32.lib,,New,Yes
+CreateDirectoryEx,Yes,Yes,Yes,Kernel,kernel32.lib,,New,Yes
+CreateFile,Yes,Yes,Yes,Kernel,kernel32.lib,,New,Yes
+CreateFileMapping,Yes,Yes,Yes,Kernel,kernel32.lib,,New,Yes
+CreateIoCompletionPort,New,No,New,Kernel,kernel32.lib,,New,No
+CreateMailslot,Yes,Yes,No,Kernel,kernel32.lib,,New,Yes
+CreatePipe,Yes,Yes,No,Kernel,kernel32.lib,,New,No
+CreateProcess,Yes,Yes,Yes,Kernel,kernel32.lib,,New,Yes
+CreateRemoteThread,Yes,No,No,Kernel,kernel32.lib,,New,No
+CreateThread,Yes,Yes,No,Kernel,kernel32.lib,,New,No
+DefineDosDevice,Yes,No,No,Kernel,kernel32.lib,,,No
+DeleteAtom,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+DeleteFile,Yes,Yes,Yes,Kernel,kernel32.lib,,New,Yes
+DeviceIoControl,Yes,Yes,No,Kernel,kernel32.lib,,New,No
+DisableThreadLibraryCalls,New,No,New,Kernel,kernel32.lib,,New,No
+DuplicateHandle,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+ExitProcess,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+ExitThread,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+FindAtom,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+FindClose,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+FindCloseChangeNotification,Yes,Yes,No,Kernel,kernel32.lib,,New,No
+FindFirstChangeNotification,Yes,Yes,No,Kernel,kernel32.lib,,New,Yes
+FindFirstFile,Yes,Yes,Yes,Kernel,kernel32.lib,,New,Yes
+FindNextChangeNotification,Yes,Yes,No,Kernel,kernel32.lib,,New,No
+FindNextFile,Yes,Yes,Yes,Kernel,kernel32.lib,,New,Yes
+FlushFileBuffers,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+FlushInstructionCache,Yes,Yes,No,Kernel,kernel32.lib,This is valid on SMP platforms only; Chicago returns a constant,New,No
+FlushViewOfFile,Yes,Yes,No,Kernel,kernel32.lib,,New,No
+FreeEnvironmentStrings,New,No,New,Kernel,kernel32.lib,,New,No
+FreeLibrary,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+FreeLibraryAndExitThread,New,No,New,Kernel,kernel32.lib,,New,No
+GetAtomName,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+GetBinaryType,New,No,New,Kernel,kernel32.lib,,New,Yes
+GetCommandLine,Yes,Yes,Yes,Kernel,kernel32.lib,,New,Yes
+GetCompressedFileSize,New,,No,Kernel,kernel32.lib,,,Yes
+GetCurrentDirectory,Yes,Yes,Yes,Kernel,kernel32.lib,,New,Yes
+GetCurrentProcess,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+GetCurrentProcessId,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+GetCurrentThread,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+GetCurrentThreadId,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+GetDiskFreeSpace,Yes,Yes,Yes,Kernel,kernel32.lib,,New,Yes
+GetDriveType,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+GetEnvironmentStrings,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+GetEnvironmentVariable,Yes,Yes,Yes,Kernel,kernel32.lib,,New,Yes
+GetExitCodeProcess,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+GetExitCodeThread,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+GetFileAttributes,Yes,Yes,Yes,Kernel,kernel32.lib,,New,Yes
+GetFileInformationByHandle,Yes,Yes,No,Kernel,kernel32.lib,,New,No
+GetFileSize,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+GetFileType,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+GetFullPathName,Yes,Yes,Yes,Kernel,kernel32.lib,,New,Yes
+GetLogicalDrives,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+GetLogicalDriveStrings,Yes,No,No,Kernel,kernel32.lib,,New,Yes
+GetMailslotInfo,Yes,Yes,No,Kernel,kernel32.lib,,New,No
+GetModuleFileName,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+GetModuleHandle,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+GetOverlappedResult,Yes,Yes,No,Kernel,kernel32.lib,"""Chicago: Only on serial and IOCTL devices""",New,No
+GetPriorityClass,Yes,Yes,No,Kernel,kernel32.lib,,New,No
+GetPrivateProfileInt,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+GetPrivateProfileSection,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+GetPrivateProfileString,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+GetProcAddress,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+GetProcessAffinityMask,New,No,New,Kernel,kernel32.lib,This is valid on SMP platforms only; Chicago returns a constant,New,No
+GetProcessHeap,Yes,Yes,No,Kernel,kernel32.lib,,New,No
+GetProcessHeaps,New,,No,Kernel,kernel32.lib,,,No
+GetProcessShutdownParameters,Yes,No,No,Kernel,kernel32.lib,,New,No
+GetProcessTimes,Yes,No,No,Kernel,kernel32.lib,,,No
+GetProcessWorkingSetSize,New,No,New,Kernel,kernel32.lib,,New,No
+GetProfileInt,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+GetProfileSection,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+GetProfileString,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+GetQueuedCompletionStatus,New,No,New,Kernel,kernel32.lib,,New,No
+GetShortPathName,New,Yes,Yes,Kernel,kernel32.lib,,,Yes
+GetStartupInfo,Yes,Yes,Yes,Kernel,kernel32.lib,,New,Yes
+GetStdHandle,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+GetSystemDirectory,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+GetSystemInfo,Yes,Yes,No,Kernel,kernel32.lib,,New,No
+GetSystemPowerStatus,No,Yes,No,Kernel,kernel32.lib,,New,No
+GetSystemTimeAdjustment,New,No,New,Kernel,kernel32.lib,,New,No
+GetTempFileName,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+GetTempPath,Yes,Yes,Yes,Kernel,kernel32.lib,,New,Yes
+GetThreadContext,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+GetThreadPriority,Yes,Yes,No,Kernel,kernel32.lib,,New,No
+GetThreadSelectorEntry,Yes,Yes,New,Kernel,kernel32.lib,,New,No
+GetThreadTimes,Yes,No,No,Kernel,kernel32.lib,,,No
+GetVersionEx,New,Yes,New,Kernel,kernel32.lib,,New,No
+GetVolumeInformation,Yes,Yes,Yes,Kernel,kernel32.lib,,New,Yes
+GetWindowsDirectory,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+GlobalAddAtom,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+GlobalAlloc,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+GlobalCompact,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+GlobalDeleteAtom,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+GlobalFindAtom,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+GlobalFix,Yes,Yes,Yes,Kernel,kernel32.lib,,Obsolete,No
+GlobalFlags,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+GlobalFree,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+GlobalGetAtomName,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+GlobalHandle,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+GlobalLock,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+GlobalMemoryStatus,Yes,Yes,No,Kernel,kernel32.lib,,New,No
+GlobalReAlloc,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+GlobalSize,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+GlobalUnfix,Yes,Yes,Yes,Kernel,kernel32.lib,,Obsolete,No
+GlobalUnlock,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+GlobalUnWire,Yes,Yes,Yes,Kernel,kernel32.lib,,Obsolete,No
+GlobalWire,Yes,Yes,Yes,Kernel,kernel32.lib,,Obsolete,No
+HeapCompact,New,No,No,Kernel,kernel32.lib,,,No
+HeapCreate,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+HeapDestroy,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+HeapLock,New,No,No,Kernel,kernel32.lib,,,No
+HeapRealloc,Yes,Yes,No,Kernel,kernel32.lib,,,No
+HeapUnlock,New,No,No,Kernel,kernel32.lib,,,No
+HeapValidate,New,No,No,Kernel,kernel32.lib,,,No
+HeapWalk,New,No,No,Kernel,kernel32.lib,,,No
+InitAtomTable,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+IsBadCodePtr,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+IsBadHugeReadPtr,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+IsBadHugeWritePtr,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+IsBadReadPtr,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+IsBadStringPtr,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+IsBadWritePtr,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+LoadLibrary,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+LoadLibraryEx,Yes,No,New,Kernel,kernel32.lib,,New,Yes
+LoadModule,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+LocalAlloc,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+LocalCompact,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+LocalFlags,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+LocalFree,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+LocalHandle,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+LocalLock,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+LocalReAlloc,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+LocalShrink,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+LocalSize,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+LocalUnlock,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+LockFile,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+LockFileEx,Yes,No,No,Kernel,kernel32.lib,,New,No
+lstrcat,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+lstrcmp,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+lstrcmpi,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+lstrcpy,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+lstrcpyn,New,Yes,New,Kernel,kernel32.lib,,New,Yes
+lstrlen,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+MapViewOfFile,Yes,Yes,Yes,Kernel,kernel32.lib,"""Chicago: Memory mapped files appear in the same address space in all processes""",New,No
+MapViewOfFileEx,Yes,Yes,Yes,Kernel,kernel32.lib,"""Chicago: Memory mapped files appear in the same address space in all processes""",New,No
+MoveFile,Yes,Yes,Yes,Kernel,kernel32.lib,,New,Yes
+MoveFileEx,Yes,No,No,Kernel,kernel32.lib,,New,Yes
+OpenFile,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+OpenFileMapping,Yes,Yes,Yes,Kernel,kernel32.lib,,New,Yes
+OpenProcess,Yes,Yes,No,Kernel,kernel32.lib,,New,No
+QueryDosDevice,Yes,,No,Kernel,kernel32.lib,,New,Yes
+RaiseException,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+ReadFile,Yes,Yes,Yes,Kernel,kernel32.lib,"""Chicago: No overlapped regions, except for serial devices""",New,No
+ReadFileEx,Yes,No,No,Kernel,kernel32.lib,,New,No
+RemoveDirectory,Yes,Yes,Yes,Kernel,kernel32.lib,,New,Yes
+ResumeThread,Yes,Yes,No,Kernel,kernel32.lib,,New,No
+SearchPath,Yes,Yes,Yes,Kernel,kernel32.lib,,New,Yes
+SetCurrentDirectory,Yes,Yes,Yes,Kernel,kernel32.lib,,New,Yes
+SetEndOfFile,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+SetEnvironmentVariable,Yes,Yes,Yes,Kernel,kernel32.lib,,New,Yes
+SetErrorMode,New,No,New,Kernel,kernel32.lib,This is used for RISC platforms only. x86 platforms and Chicago return a constant,New,No
+SetFileApisToOEM,Yes,No,No,Kernel,kernel32.lib,,,No
+SetFileAttributes,Yes,Yes,Yes,Kernel,kernel32.lib,,New,Yes
+SetFilePointer,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+SetHandleCount,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+SetLastError,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+SetMailslotInfo,Yes,Yes,No,Kernel,kernel32.lib,,New,No
+SetPriorityClass,Yes,Yes,No,Kernel,kernel32.lib,,New,No
+SetProcessShutdownParameters,Yes,No,No,Kernel,kernel32.lib,,New,No
+SetStdHandle,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+SetSystemPowerState,No,Yes,No,Kernel,kernel32.lib,,New,No
+SetSystemTimeAdjustment,New,No,New,Kernel,kernel32.lib,,New,No
+SetThreadAffinityMask,New,No,New,Kernel,kernel32.lib,This is valid on SMP platforms only; Chicago returns a constant,New,No
+SetThreadPriority,Yes,Yes,No,Kernel,kernel32.lib,,New,No
+SetVolumeLabel,Yes,Yes,No,Kernel,kernel32.lib,,New,Yes
+Sleep,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+SleepEx,Yes,Yes,No,Kernel,kernel32.lib,,New,No
+SuspendThread,Yes,Yes,No,Kernel,kernel32.lib,,New,No
+SystemTimeToTzSpecificLocalTime,New,Yes,New,Kernel,kernel32.lib,,New,No
+TerminateProcess,Yes,Yes,No,Kernel,kernel32.lib,,New,No
+TerminateThread,Yes,Yes,No,Kernel,kernel32.lib,,New,No
+TlsAlloc,Yes,Yes,No,Kernel,kernel32.lib,,New,No
+TlsFree,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+TlsGetValue,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+TlsSetValue,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+UnhandledExceptionFilter,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+UnlockFile,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+UnlockFileEx,Yes,No,No,Kernel,kernel32.lib,,New,No
+UnmapViewOfFile,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+VerLanguageName,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+VirtualAlloc,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+VirtualFree,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+VirtualLock,Yes,Yes,No,Kernel,kernel32.lib,,New,No
+VirtualProtect,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+VirtualProtectEx,Yes,No,No,Kernel,kernel32.lib,,New,No
+VirtualQuery,Yes,Yes,Yes,Kernel,kernel32.lib,,New,No
+VirtualQueryEx,Yes,No,No,Kernel,kernel32.lib,,New,No
+VirtualUnlock,Yes,Yes,No,Kernel,kernel32.lib,,New,No
+WinExec,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,No
+WriteFile,Yes,Yes,Yes,Kernel,kernel32.lib,"""Chicago: No overlapped regions, except for serial devices""",New,No
+WriteFileEx,Yes,No,No,Kernel,kernel32.lib,,New,No
+WritePrivateProfileSection,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+WritePrivateProfileString,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+WriteProcessMemory,Yes,Yes,No,Kernel,kernel32.lib,,New,No
+WriteProfileSection,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+WriteProfileString,Yes,Yes,Yes,Kernel,kernel32.lib,,Widened,Yes
+CommConfigDialog,New,,No,Kernel/Comm,kernel32.lib,,,Yes
+AllocConsole,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,No
+CreateConsoleScreenBuffer,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,No
+FillConsoleOutputAttribute,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,No
+FillConsoleOutputCharacter,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,Yes
+FlushConsoleInputBuffer,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,No
+FreeConsole,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,No
+GenerateConsoleCtrlEvent,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,No
+GetConsoleCP,Yes,No,No,Kernel/Console,kernel32.lib,,New,No
+GetConsoleCursorInfo,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,No
+GetConsoleMode,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,No
+GetConsoleOutputCP,Yes,No,No,Kernel/Console,kernel32.lib,,New,No
+GetConsoleScreenBufferInfo,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,No
+GetConsoleTitle,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,Yes
+GetLargestConsoleWindowSize,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,No
+GetNumberOfConsoleInputEvents,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,No
+GetNumberOfConsoleMouseButtons,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,No
+PeekConsoleInput,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,Yes
+ReadConsole,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,Yes
+ReadConsoleInput,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,Yes
+ReadConsoleOutput,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,Yes
+ReadConsoleOutputAttribute,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,No
+ReadConsoleOutputCharacter,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,Yes
+ScrollConsoleScreenBuffer,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,Yes
+SetConsoleActiveScreenBuffer,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,No
+SetConsoleCP,Yes,No,No,Kernel/Console,kernel32.lib,,New,No
+SetConsoleCtrlHandler,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,No
+SetConsoleCursorInfo,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,No
+SetConsoleCursorPosition,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,No
+SetConsoleMode,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,No
+SetConsoleOutputCP,Yes,No,No,Kernel/Console,kernel32.lib,,New,No
+SetConsoleScreenBufferSize,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,No
+SetConsoleTextAttribute,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,No
+SetConsoleTitle,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,Yes
+SetConsoleWindowInfo,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,No
+WriteConsole,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,Yes
+WriteConsoleInput,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,Yes
+WriteConsoleOutput,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,Yes
+WriteConsoleOutputAttribute,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,No
+WriteConsoleOutputCharacter,Yes,Yes,No,Kernel/Console,kernel32.lib,,New,Yes
+ContinueDebugEvent,Yes,Yes,Yes,Kernel/Debug,kernel32.lib,,New,No
+DebugActiveProcess,Yes,Yes,No,Kernel/Debug,kernel32.lib,,New,No
+DebugBreak,Yes,Yes,Yes,Kernel/Debug,kernel32.lib,,Widened,No
+FatalAppExit,Yes,Yes,Yes,Kernel/Debug,kernel32.lib,,Widened,Yes
+FatalExit,Yes,Yes,Yes,Kernel/Debug,kernel32.lib,,Widened,No
+OutputDebugString,Yes,Yes,Yes,Kernel/Debug,kernel32.lib,,Widened,Yes
+ReadProcessMemory,Yes,Yes,Yes,Kernel/Debug,kernel32.lib,,New,No
+SetThreadContext,Yes,Yes,Yes,Kernel/Debug,kernel32.lib,,New,No
+WaitForDebugEvent,Yes,Yes,Yes,Kernel/Debug,kernel32.lib,,New,No
+Beep,Yes,Yes,Yes,Kernel/Errors,kernel32.lib,,New,No
+GetLastError,Yes,Yes,Yes,Kernel/Errors,kernel32.lib,,New,No
+CompareString,Yes,,No,Kernel/NLS,kernel32.lib,,,Yes
+CompareStringA,New,Yes,New,Kernel/NLS,kernel32.lib,,New,Yes
+CompareStringW,Yes,No,Yes,Kernel/NLS,kernel32.lib,,New,Yes
+ConvertDefaultLocale,New,No,New,Kernel/NLS,kernel32.lib,,New,No
+EnumCalendarInfo,New,No,New,Kernel/NLS,kernel32.lib,,New,Yes
+EnumCalendarInfoProc,New,No,New,Kernel/NLS,kernel32.lib,,New,Yes
+EnumCodePagesProc,New,No,New,Kernel/NLS,kernel32.lib,,New,Yes
+EnumDateFormats,New,No,New,Kernel/NLS,kernel32.lib,,New,Yes
+EnumDateFormatsProc,New,No,New,Kernel/NLS,kernel32.lib,,New,Yes
+EnumLocalesProc,New,No,New,Kernel/NLS,kernel32.lib,,New,Yes
+EnumSystemCodePages,Yes,Yes,No,Kernel/NLS,kernel32.lib,,,Yes
+EnumSystemCodePagesW,New,No,New,Kernel/NLS,kernel32.lib,,New,No
+EnumSystemLocales,New,No,New,Kernel/NLS,kernel32.lib,,New,Yes
+EnumTimeFormats,New,No,New,Kernel/NLS,kernel32.lib,,New,Yes
+EnumTimeFormatsProc,New,No,New,Kernel/NLS,kernel32.lib,,New,Yes
+FoldString,Yes,,Yes,Kernel/NLS,kernel32.lib,,,Yes
+FoldStringA,New,Yes,New,Kernel/NLS,kernel32.lib,,New,Yes
+FoldStringW,Yes,No,No,Kernel/NLS,kernel32.lib,,New,Yes
+GetACP,Yes,Yes,No,Kernel/NLS,kernel32.lib,,New,No
+GetCPInfo,Yes,Yes,No,Kernel/NLS,kernel32.lib,,New,No
+GetCurrencyFormat,New,No,New,Kernel/NLS,kernel32.lib,,New,Yes
+GetDateFormat,Yes,Yes,Yes,Kernel/NLS,kernel32.lib,,,Yes
+GetDateFormatA,New,Yes,New,Kernel/NLS,kernel32.lib,,New,No
+GetDateFormatW,Yes,No,No,Kernel/NLS,kernel32.lib,,New,No
+GetLocaleInfo,Yes,Yes,Yes,Kernel/NLS,kernel32.lib,,,Yes
+GetLocaleInfoA,New,Yes,New,Kernel/NLS,kernel32.lib,,New,Unicode
+GetLocaleInfoW,Yes,No,No,Kernel/NLS,kernel32.lib,,New,Unicode
+GetNumberFormat,New,No,New,Kernel/NLS,kernel32.lib,,New,Yes
+GetOEMCP,Yes,Yes,No,Kernel/NLS,kernel32.lib,,New,No
+GetStringTypeA,New,Yes,Yes,Kernel/NLS,kernel32.lib,,New,Unicode
+GetStringTypeEx,New,No,New,Kernel/NLS,kernel32.lib,,New,No
+GetStringTypeW,Yes,No,No,Kernel/NLS,kernel32.lib,,New,Unicode
+GetSystemDefaultLangID,Yes,Yes,Yes,Kernel/NLS,kernel32.lib,,New,No
+GetSystemDefaultLCID,Yes,Yes,Yes,Kernel/NLS,kernel32.lib,,New,No
+GetThreadLocale,Yes,No,No,Kernel/NLS,kernel32.lib,"""Chicago: Locales are static & can change only at system boot""",New,No
+GetTimeFormat,Yes,Yes,Yes,Kernel/NLS,kernel32.lib,,,Yes
+GetTimeFormatA,New,Yes,New,Kernel/NLS,kernel32.lib,,New,No
+GetTimeFormatW,Yes,No,No,Kernel/NLS,kernel32.lib,,New,No
+GetUserDefaultLangID,Yes,Yes,New,Kernel/NLS,kernel32.lib,,New,No
+GetUserDefaultLCID,Yes,Yes,New,Kernel/NLS,kernel32.lib,,New,No
+IsDBCSLeadByte,Yes,Yes,Yes,Kernel/NLS,kernel32.lib,,Widened,No
+IsTextUnicode,New,No,New,Kernel/NLS,kernel32.lib,,New,No
+IsValidCodePage,Yes,Yes,No,Kernel/NLS,kernel32.lib,,New,No
+IsValidLocale,New,No,New,Kernel/NLS,kernel32.lib,,New,No
+LCMapStringA,New,Yes,New,Kernel/NLS,kernel32.lib,,New,Yes
+LCMapStringW,Yes,No,New,Kernel/NLS,kernel32.lib,,New,Yes
+MultiByteToWideChar,Yes,Yes,No,Kernel/NLS,kernel32.lib,,New,No
+SetLocaleInfo,New,No,New,Kernel/NLS,kernel32.lib,,New,Yes
+SetThreadLocale,Yes,No,No,Kernel/NLS,kernel32.lib,"""Chicago: Locales are static & can change only at system boot""",New,No
+WideCharToMultiByte,Yes,Yes,Yes,Kernel/NLS,kernel32.lib,,New,No
+QueryPerformanceCounter,Yes,No,No,Kernel/Perf,kernel32.lib,,,No
+QueryPerformanceFrequency,Yes,No,No,Kernel/Perf,kernel32.lib,,,No
+CallNamedPipe,Yes,Yes,No,Kernel/Pipes,kernel32.lib,,New,Yes
+ConnectNamedPipe,Yes,No,No,Kernel/Pipes,kernel32.lib,,New,No
+CreateNamedPipe,Yes,No,No,Kernel/Pipes,kernel32.lib,,New,Yes
+DisconnectNamedPipe,Yes,No,No,Kernel/Pipes,kernel32.lib,,New,No
+GetNamedPipeHandleState,Yes,Yes,No,Kernel/Pipes,kernel32.lib,,New,Yes
+GetNamedPipeInfo,Yes,Yes,No,Kernel/Pipes,kernel32.lib,,New,No
+PeekNamedPipe,Yes,Yes,No,Kernel/Pipes,kernel32.lib,,New,No
+SetNamedPipeHandleState,Yes,Yes,No,Kernel/Pipes,kernel32.lib,,New,No
+TransactNamedPipe,Yes,Yes,No,Kernel/Pipes,kernel32.lib,,New,No
+WaitNamedPipe,Yes,Yes,No,Kernel/Pipes,kernel32.lib,,New,Yes
+BeginUpdateResource,Yes,No,No,Kernel/Resources,kernel32.lib,,New,Yes
+EndUpdateResource,Yes,No,No,Kernel/Resources,kernel32.lib,,New,Yes
+EnumResourceLanguages,Yes,Yes,Yes,Kernel/Resources,kernel32.lib,,New,Yes
+EnumResourceNames,Yes,Yes,Yes,Kernel/Resources,kernel32.lib,,New,Yes
+EnumResourceTypes,Yes,Yes,Yes,Kernel/Resources,kernel32.lib,,New,Yes
+FindResource,Yes,Yes,Yes,Kernel/Resources,kernel32.lib,,Widened,Yes
+FindResourceEx,Yes,Yes,No,Kernel/Resources,kernel32.lib,,New,Yes
+FreeResource,Yes,Yes,Yes,Kernel/Resources,kernel32.lib,,Widened,No
+LoadResource,Yes,Yes,Yes,Kernel/Resources,kernel32.lib,,Widened,No
+LockResource,Yes,Yes,Yes,Kernel/Resources,kernel32.lib,,Widened,No
+SizeofResource,Yes,Yes,Yes,Kernel/Resources,kernel32.lib,,Widened,No
+UpdateResource,Yes,No,No,Kernel/Resources,kernel32.lib,,New,Yes
+EnumResLangProc,Yes,Yes,Yes,Kernel/Resources/macro,kernel32.lib,,New,No
+EnumResNameProc,Yes,Yes,Yes,Kernel/Resources/macro,kernel32.lib,,New,No
+EnumResTypeProc,Yes,Yes,Yes,Kernel/Resources/macro,kernel32.lib,,New,No
+CreateEvent,Yes,Yes,No,Kernel/Synch,kernel32.lib,,New,Yes
+CreateMutex,Yes,Yes,No,Kernel/Synch,kernel32.lib,,New,Yes
+CreateSemaphore,Yes,Yes,No,Kernel/Synch,kernel32.lib,,New,Yes
+DeleteCriticalSection,Yes,Yes,Yes,Kernel/Synch,kernel32.lib,,New,No
+EnterCriticalSection,Yes,Yes,Yes,Kernel/Synch,kernel32.lib,,New,No
+InitializeCriticalSection,Yes,Yes,Yes,Kernel/Synch,kernel32.lib,,New,No
+InterlockedDecrement,Yes,Yes,No,Kernel/Synch,kernel32.lib,,New,No
+InterlockedExchange,Yes,Yes,No,Kernel/Synch,kernel32.lib,,New,No
+InterlockedIncrement,Yes,Yes,No,Kernel/Synch,kernel32.lib,,New,No
+LeaveCriticalSection,Yes,Yes,Yes,Kernel/Synch,kernel32.lib,,New,No
+OpenEvent,Yes,Yes,No,Kernel/Synch,kernel32.lib,,New,Yes
+OpenMutex,Yes,Yes,No,Kernel/Synch,kernel32.lib,,New,Yes
+OpenSemaphore,Yes,Yes,No,Kernel/Synch,kernel32.lib,,New,Yes
+PulseEvent,Yes,Yes,No,Kernel/Synch,kernel32.lib,,New,No
+ReleaseMutex,Yes,Yes,No,Kernel/Synch,kernel32.lib,,New,No
+ReleaseSemaphore,Yes,Yes,No,Kernel/Synch,kernel32.lib,,New,No
+ResetEvent,Yes,Yes,No,Kernel/Synch,kernel32.lib,,New,No
+SetEvent,Yes,Yes,No,Kernel/Synch,kernel32.lib,,New,No
+WaitForMultipleObjects,Yes,Yes,No,Kernel/Synch,kernel32.lib,,New,No
+WaitForMultipleObjectsEx,Yes,Yes,No,Kernel/Synch,kernel32.lib,,New,No
+WaitForSingleObject,Yes,Yes,No,Kernel/Synch,kernel32.lib,,New,No
+WaitForSingleObjectEx,Yes,Yes,No,Kernel/Synch,kernel32.lib,,New,No
+ExpandEnvironmentStrings,Yes,No,No,Kernel/SysInfo,kernel32.lib,,New,Yes
+GetComputerName,Yes,Yes,No,Kernel/SysInfo,kernel32.lib,,New,Yes
+GetVersion,Yes,Yes,Yes,Kernel/SysInfo,kernel32.lib,,Widened,No
+SetComputerName,Yes,Yes,No,Kernel/SysInfo,kernel32.lib,,New,Yes
+BackupRead,Yes,No,No,Kernel/Tape,kernel32.lib,,New,No
+BackupSeek,Yes,No,No,Kernel/Tape,kernel32.lib,,New,No
+BackupWrite,Yes,No,No,Kernel/Tape,kernel32.lib,,New,No
+CreateTapePartition,Yes,No,No,Kernel/Tape,kernel32.lib,,New,No
+EraseTape,Yes,No,No,Kernel/Tape,kernel32.lib,,New,No
+GetTapeParameters,Yes,No,No,Kernel/Tape,kernel32.lib,,New,No
+GetTapePosition,Yes,No,No,Kernel/Tape,kernel32.lib,,New,No
+GetTapeStatus,Yes,No,No,Kernel/Tape,kernel32.lib,,New,No
+PrepareTape,Yes,No,No,Kernel/Tape,kernel32.lib,,New,No
+SetTapeParameters,Yes,No,No,Kernel/Tape,kernel32.lib,,New,No
+SetTapePosition,Yes,No,No,Kernel/Tape,kernel32.lib,,New,No
+WriteTapemark,Yes,No,No,Kernel/Tape,kernel32.lib,,New,No
+CompareFileTime,Yes,Yes,Yes,Kernel/Time,kernel32.lib,,New,No
+DosDateTimeToFileTime,Yes,Yes,Yes,Kernel/Time,kernel32.lib,,New,No
+FileTimeToDosDateTime,Yes,Yes,Yes,Kernel/Time,kernel32.lib,,New,No
+FileTimeToLocalFileTime,Yes,Yes,No,Kernel/Time,kernel32.lib,,New,No
+FileTimeToSystemTime,Yes,Yes,Yes,Kernel/Time,kernel32.lib,,New,No
+GetFileTime,Yes,Yes,Yes,Kernel/Time,kernel32.lib,,New,No
+GetLocalTime,Yes,Yes,No,Kernel/Time,kernel32.lib,,New,No
+GetSystemTime,Yes,Yes,Yes,Kernel/Time,kernel32.lib,,New,No
+GetTickCount,Yes,Yes,Yes,Kernel/Time,kernel32.lib,,Widened,No
+GetTimeZoneInformation,Yes,No,No,Kernel/Time,kernel32.lib,,New,No
+LocalFileTimeToFileTime,Yes,Yes,Yes,Kernel/Time,kernel32.lib,,New,No
+MulDiv,Yes,Yes,Yes,Kernel/Time,kernel32.lib,,Widened,No
+SetFileTime,Yes,Yes,Yes,Kernel/Time,kernel32.lib,,New,No
+SetLocalTime,Yes,Yes,No,Kernel/Time,kernel32.lib,,New,No
+SetSystemTime,Yes,Yes,Yes,Kernel/Time,kernel32.lib,,New,No
+SetTimeZoneInformation,Yes,No,No,Kernel/Time,kernel32.lib,,New,No
+SystemTimeToFileTime,Yes,Yes,Yes,Kernel/Time,kernel32.lib,,New,No
+CopyLZFile,Yes,Yes,Yes,Compression,lz32.lib,,Widened,No
+GetExpandedName,Yes,Yes,Yes,Compression,lz32.lib,,New,Yes
+LZClose,Yes,Yes,Yes,Compression,lz32.lib,,Widened,No
+LZCopy,Yes,Yes,Yes,Compression,lz32.lib,,Widened,No
+LZDone,Yes,Yes,Yes,Compression,lz32.lib,,Widened,No
+LZInit,Yes,Yes,Yes,Compression,lz32.lib,,Widened,No
+LZOpenFile,Yes,Yes,Yes,Compression,lz32.lib,,Widened,Yes
+LZRead,Yes,Yes,Yes,Compression,lz32.lib,,Widened,No
+LZSeek,Yes,Yes,Yes,Compression,lz32.lib,,Widened,No
+LZStart,Yes,Yes,Yes,Compression,lz32.lib,,Widened,No
+WNetAddConnection,Yes,Yes,No,Networking,mpr.lib,,New,Yes
+WNetAddConnection2,Yes,Yes,No,Networking,mpr.lib,,New,Yes
+WNetCancelConnection,Yes,Yes,No,Networking,mpr.lib,,New,Yes
+WNetCancelConnection2,Yes,Yes,No,Networking,mpr.lib,,New,Yes
+WNetCloseEnum,Yes,Yes,No,Networking,mpr.lib,,New,No
+WNetConnectionDialog,Yes,Yes,No,Networking,mpr.lib,,New,No
+WNetDisconnectDialog,Yes,Yes,No,Networking,mpr.lib,,New,No
+WNetEnumResource,Yes,Yes,No,Networking,mpr.lib,,New,Yes
+WNetGetConnection,Yes,Yes,No,Networking,mpr.lib,,New,Yes
+WNetGetLastError,Yes,Yes,No,Networking,mpr.lib,,New,Yes
+WNetGetUser,Yes,Yes,No,Networking,mpr.lib,,New,Yes
+WNetOpenEnum,Yes,Yes,No,Networking,mpr.lib,,New,Yes
+acmChooseWaveFilter,New,Yes,No,mm,msacm32.lib,,New,No
+acmChooseWaveFormat,New,Yes,No,mm,msacm32.lib,,New,No
+acmCloseConversion,New,Yes,No,mm,msacm32.lib,,New,No
+acmConvert,New,Yes,No,mm,msacm32.lib,,New,No
+acmConverterAdd,New,Yes,No,mm,msacm32.lib,,New,No
+acmConverterClose,New,Yes,No,mm,msacm32.lib,,New,No
+acmConverterEnum,New,Yes,No,mm,msacm32.lib,,New,No
+acmConverterGetInfo,New,Yes,No,mm,msacm32.lib,,New,No
+acmConverterOpen,New,Yes,No,mm,msacm32.lib,,New,No
+acmConverterRemove,New,Yes,No,mm,msacm32.lib,,New,No
+acmConverterSendMessage,New,Yes,No,mm,msacm32.lib,,New,No
+acmEnumWaveFilters,New,Yes,No,mm,msacm32.lib,,New,No
+acmEnumWaveFormats,New,Yes,No,mm,msacm32.lib,,New,No
+acmEnumWaveFormatTags,New,Yes,No,mm,msacm32.lib,,New,No
+acmGetFormatString,New,Yes,No,mm,msacm32.lib,,New,No
+acmGetVersion,New,Yes,No,mm,msacm32.lib,,New,No
+acmGetWaveFormatSize,New,Yes,No,mm,msacm32.lib,,New,No
+acmOpenConversion,New,Yes,No,mm,msacm32.lib,,New,No
+acmQueryConversionSize,New,Yes,No,mm,msacm32.lib,,New,No
+acmSuggestFormat,New,Yes,No,mm,msacm32.lib,,New,No
+NDdeGetErrorString,Yes,No,No,Network DDE,nddeapi.lib,,New,Yes
+NDdeGetShareSecurity,Yes,No,No,Network DDE,nddeapi.lib,,New,Yes
+NDdeGetTrustedShare,Yes,No,No,Network DDE,nddeapi.lib,,New,Yes
+NDdeIsValidAppTopicList,Yes,No,No,Network DDE,nddeapi.lib,,New,Yes
+NDdeIsValidShareName,Yes,No,No,Network DDE,nddeapi.lib,,New,Yes
+NDdeSetShareSecurity,Yes,No,No,Network DDE,nddeapi.lib,,New,Yes
+NDdeSetTrustedShare,Yes,No,No,Network DDE,nddeapi.lib,,New,Yes
+NDdeShareAdd,Yes,No,No,Network DDE,nddeapi.lib,,New,Yes
+NDdeShareDel,Yes,No,No,Network DDE,nddeapi.lib,,New,Yes
+NDdeShareEnum,Yes,No,No,Network DDE,nddeapi.lib,,New,Yes
+NDdeShareGetInfo,Yes,No,No,Network DDE,nddeapi.lib,,New,Yes
+NDdeShareSetInfo,Yes,No,No,Network DDE,nddeapi.lib,,New,Yes
+NDdeTrustedShareEnum,Yes,No,Yes,Network DDE,nddeapi.lib,,New,Yes
+NetBios,Yes,Yes,No,Networking,netapi32.lib,,New,No
+OleActivate,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleClone,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleClose,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleCopyFromLink,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleCopyToClipboard,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleCreate,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleCreateFromClip,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleCreateFromFile,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleCreateFromTemplate,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleCreateInvisible,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleCreateLinkFromClip,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleCreateLinkFromFile,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleDelete,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No,,,,,,,,,,,,,,,
+OleDraw,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No,,,,,,,,,,,,,,,
+OleEnumFormats,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No,,,,,,,,,,,,,,,Available
+OleEnumObjects,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No,,,,,,,,,,,,,,,
+OleEqual,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No,,,,,,,,,,,,,,,
+OleExecute,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No,,,,,,,,,,,,,,,
+OleGetData,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No,,,,,,,,,,,,,,,
+OleGetLinkUpdateOptions,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No,,,,,,,,,,,,,,,
+OleIsDcMeta,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No,,,,,,,,,,,,,,,
+OleLoadFromStream,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No,,,,,,,,,,,,,,,
+OleLockServer,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No,,,,,,,,,,,,,,,
+OleObjectConvert,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No,,,,,,,,,,,,,,,
+OleQueryBounds,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No,,,,,,,,,,,,,,,
+OleQueryClientVersion,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No,,,,,,,,,,,,,,,
+OleQueryCreateFromClip,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No,,,,,,,,,,,,,,,
+OleQueryLinkFromClip,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No,,,,,,,,,,,,,,,
+OleQueryName,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleQueryOpen,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleQueryOutOfDate,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleQueryProtocol,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleQueryReleaseError,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleQueryReleaseMethod,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleQueryReleaseStatus,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleQuerySize,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleQueryType,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleReconnect,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleRegisterClientDoc,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleRelease,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleRename,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleRenameClientDoc,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleRequestData,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleRevertClientDoc,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleRevokeClientDoc,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleSavedClientDoc,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleSaveToStream,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleSetBounds,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleSetColorScheme,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleSetData,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleSetHostNames,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleSetLinkUpdateOptions,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleSetTargetDevice,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleUnlockServer,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleUpdate,Yes,Yes,Yes,OLE 1.0 client,olecli32.lib,,Obsolete,No
+OleBlockServer,Yes,Yes,Yes,OLE 1.0 server,olesrv32.lib,,Obsolete,No
+OleQueryServerVersion,Yes,Yes,Yes,OLE 1.0 server,olesrv32.lib,,Obsolete,No
+OleRegisterServer,Yes,Yes,Yes,OLE 1.0 server,olesrv32.lib,,Obsolete,No
+OleRegisterServerDoc,Yes,Yes,Yes,OLE 1.0 server,olesrv32.lib,,Obsolete,No
+OleRenameServerDoc,Yes,Yes,Yes,OLE 1.0 server,olesrv32.lib,,Obsolete,No
+OleRevertServerDoc,Yes,Yes,Yes,OLE 1.0 server,olesrv32.lib,,Obsolete,No
+OleRevokeObject,Yes,Yes,Yes,OLE 1.0 server,olesrv32.lib,,Obsolete,No
+OleRevokeServer,Yes,Yes,Yes,OLE 1.0 server,olesrv32.lib,,Obsolete,No
+OleRevokeServerDoc,Yes,Yes,Yes,OLE 1.0 server,olesrv32.lib,,Obsolete,No
+OleSavedServerDoc,Yes,Yes,Yes,OLE 1.0 server,olesrv32.lib,,Obsolete,No
+OleUnblockServer,Yes,Yes,Yes,OLE 1.0 server,olesrv32.lib,,Obsolete,No
+RasDial,Yes,Yes,No,RAS,rasapi32.lib,,New,Yes
+RasEnumConnections,Yes,Yes,No,RAS,rasapi32.lib,,New,Yes
+RasEnumEntries,Yes,Yes,No,RAS,rasapi32.lib,,New,Yes
+RasGetConnectStatus,Yes,Yes,No,RAS,rasapi32.lib,,New,Yes
+RasGetErrorString,Yes,Yes,No,RAS,rasapi32.lib,,New,Yes
+RasGetProjectionInfo,Yes,Yes,No,RAS,rasapi32.lib,,New,Yes
+RasHangUp,Yes,Yes,No,RAS,rasapi32.lib,,New,Yes
+RpcIfIdVectorFree,Yes,Yes,No,RPC Client,rpcns4.lib,,New,No
+RpcNsBindingExport,Yes,Yes,No,RPC Client,rpcns4.lib,,New,Yes
+RpcNsBindingImportBegin,Yes,Yes,No,RPC Client,rpcns4.lib,,New,Yes
+RpcNsBindingImportDone,Yes,Yes,No,RPC Client,rpcns4.lib,,New,No
+RpcNsBindingImportNext,Yes,Yes,No,RPC Client,rpcns4.lib,,New,No
+RpcNsBindingLookupBegin,Yes,Yes,No,RPC Client,rpcns4.lib,,New,Yes
+RpcNsBindingLookupDone,Yes,Yes,No,RPC Client,rpcns4.lib,,New,No
+RpcNsBindingLookupNext,Yes,Yes,No,RPC Client,rpcns4.lib,,New,No
+RpcNsBindingSelect,Yes,Yes,No,RPC Client,rpcns4.lib,,New,No
+RpcNsBindingUnexport,Yes,Yes,No,RPC Client,rpcns4.lib,,New,Yes
+RpcNsEntryExpandName,Yes,Yes,No,RPC Client,rpcns4.lib,,New,Yes
+RpcNsEntryObjectInqBegin,Yes,Yes,No,RPC Client,rpcns4.lib,,New,Yes
+RpcNsEntryObjectInqDone,Yes,Yes,No,RPC Client,rpcns4.lib,,New,No
+RpcNsEntryObjectInqNext,Yes,Yes,No,RPC Client,rpcns4.lib,,New,No
+RpcNsGroupDelete,Yes,Yes,No,RPC Client,rpcns4.lib,,New,Yes
+RpcNsGroupMbrAdd,Yes,Yes,No,RPC Client,rpcns4.lib,,New,Yes
+RpcNsGroupMbrInqBegin,Yes,Yes,No,RPC Client,rpcns4.lib,,New,Yes
+RpcNsGroupMbrInqDone,Yes,Yes,No,RPC Client,rpcns4.lib,,New,No
+RpcNsGroupMbrInqNext,Yes,Yes,No,RPC Client,rpcns4.lib,,New,Yes
+RpcNsGroupMbrRemove,Yes,Yes,No,RPC Client,rpcns4.lib,,New,Yes
+RpcNsMgmtBindingUnexport,Yes,Yes,No,RPC Client,rpcns4.lib,,New,Yes
+RpcNsMgmtEntryCreate,Yes,Yes,No,RPC Client,rpcns4.lib,,New,Yes
+RpcNsMgmtEntryDelete,Yes,Yes,No,RPC Client,rpcns4.lib,,New,Yes
+RpcNsMgmtEntryInqIfIds,Yes,Yes,No,RPC Client,rpcns4.lib,,New,Yes
+RpcNsMgmtHandleSetExpAge,Yes,Yes,No,RPC Client,rpcns4.lib,,New,No
+RpcNsMgmtInqExpAge,Yes,Yes,No,RPC Client,rpcns4.lib,,New,No
+RpcNsMgmtSetExpAge,Yes,Yes,No,RPC Client,rpcns4.lib,,New,No
+RpcNsProfileDelete,Yes,Yes,No,RPC Client,rpcns4.lib,,New,Yes
+RpcNsProfileEltAdd,Yes,Yes,No,RPC Client,rpcns4.lib,,New,Yes
+RpcNsProfileEltInqBegin,Yes,Yes,No,RPC Client,rpcns4.lib,,New,Yes
+RpcNsProfileEltInqDone,Yes,Yes,No,RPC Client,rpcns4.lib,,New,No
+RpcNsProfileEltInqNext,Yes,Yes,No,RPC Client,rpcns4.lib,,New,Yes
+RpcNsProfileEltRemove,Yes,Yes,No,RPC Client,rpcns4.lib,,New,Yes
+UuidCompare,New,,No,RPC,rpcrt4.lib,,New,No
+UuidCreate,Yes,No,No,RPC,rpcrt4.lib,,New,No
+UuidCreateNil,New,,No,RPC,rpcrt4.lib,,New,No
+UuidEqual,New,,No,RPC,rpcrt4.lib,,New,No
+UuidFromString,Yes,No,No,RPC,rpcrt4.lib,,New,Yes
+UuidHash,New,,No,RPC,rpcrt4.lib,,New,No
+UuidIsNil,New,,No,RPC,rpcrt4.lib,,New,No
+UuidToString,Yes,No,No,RPC,rpcrt4.lib,,New,Yes
+DceErrorInqText,New,,No,RPC Client,rpcrt4.lib,,New,Yes
+MesBufferHandleReset,New,,No,RPC Client,rpcrt4.lib,,New,No
+MesDecodeBufferHandleCreate,New,,No,RPC Client,rpcrt4.lib,,New,No
+MesDecodeIncrementalHandleCreate,New,,No,RPC Client,rpcrt4.lib,,New,No
+MesEncodeDynBufferHandleCreate,New,,No,RPC Client,rpcrt4.lib,,New,No
+MesEncodeFixedBufferHandleCreate,New,,No,RPC Client,rpcrt4.lib,,New,No
+MesEncodeIncrementalHandleCreate,New,,No,RPC Client,rpcrt4.lib,,New,No
+MesHandleFree,New,,No,RPC Client,rpcrt4.lib,,New,No
+MesIncrementalHandleReset,New,,No,RPC Client,rpcrt4.lib,,New,No
+MesInqProcEncodingId,New,,No,RPC Client,rpcrt4.lib,,New,No
+RpcBindingCopy,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,No
+RpcBindingFree,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,No
+RpcBindingFromStringBinding,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,Yes
+RpcBindingInqAuthInfo,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,Yes
+RpcBindingInqObject,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,No
+RpcBindingReset,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,No
+RpcBindingSetObject,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,No
+RpcBindingToStringBinding,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,Yes
+RpcBindingVectorFree,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,No
+RpcCancelThread,New,,No,RPC Client,rpcrt4.lib,,New,No
+RpcEpRegister,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,Yes
+RpcEpRegisterNoReplace,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,Yes
+RpcEpResolveBinding,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,No
+RpcEpUnregister,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,No
+RpcIfInqId,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,No
+RpcMgmtEnableIdleCleanup,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,No
+RpcMgmtEpEltInqBegin,New,,No,RPC Client,rpcrt4.lib,,New,No
+RpcMgmtEpEltInqDone,New,,No,RPC Client,rpcrt4.lib,,New,No
+RpcMgmtEpEltInqNext,New,,No,RPC Client,rpcrt4.lib,,New,Yes
+RpcMgmtEpUnregister,New,,No,RPC Client,rpcrt4.lib,,New,No
+RpcMgmtInqComTimeout,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,No
+RpcMgmtInqServerPrincName,New,,No,RPC Client,rpcrt4.lib,,New,Yes
+RpcMgmtInqStats,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,No
+RpcMgmtIsServerListening,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,No
+RpcMgmtSetAuthorizationFn,New,,No,RPC Client,rpcrt4.lib,,New,No
+RpcMgmtSetCancelTimeout,New,,No,RPC Client,rpcrt4.lib,,New,No
+RpcMgmtSetComTimeout,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,No
+RpcMgmtSetServerStackSize,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,No
+RpcMgmtStatsVectorFree,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,No
+RpcMgmtStopServerListening,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,No
+RpcMgmtWaitServerListen,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,No
+RpcNetworkInqProtseqs,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,Yes
+RpcNetworkIsProtseqValid,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,Yes
+RpcNsBindingInqEntryName,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,Yes
+RpcObjectInqType,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,No
+RpcObjectSetInqFn,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,No
+RpcObjectSetType,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,No
+RpcSmDestroyClientContext,New,,No,RPC Client,rpcrt4.lib,,New,No
+RpcSmDisableAllocate,New,,No,RPC Client,rpcrt4.lib,,New,No
+RpcSmEnableAllocate,New,,No,RPC Client,rpcrt4.lib,,New,No
+RpcSmFree,New,,No,RPC Client,rpcrt4.lib,,New,No
+RpcSmSetClientAllocFree,New,,No,RPC Client,rpcrt4.lib,,New,No
+RpcSmSwapClientAllocFree,New,,No,RPC Client,rpcrt4.lib,,New,No
+RpcSsDestroyClientContext,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,No
+RpcSsSetClientAllocFree,New,,No,RPC Client,rpcrt4.lib,,New,No
+RpcSsSwapClientAllocFree,New,,No,RPC Client,rpcrt4.lib,,New,No
+RpcStringBindingCompose,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,Yes
+RpcStringBindingParse,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,Yes
+RpcStringFree,Yes,Yes,No,RPC Client,rpcrt4.lib,,New,Yes
+RpcTestCance,Yes,,No,RPC Client,rpcrt4.lib,,New,Yes
+DefScreenSaverProc,Yes,Yes,No,Screen Savers,scrnsave.lib,,,No
+RegisterDialogClasses,Yes,,No,Screen Savers,scrnsave.lib,,,No
+ScreenSaverConfigureDialog,Yes,Yes,No,Screen Savers,scrnsave.lib,,,No
+ScreenSaverProc,Yes,Yes,No,Screen Savers,scrnsave.lib,,,No
+DragAcceptFiles,Yes,Yes,Yes,Shell,shellapi32.lib,,Widened,No
+DragFinish,Yes,Yes,Yes,Shell,shellapi32.lib,,Widened,No
+DragQueryFile,Yes,Yes,Yes,Shell,shellapi32.lib,,Widened,Yes
+DragQueryPoint,Yes,Yes,Yes,Shell,shellapi32.lib,,Widened,No
+DuplicateIcon,Yes,Yes,No,Shell,shellapi32.lib,,New,No
+ExtractAssociatedIcon,Yes,Yes,No,Shell,shellapi32.lib,,New,Yes
+ExtractIcon,Yes,Yes,Yes,Shell,shellapi32.lib,,Widened,Yes
+FindExecutable,Yes,Yes,Yes,Shell,shellapi32.lib,,Widened,Yes
+ShellAbout,Yes,Yes,Yes,Shell,shellapi32.lib,,New,Yes
+ShellExecute,Yes,Yes,Yes,Shell,shellapi32.lib,,Widened,Yes
+ActivateKeyboardLayout,Yes,Yes,No,USER,user32.lib,"""Chicago: Only 1 keybrd loaded at once""",New,No
+AdjustWindowRect,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+AdjustWindowRectEx,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+AnyPopup,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+AppendMenu,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+ArrangeIconicWindows,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+AttachThreadInput,Yes,Yes,No,USER,user32.lib,,New,No
+BeginDeferWindowPos,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+BeginPaint,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+BringWindowToTop,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+CallMsgFilter,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+CallNextHookEx,Yes,Yes,Yes,USER,user32.lib,,New,No
+CallWindowProc,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+CascadeChildWindows,No,Yes,No,USER,user32.lib,,New,No
+CascadeWindows,No,Yes,No,USER,user32.lib,,New,No
+ChangeClipboardChain,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+ChangeMenu,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+CharLower,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+CharLowerBuff,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+CharNext,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+CharPrev,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+CharToOem,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+CharToOemBuff,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+CharUpper,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+CharUpperBuff,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+CheckDlgButton,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+CheckMenuItem,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+CheckMenuRadioItem,No,Yes,No,USER,user32.lib,,New,No
+CheckRadioButton,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+ChildWindowFromPoint,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+ChildWindowFromPointEx,No,Yes,No,USER,user32.lib,,New,No
+ClientThreadConnect- bogus,Yes,No,No,USER,user32.lib,,New,No
+ClientToScreen,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+ClipCursor,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+CloseClipboard,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+CloseDesktop,Yes,No,No,USER,user32.lib,,New,No
+CloseWindow,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+CopyAcceleratorTable,Yes,Yes,No,USER,user32.lib,,New,Yes
+CopyIcon,Yes,Yes,Yes,USER,user32.lib,,New,No
+CopyImage,No,Yes,No,USER,user32.lib,,,No
+CopyRect,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+CountClipboardFormats,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+CreateAcceleratorTable,Yes,Yes,No,USER,user32.lib,,New,Yes
+CreateCaret,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+CreateCursor,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+CreateDialogIndirectParam,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+CreateDialogParam,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+CreateIcon,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+CreateIconFromResource,Yes,Yes,No,USER,user32.lib,,New,No
+CreateIconIndirect,Yes,Yes,No,USER,user32.lib,,New,No
+CreateMDIWindow,Yes,Yes,No,USER,user32.lib,,New,Yes
+CreateMenu,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+CreatePopupMenu,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+CreateWindowEx,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+DdeAbandonTransaction,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DdeAccessData,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DdeAddData,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DdeClientTransaction,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DdeCmpStringHandles,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DdeConnect,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DdeConnectList,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DdeCreateDataHandle,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DdeCreateStringHandle,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+DdeDisconnect,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DdeDisconnectList,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DdeEnableCallback,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DdeFreeDataHandle,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DdeFreeStringHandle,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DdeGetData,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DdeGetLastError,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DdeImpersonateClient,Yes,No,No,USER,user32.lib,,New,No
+DdeInitialize,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+DdeKeepStringHandle,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DdeNameService,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DdePostAdvise,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DdeQueryConvInfo,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DdeQueryNextServer,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DdeQueryString,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+DdeReconnect,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DdeSetQualityOfService,Yes,No,No,USER,user32.lib,,,No
+DdeSetUserHandle,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DdeUnaccessData,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DdeUninitialize,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DefDlgProc,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+DeferWindowPos,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DefFrameProc,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+DefMDIChildProc,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+DefWindowProc,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+DeleteMenu,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DestroyAcceleratorTable,Yes,Yes,No,USER,user32.lib,,New,No
+DestroyCaret,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DestroyCursor,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DestroyIcon,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DestroyMenu,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DestroyWindow,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DialogBoxIndirectParam,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+DialogBoxParam,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+DispatchMessage,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+DlgDirList,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+DlgDirListComboBox,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+DlgDirSelectComboBoxEx,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+DlgDirSelectEx,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+DrawAnimatedRects,No,Yes,No,USER,user32.lib,,New,No
+DrawCaption,No,Yes,No,USER,user32.lib,,New,No
+DrawEdge,No,Yes,No,USER,user32.lib,,New,No
+DrawFocusRect,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DrawFrameControl,No,Yes,No,USER,user32.lib,,New,No
+DrawIcon,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DrawIconEx,No,Yes,No,USER,user32.lib,,,No
+DrawMenuBar,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+DrawState,No,Yes,No,USER,user32.lib,,New,No
+DrawText,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+DrawTextEx,No,Yes,No,USER,user32.lib,,New,No
+EmptyClipboard,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+EnableMenuItem,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+EnableScrollBar,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+EnableWindow,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+EndDeferWindowPos,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+EndDialog,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+EndPaint,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+EnumChildWindows,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+EnumClipboardFormats,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+EnumProps,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+EnumPropsEx,Yes,Yes,No,USER,user32.lib,,New,Yes
+EnumThreadWindows,Yes,Yes,Yes,USER,user32.lib,,New,No
+EnumWindows,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+EqualRect,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+ExcludeUpdateRgn,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+ExitWindowsEx,Yes,Yes,No,USER,user32.lib,,New,No
+FillRect,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+FindMenuDefaultID,No,Yes,No,USER,user32.lib,,New,No
+FindWindow,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+FindWindowEx,No,Yes,No,USER,user32.lib,,New,No
+FlashWindow,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+FormatMessage,Yes,Yes,Yes,USER,user32.lib,,New,Yes
+FrameRect,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+FreeDDElParam,Yes,Yes,Yes,USER,user32.lib,,New,No
+GetActiveWindow,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetAsyncKeyState,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetCapture,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetCaretBlinkTime,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetCaretPos,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetClassInfo,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+GetClassLong,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+GetClassName,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+GetClassWord,Yes,Yes,Yes,USER,user32.lib,,Changed,No
+GetClientRect,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetClipboardData,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetClipboardFormatName,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+GetClipboardOwner,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetClipboardViewer,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetClipCursor,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetCursor,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetCursorPos,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetDC,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetDCEx,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetDesktopWindow,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetDialogBaseUnits,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetDlgCtrlID,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetDlgItem,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetDlgItemInt,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetDlgItemText,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+GetDoubleClickTime,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetFocus,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetForegroundWindow,Yes,Yes,No,USER,user32.lib,,New,No
+GetIconInfo,Yes,Yes,No,USER,user32.lib,,New,No
+GetInputState,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetKBCodePage,Yes,Yes,Yes,USER,user32.lib,,New,No
+GetKeyboardLayoutName,Yes,Yes,No,USER,user32.lib,"""Chicago: Only 1 keybrd loaded at once""",New,Yes
+GetKeyboardState,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetKeyboardType,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetKeyNameText,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+GetKeyState,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetLastActivePopup,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetMenu,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetMenuCheckMarkDimensions,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetMenuContextHelpID,No,Yes,No,USER,user32.lib,,New,No
+GetMenuDefaultItem,No,Yes,No,USER,user32.lib,,New,No
+GetMenuItemCount,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetMenuItemID,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetMenuItemRect,No,Yes,No,USER,user32.lib,,New,No
+GetMenuState,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetMenuString,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+GetMessage,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+GetMessageExtraInfo,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetMessagePos,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetMessageTime,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetNextDlgGroupItem,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetNextDlgTabItem,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetOpenClipboardWindow,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetParent,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetPriorityClipboardFormat,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetProcessWindowStation,Yes,No,No,USER,user32.lib,,New,No
+GetProp,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+GetQueueStatus,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetScrollInfo,No,Yes,No,USER,user32.lib,,New,No
+GetScrollPos,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetScrollRange,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetShellWindow,No,Yes,No,USER,user32.lib,,New,No
+GetSubMenu,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetSysColor,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetSystemMenu,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetSystemMetrics,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetTabbedTextExtent,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+GetThreadDesktop,Yes,Yes,No,USER,user32.lib,"""Chicago: NOP; only one desktop""",New,No
+GetTopWindow,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetUpdateRect,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetUpdateRgn,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetUserObjectSecurity,Yes,No,No,USER,user32.lib,,New,No
+GetWindow,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetWindowContextHelpID,No,Yes,No,USER,user32.lib,,New,No
+GetWindowDC,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetWindowLong,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+GetWindowPlacement,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetWindowRect,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+GetWindowText,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+GetWindowTextLength,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+GetWindowThreadProcessId,Yes,Yes,Yes,USER,user32.lib,,New,No
+GetWindowWord,Yes,Yes,Yes,USER,user32.lib,,Changed,No
+GrayString,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+HideCaret,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+HiliteMenuItem,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+ImpersonateDdeClientWindow,Yes,No,No,USER,user32.lib,,New,No
+InflateRect,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+InSendMessage,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+InsertMenu,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+IntersectRect,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+InvalidateRect,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+InvalidateRgn,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+InvertRect,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+IsCharAlpha,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+IsCharAlphaNumeric,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+IsCharLower,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+IsCharUpper,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+IsChild,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+IsClipboardFormatAvailable,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+IsDialogMessage,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+IsDlgButtonChecked,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+IsIconic,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+IsMenu,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+IsRectEmpty,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+IsWindow,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+IsWindowEnabled,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+IsWindowUnicode,Yes,Yes,Yes,USER,user32.lib,,New,No
+IsWindowVisible,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+IsZoomed,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+keybd_event,Yes,,No,USER,user32.lib,,New,No
+KillTimer,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+LoadAccelerators,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+LoadBitmap,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+LoadCursor,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+LoadCursorEx,No,Yes,No,USER,user32.lib,,New,No
+LoadCursorFromFile,New,No,New,USER,user32.lib,,New,No
+LoadIcon,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+LoadIconEx,No,Yes,No,USER,user32.lib,,New,No
+LoadImage,No,Yes,No,USER,user32.lib,,,No
+LoadKeyboardLayout,Yes,Yes,No,USER,user32.lib,"""Chicago: Only 1 keybrd loaded at once""",New,Yes
+LoadMenu,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+LoadMenuIndirect,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+LoadString,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+LockWindowUpdate,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+LookupIconIDFromDirectory,Yes,Yes,No,USER,user32.lib,,New,No
+LookupIconIdFromDirectoryEx,No,Yes,No,USER,user32.lib,,New,No
+MapDialogRect,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+MapVirtualKey,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+MapWindowPoints,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+MenuItemFromPoint,No,Yes,No,USER,user32.lib,,New,No
+MessageBeep,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+MessageBox,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+MessageBoxEx,Yes,Yes,No,USER,user32.lib,,New,Yes
+ModifyMenu,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+mouse_event,Yes,Yes,Yes,USER,user32.lib,,New,Yes
+MoveWindow,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+MsgWaitForMultipleObjects,Yes,Yes,No,USER,user32.lib,,New,No
+OemKeyScan,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+OemToChar,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+OemToCharBuff,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+OffsetRect,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+OpenClipboard,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+OpenIcon,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+PackDDElParam,Yes,Yes,Yes,USER,user32.lib,,New,No
+PaintDesktop,No,Yes,No,USER,user32.lib,,New,No
+PeekMessage,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+PostMessage,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+PostQuitMessage,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+PostThreadMessage,Yes,Yes,Yes,USER,user32.lib,,New,Yes
+PtInRect,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+RedrawWindow,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+RegisterClass,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+RegisterClipboardFormat,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+RegisterHotKey,Yes,Yes,No,USER,user32.lib,,New,No
+RegisterWindowMessage,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+ReleaseCapture,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+ReleaseDC,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+RemoveMenu,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+RemoveProp,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+ReplyMessage,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+ResetDisplay,No,Yes,No,USER,user32.lib,,New,No
+ReuseDDElParam,Yes,Yes,Yes,USER,user32.lib,,New,No
+ScreenToClient,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+ScrollDC,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+ScrollWindow,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+ScrollWindowEx,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SelectObject,New,Yes,New,USER,user32.lib, ,New,No
+SendDlgItemMessage,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+SendMessage,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+SendMessageCallback,Yes,Yes,No,USER,user32.lib,"""Chicago: wParam is 16-bits""",New,Yes
+SendMessageTimeout,Yes,Yes,No,USER,user32.lib,"""Chicago: wParam is 16-bits""",New,Yes
+SendNotifyMessage,Yes,Yes,No,USER,user32.lib,"""Chicago: wParam is 16-bits""",Widened,Yes
+SetActiveWindow,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SetCapture,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SetCaretBlinkTime,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SetCaretPos,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SetClassLong,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+SetClassWord,Yes,Yes,Yes,USER,user32.lib,,Changed,No
+SetClipboardData,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SetClipboardViewer,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SetCursor,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SetCursorPos,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SetDebugErrorLevel,Yes,Yes,No,USER,user32.lib,,New,No
+SetDeskWallpaper,Yes,Yes,No,USER,user32.lib,,New,No
+SetDlgItemInt,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SetDlgItemText,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+SetDoubleClickTime,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SetFocus,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SetForegroundWindow,Yes,Yes,No,USER,user32.lib,,New,No
+SetKeyboardState,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SetLastErrorEx,Yes,Yes,Yes,USER,user32.lib,,New,No
+SetMenu,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SetMenuContextHelpID,No,Yes,No,USER,user32.lib,,New,No
+SetMenuDefaultItem,No,Yes,No,USER,user32.lib,,New,No
+SetMenuItemBitmaps,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SetMenuItemInfo,No,Yes,No,USER,user32.lib,,New,No
+SetMessageQueue,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SetParent,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SetProp,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+SetRect,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SetRectEmpty,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SetScrollInfo,No,Yes,No,USER,user32.lib,,New,No
+SetScrollPos,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SetScrollRange,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SetShellWindow,No,Yes,No,USER,user32.lib,,New,No
+SetSysColors,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SetSystemCursor,New,No,New,USER,user32.lib,,New,No
+SetThreadDesktop,Yes,Yes,No,USER,user32.lib,"""Chicago: NOP; only one desktop""",New,No
+SetTimer,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SetUserObjectSecurity,Yes,No,No,USER,user32.lib,,New,No
+SetWindowContextHelpID,No,Yes,No,USER,user32.lib,,New,No
+SetWindowLong,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+SetWindowPlacement,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SetWindowPos,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SetWindowsHook,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+SetWindowsHookEx,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+SetWindowText,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+SetWindowWord,Yes,Yes,Yes,USER,user32.lib,,Changed,No
+ShowCaret,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+ShowCursor,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+ShowOwnedPopups,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+ShowScrollBar,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+ShowWindow,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SubtractRect,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SwapMouseButton,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+SystemParametersInfo,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+TabbedTextOut,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+TileChildWindows,No,Yes,No,USER,user32.lib,,New,No
+TileWindows,No,Yes,No,USER,user32.lib,,New,No
+ToAscii,Yes,Yes,Yes,USER,user32.lib,,New,No
+ToUnicode,Yes,No,No,USER,user32.lib,,New,No
+TrackPopupMenu,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+TrackPopupMenuEx,No,Yes,No,USER,user32.lib,,New,No
+TranslateAccelerator,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+TranslateMDISysAccel,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+TranslateMessage,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+UnhookWindowsHook,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+UnhookWindowsHookEx,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+UnionRect,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+UnloadKeyboardLayout,Yes,Yes,No,USER,user32.lib,"""Chicago: Only 1 keybrd loaded at once""",New,No
+UnpackDDElParam,Yes,Yes,Yes,USER,user32.lib,,New,No
+UnregisterClass,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+UnregisterHotKey,Yes,Yes,No,USER,user32.lib,,New,No
+UpdateWindow,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+ValidateRect,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+ValidateRgn,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+VkKeyScan,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+WaitForInputIdle,Yes,Yes,No,USER,user32.lib,,New,No
+WaitMessage,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+WindowFromDC,Yes,Yes,No,USER,user32.lib,,New,No
+WindowFromPoint,Yes,Yes,Yes,USER,user32.lib,,Widened,No
+WinHelp,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+wsprintf,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+wvsprintf,Yes,Yes,Yes,USER,user32.lib,,Widened,Yes
+GetFileVersionInfo,Yes,Yes,Yes,Versioning,version.lib,,Widened,Yes
+GetFileVersionInfoSize,Yes,Yes,Yes,Versioning,version.lib,,Widened,Yes
+VerFindFile,Yes,Yes,Yes,Versioning,version.lib,,Widened,Yes
+VerInstallFile,Yes,Yes,Yes,Versioning,version.lib,,Widened,Yes
+VerQueryValue,Yes,Yes,Yes,Versioning,version.lib,,Widened,Yes
+ICCompress,New,Yes,No,mm,vfw32.lib,,New,No
+ICDecompress,New,Yes,No,mm,vfw32.lib,,New,No
+ICDrawBegin,New,Yes,No,mm,vfw32.lib,,New,No
+ICGetDisplayFormat,New,Yes,No,mm,vfw32.lib,,New,No
+ICGetInfo,New,Yes,No,mm,vfw32.lib,,New,No
+auxGetDevCaps,Yes,Yes,No,mm,winmm.lib,,Widened,Yes
+auxGetNumDevs,Yes,Yes,No,mm,winmm.lib,,Widened,No
+auxGetVolume,Yes,Yes,No,mm,winmm.lib,,Widened,No
+auxOutMessage,Yes,Yes,No,mm,winmm.lib,,Widened,No
+auxSetVolume,Yes,Yes,No,mm,winmm.lib,,Widened,No
+DefDriverProc,Yes,Yes,No,mm,winmm.lib,,Widened,No
+DriverCallback,Yes,Yes,No,mm,winmm.lib,,New,No
+DrvClose,Yes,Yes,No,mm,winmm.lib,,New,No
+DrvGetModuleHandle,Yes,Yes,No,mm,winmm.lib,,New,No
+DrvOpen,Yes,Yes,No,mm,winmm.lib,,New,No
+DrvSendMessage,Yes,Yes,No,mm,winmm.lib,,New,No
+joyGetDevCaps,Yes,Yes,No,mm,winmm.lib,,Widened,Yes
+joyGetNumDevs,Yes,Yes,No,mm,winmm.lib,,Widened,No
+joyGetPos,Yes,Yes,No,mm,winmm.lib,,Widened,No
+joyGetThreshold,Yes,Yes,No,mm,winmm.lib,,Widened,No
+joyReleaseCapture,Yes,Yes,No,mm,winmm.lib,,Widened,No
+joySetCalibration,Yes,Yes,No,mm,winmm.lib,,Widened,No
+joySetCapture,Yes,Yes,No,mm,winmm.lib,,Widened,No
+joySetThreshold,Yes,Yes,No,mm,winmm.lib,,Widened,No
+mciDriverNotify,Yes,Yes,No,mm,winmm.lib,,New,No
+mciDriverYield,Yes,Yes,No,mm,winmm.lib,,New,No
+mciEatCommandEntry,Yes,Yes,No,mm,winmm.lib,,New,No
+mciExecute,Yes,Yes,No,mm,winmm.lib,,New,No
+mciFreeCommandResource,Yes,Yes,No,mm,winmm.lib,,New,No
+mciGetCreatorTask,Yes,Yes,No,mm,winmm.lib,,Widened,No
+mciGetDeviceID,Yes,Yes,No,mm,winmm.lib,,Widened,Yes
+mciGetDeviceIDFromElementID,Yes,Yes,No,mm,winmm.lib,,New,Yes
+mciGetDriverData,Yes,Yes,No,mm,winmm.lib,,New,No
+mciGetErrorString,Yes,Yes,No,mm,winmm.lib,,Widened,Yes
+mciGetParamSize,Yes,Yes,No,mm,winmm.lib,,New,No
+mciGetYieldProc,Yes,Yes,No,mm,winmm.lib,,New,No
+mciLoadCommandResource,Yes,Yes,No,mm,winmm.lib,,New,No
+mciSendCommand,Yes,Yes,No,mm,winmm.lib,,Widened,Yes
+mciSendString,Yes,Yes,No,mm,winmm.lib,,Widened,Yes
+mciSetDriverData,Yes,Yes,No,mm,winmm.lib,,New,No
+mciSetYieldProc,Yes,Yes,No,mm,winmm.lib,,Widened,No
+mciSoundInit,Yes,Yes,No,mm,winmm.lib,,New,No
+mciUnlockCommandTable,Yes,Yes,No,mm,winmm.lib,,New,No
+midiInAddBuffer,Yes,Yes,No,mm,winmm.lib,,Widened,No
+midiInClose,Yes,Yes,No,mm,winmm.lib,,Widened,No
+midiInGetDevCaps,Yes,Yes,No,mm,winmm.lib,,Widened,Yes
+midiInGetErrorText,Yes,Yes,No,mm,winmm.lib,,Widened,Yes
+midiInGetID,Yes,Yes,No,mm,winmm.lib,,Widened,No
+midiInGetNumDevs,Yes,Yes,No,mm,winmm.lib,,Widened,No
+midiInMessage,Yes,Yes,No,mm,winmm.lib,,Widened,No
+midiInOpen,Yes,Yes,No,mm,winmm.lib,,Widened,No
+midiInPrepareHeader,Yes,Yes,No,mm,winmm.lib,,Widened,No
+midiInReset,Yes,Yes,No,mm,winmm.lib,,Widened,No
+midiInStart,Yes,Yes,No,mm,winmm.lib,,Widened,No
+midiInStop,Yes,Yes,No,mm,winmm.lib,,Widened,No
+midiInUnprepareHeader,Yes,Yes,No,mm,winmm.lib,,Widened,No
+midiOutCacheDrumPatches,Yes,Yes,No,mm,winmm.lib,,Widened,No
+midiOutCachePatches,Yes,Yes,No,mm,winmm.lib,,Widened,No
+midiOutClose,Yes,Yes,No,mm,winmm.lib,,Widened,No
+midiOutGetDevCaps,Yes,Yes,No,mm,winmm.lib,,Widened,Yes
+midiOutGetErrorText,Yes,Yes,No,mm,winmm.lib,,Widened,Yes
+midiOutGetID,Yes,Yes,No,mm,winmm.lib,,Widened,No
+midiOutGetNumDevs,Yes,Yes,No,mm,winmm.lib,,Widened,No
+midiOutGetVolume,Yes,Yes,No,mm,winmm.lib,,Widened,No
+midiOutLongMsg,Yes,Yes,No,mm,winmm.lib,,Widened,No
+midiOutMessage,Yes,Yes,No,mm,winmm.lib,,Widened,No
+midiOutOpen,Yes,Yes,No,mm,winmm.lib,,Widened,No
+midiOutPrepareHeader,Yes,Yes,No,mm,winmm.lib,,Widened,No
+midiOutReset,Yes,Yes,No,mm,winmm.lib,,Widened,No
+midiOutSetVolume,Yes,Yes,No,mm,winmm.lib,,Widened,No
+midiOutShortMsg,Yes,Yes,No,mm,winmm.lib,,Widened,No
+midiOutUnprepareHeader,Yes,Yes,No,mm,winmm.lib,,Widened,No
+mmDrvInstall,Yes,Yes,No,mm,winmm.lib,,New,No
+mmGetCurrentTask,Yes,Yes,No,mm,winmm.lib,,New,No
+mmioAdvance,Yes,Yes,No,mm,winmm.lib,,Widened,No
+mmioAscend,Yes,Yes,No,mm,winmm.lib,,Widened,No
+mmioClose,Yes,Yes,No,mm,winmm.lib,,Widened,No
+mmioCreateChunk,Yes,Yes,No,mm,winmm.lib,,Widened,No
+mmioDescend,Yes,Yes,No,mm,winmm.lib,,Widened,No
+mmioFlush,Yes,Yes,No,mm,winmm.lib,,Widened,No
+mmioGetInfo,Yes,Yes,No,mm,winmm.lib,,Widened,No
+mmioInstallIOProc,Yes,Yes,No,mm,winmm.lib,,Widened,Yes
+mmioOpen,Yes,Yes,No,mm,winmm.lib,,Widened,Yes
+mmioRead,Yes,Yes,No,mm,winmm.lib,,Widened,No
+mmioRename,Yes,Yes,No,mm,winmm.lib,,Widened,Yes
+mmioSeek,Yes,Yes,No,mm,winmm.lib,,Widened,No
+mmioSendMessage,Yes,Yes,No,mm,winmm.lib,,Widened,No
+mmioSetBuffer,Yes,Yes,No,mm,winmm.lib,,Widened,No
+mmioSetInfo,Yes,Yes,No,mm,winmm.lib,,Widened,No
+mmioStringToFOURCC,Yes,Yes,No,mm,winmm.lib,,Widened,Yes
+mmioWrite,Yes,Yes,No,mm,winmm.lib,,Widened,No
+mmsystemGetVersion,Yes,Yes,No,mm,winmm.lib,,Widened,No
+mmTaskBlock,Yes,Yes,No,mm,winmm.lib,,New,No
+mmTaskCreate,Yes,Yes,No,mm,winmm.lib,,New,No
+mmTaskSignal,Yes,Yes,No,mm,winmm.lib,,New,No
+mmTaskYield,Yes,Yes,No,mm,winmm.lib,,New,No
+PlaySound,Yes,Yes,No,mm,winmm.lib,,New,Yes
+sndPlaySound,Yes,Yes,Yes,mm,winmm.lib,,Widened,Yes
+timeBeginPeriod,Yes,Yes,Yes,mm,winmm.lib,,Widened,No
+timeEndPeriod,Yes,Yes,Yes,mm,winmm.lib,,Widened,No
+timeGetDevCaps,Yes,Yes,Yes,mm,winmm.lib,,Widened,No
+timeGetSystemTime,Yes,Yes,Yes,mm,winmm.lib,,Widened,No
+timeGetTime,Yes,Yes,Yes,mm,winmm.lib,,Widened,No
+timeKillEvent,Yes,Yes,Yes,mm,winmm.lib,,Widened,No
+timeSetEvent,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveInAddBuffer,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveInClose,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveInGetDevCaps,Yes,Yes,No,mm,winmm.lib,,Widened,Yes
+waveInGetErrorText,Yes,Yes,No,mm,winmm.lib,,Widened,Yes
+waveInGetID,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveInGetNumDevs,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveInGetPosition,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveInMessage,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveInOpen,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveInPrepareHeader,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveInReset,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveInStart,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveInStop,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveInUnprepareHeader,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveOutBreakLoop,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveOutClose,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveOutGetDevCaps,Yes,Yes,No,mm,winmm.lib,,Widened,Yes
+waveOutGetErrorText,Yes,Yes,No,mm,winmm.lib,,Widened,Yes
+waveOutGetID,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveOutGetNumDevs,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveOutGetPitch,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveOutGetPlaybackRate,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveOutGetPosition,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveOutGetVolume,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveOutMessage,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveOutOpen,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveOutPause,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveOutPrepareHeader,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveOutReset,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveOutRestart,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveOutSetPitch,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveOutSetPlaybackRate,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveOutSetVolume,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveOutUnprepareHeader,Yes,Yes,No,mm,winmm.lib,,Widened,No
+waveOutWrite,Yes,Yes,No,mm,winmm.lib,,Widened,No
+winmmDbgOut,Yes,Yes,No,mm,winmm.lib,,New,No
+winmmSetDebugLevel,Yes,Yes,No,mm,winmm.lib,,New,No
+DeviceCapabilities,No,No,No,GDI/Print,winspool.lib,,Dropped,No
+DeviceMode,Yes,Yes,No,GDI/Print,winspool.lib,,Widened,No
+ExtDeviceMode,No,No,No,GDI/Print,winspool.lib,,Dropped,No
+FindClosePrinterChangeNotification,New,No,No,GDI/Printing,winspool.lib,,New,No
+FindFirstPrinterChangeNotification,New,No,No,GDI/Printing,winspool.lib,,New,No
+FindNextPrinterChangeNotification,New,No,No,GDI/Printing,winspool.lib,,New,No
+PrinterMessageBox,Yes,No,No,GDI/Printing,winspool.lib,,New,Yes
+ResetPrinter,Yes,No,No,GDI/Printing,winspool.lib,,New,Yes
+AddForm,Yes,No,No,GDI/PrintSubSys,winspool.lib,,New,Yes
+AddJob,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes
+AddMonitor,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes
+AddPort,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes
+AddPrinter,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes
+AddPrinterDriver,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes
+AddPrintProcessor,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes
+AddPrintProvidor,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes
+AdvancedDocumentProperties,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes
+ClosePrinter,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,No
+ConfigurePort,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes
+DeleteForm,Yes,No,No,GDI/PrintSubSys,winspool.lib,,New,Yes
+DeleteMonitor,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes
+DeletePort,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes
+DeletePrinter,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,No
+DeletePrinterDriver,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes
+DeletePrintProcessor,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes
+DeletePrintProvidor,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes
+DocumentProperties,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes
+EndDocPrinter,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,No
+EndPagePrinter,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,No
+EnumForms,Yes,No,No,GDI/PrintSubSys,winspool.lib,,New,Yes
+EnumJobs,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes
+EnumMonitors,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes
+EnumPorts,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes
+EnumPrinterDrivers,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes
+EnumPrinters,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes
+EnumPrintProcessorDatatypes,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes
+EnumPrintProcessors,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes
+GetForm,Yes,No,No,GDI/PrintSubSys,winspool.lib,,New,Yes
+GetJob,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes,,,,,,,,,,,,,,,,,,,,,,,
+GetPrinter,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes,,,,,,,,,,,,,,,,,,,,,,,
+GetPrinterData,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes,,,,,,,,,,,,,,,,,,,,,,,
+GetPrinterDriver,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes,,,,,,,,,,,,,,,,,,,,,,,
+GetPrinterDriverDirectory,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes,,,,,,,,,,,,,,,Available,,,,,,,,Available
+GetPrintProcessorDirectory,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes,,,,,,,,,,,,,,,,,,,,,,,
+OpenPrinter,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes,,,,,,,,,,,,,,,,,,,,,,,
+PrinterProperties,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,No,,,,,,,,,,,,,,,,,,,,,,,
+ReadPrinter,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,No,,,,,,,,,,,,,,,,,,,,,,,
+ScheduleJob,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,No,,,,,,,,,,,,,,,,,,,,,,,
+SetForm,Yes,No,No,GDI/PrintSubSys,winspool.lib,,New,Yes,,,,,,,,,,,,,,,,,,,,,,,
+SetJob,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes,,,,,,,,,,,,,,,,,,,,,,,
+SetPrinter,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes,,,,,,,,,,,,,,,,,,,,,,,
+SetPrinterData,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes,,,,,,,,,,,,,,,,,,,,,,,
+StartDocPrinter,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,Yes,,,,,,,,,,,,,,,,,,,,,,,
+StartPagePrinter,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,No,,,,,,,,,,,,,,,,,,,,,,,
+WritePrinter,Yes,Yes,No,GDI/PrintSubSys,winspool.lib,,New,No
+__WSAFDIsSet,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+accept,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+bind,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+closesocket,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+connect,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+gethostbyaddr,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+gethostbyname,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+gethostname,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+getpeername,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+getprotobyname,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+getprotobynumber,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+getservbyname,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+getservbyport,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+getsockname,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+getsockopt,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+htonl,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+htons,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+inet_addr,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+inet_ntoa,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+ioctlsocket,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+listen,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+ntohl,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+ntohs,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+recv,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+recvfrom,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+select,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+send,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+sendto,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+setsockopt,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+shutdown,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+socket,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+WSAAsyncGetHostByAddr,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+WSAAsyncGetHostByName,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+WSAAsyncGetProtoByName,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+WSAAsyncGetProtoByNumber,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+WSAAsyncGetServByName,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+WSAAsyncGetServByPort,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+WSAAsyncSelect,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+WSACancelAsyncRequest,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+WSACancelBlockingCall,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+WSACleanup,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+WSAGetLastError,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+WSAIsBlocking,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+WSApSetPostRoutine,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+WSASetBlockingHook,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+WSASetLastError,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+WSAStartup,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+WSAUnhookBlockingHook,Yes,Yes,Yes,sockets,wsock32.lib,,New,No
+SendAsyncProc,Yes,Yes,No,callback/comm,,,,No
+CplApplet,Yes,Yes,Yes,callback/cpanel,,,,No
+DdeCallback,Yes,Yes,Yes,callback/dde,,,,No
+DialogProc,Yes,Yes,Yes,callback/dialog,,,,No
+FMExtensionProc,Yes,No,No,callback/filemgr,,"""Chicago: Only supports 16-bit FileManager""",,No
+EnumFontsProc,Yes,Yes,Yes,callback/fonts,,,,No
+LineDDAProc,Yes,Yes,Yes,callback/GDI,,,,No
+OutputProc,Yes,Yes,Yes,callback/GDI,,,,No
+DllEntryPoint,Yes,Yes,Yes,callback/kernel,,,,No
+EnumObjectsProc,Yes,Yes,Yes,callback/kernel,,,,No
+EnhMetaFileProc,Yes,Yes,No,callback/metafile,,,,No
+EnumMetaFileProc,Yes,Yes,Yes,callback/metafile,,,,No
+MidiProc,Yes,Yes,Yes,callback/mm,,,,No
+MMIOProc,Yes,Yes,Yes,callback/mm,,,,No
+MouseProc,Yes,Yes,Yes,callback/mm,,,,No
+RasDialFunc,Yes,Yes,No,callback/ras,,,,No
+ServiceMain,Yes,No,No,callback/services,,,,No
+CBTProc,Yes,Yes,Yes,callback/USER,,,,No
+EditWordBreakProc,Yes,Yes,Yes,callback/user,,,,No
+EnumChildProc,Yes,Yes,Yes,callback/user,,,,No
+EnumWindowsProc,Yes,Yes,Yes,callback/user,,,,No
+GetMsgProc,Yes,Yes,Yes,callback/user,,,,No
+JournalPlaybackProc,Yes,Yes,Yes,callback/user,,,,No
+JournalRecordProc,Yes,Yes,Yes,callback/user,,,,No
+KeyboardProc,Yes,Yes,Yes,callback/user,,,,No
+MessageProc,Yes,Yes,Yes,callback/user,,,,No
+PropEnumProc,Yes,Yes,No,callback/user,,,,No
+PropEnumProcEx,Yes,Yes,No,callback/user,,,,Yes
+CallWndProc,Yes,Yes,Yes,Callback: USER,,,,No
+ImageList_Add,No,Yes,No,commctrl,,,,No
+ImageList_AddFromImageList,No,Yes,No,commctrl,,,,No
+ImageList_AddIcon,No,Yes,No,commctrl,,,,No
+ImageList_AddMasked,No,Yes,No,commctrl,,,,No
+ImageList_CopyDitherImage,No,Yes,No,commctrl,,,,No
+ImageList_Create,No,Yes ,No,commctrl,,,,No
+ImageList_Destroy,No,Yes,No,commctrl,,,,No
+ImageList_DragMove,No,Yes,No,commctrl,,,,No
+ImageList_DragShow,No,Yes,No,commctrl,,,,No
+ImageList_Draw,No,Yes,No,commctrl,,,,No
+ImageList_EndDrag,No,Yes,No,commctrl,,,,No
+ImageList_ExtractIcon,No,Yes,No,commctrl,,,,No
+ImageList_GetBkColor,No,Yes,No,commctrl,,,,No
+ImageList_GetDragImage,No,Yes,No,commctrl,,,,No
+ImageList_GetIconSize,No,Yes,No,commctrl,,,,No
+ImageList_GetImageCount,No,Yes,No,commctrl,,,,No
+ImageList_GetImageInfo,No,Yes,No,commctrl,,,,No
+ImageList_GetImageRect,No,Yes,No,commctrl,,,,No
+ImageList_LoadBitmap,No,Yes,No,commctrl,,,,No
+ImageList_Merge,No,Yes,No,commctrl,,,,No
+ImageList_Remove,No,Yes,No,commctrl,,,,No
+ImageList_Replace,No,Yes,No,commctrl,,,,No
+ImageList_ReplaceIcon,No,Yes,No,commctrl,,,,No
+ImageList_SetDragImage,No,Yes,No,commctrl,,,,No
+ImageList_SetObjectOwner,No,Yes,No,commctrl,,,,No
+ImageList_SetOverlayImage,No,Yes,No,commctrl,,,,No
+ImageList_StartDrag,No,Yes,No,commctrl,,,,No
+ImageListSetBkColor,No,Yes,No,commctrl,,,,No
+HDN_BEGINTRACK,No,Yes,No,commctrl/msg,,,,No
+HDN_DIVIDERCLICK,No,Yes,No,commctrl/msg,,,,No
+HDN_DIVIDERDBLCLICK,No,Yes,No,commctrl/msg,,,,No
+HDN_ENDTRACK,No,Yes,No,commctrl/msg,,,,No
+HDN_ITEMCHANGED,No,Yes,No,commctrl/msg,,,,No
+HDN_ITEMCHANGING,No,Yes,No,commctrl/msg,,,,No
+HDN_ITEMCLICK,No,Yes,No,commctrl/msg,,,,No
+HDN_ITEMDBLCLICK,No,Yes,No,commctrl/msg,,,,No
+HDN_TRACK,No,Yes,No,commctrl/msg,,,,No
+Header_DeleteItem,No,Yes,No,commctrl/msg,,,,No
+Header_GetItem,No,Yes,No,commctrl/msg,,,,No
+Header_GetItemCount,No,Yes,No,commctrl/msg,,,,No
+Header_InsertItem,No,Yes,No,commctrl/msg,,,,No
+Header_Layout,No,Yes,No,commctrl/msg,,,,No
+Header_SetItem,No,Yes,No,commctrl/msg,,,,No
+TreeView_DeleteAllItems,No,Yes,No,commctrl/msg,,,,No
+Treeview_DeleteItem,No,Yes,No,commctrl/msg,,,,No
+TV_CREATEDRAGIMAGE,No,Yes,No,commctrl/msg,,,,No
+TV_DIR,No,Yes,No,commctrl/msg,,,,No
+TV_EDITLABEL,No,Yes,No,commctrl/msg,,,,No
+TV_ENABLEITEM,No,Yes,No,commctrl/msg,,,,No
+TV_ENSUREVISIBLE,No,Yes,No,commctrl/msg,,,,No
+TV_EXPANDCHILDREN,No,Yes,No,commctrl/msg,,,,No
+TV_FINDITEM,No,Yes,No,commctrl/msg,,,,No
+TV_GETANCHOR,No,Yes,No,commctrl/msg,,,,No
+TV_GETCARET,No,Yes,No,commctrl/msg,,,,No
+TV_GETCOUNT,No,Yes,No,commctrl/msg,,,,No
+TV_GETEDITCONTROL,No,Yes,No,commctrl/msg,,,,No
+TV_GETFIRSTVISIBLE,No,Yes,No,commctrl/msg,,,,No
+TV_GETIMAGELIST,No,Yes,No,commctrl/msg,,,,No
+TV_GETINDENT,No,Yes,No,commctrl/msg,,,,No
+TV_GETITEM,No,Yes,No,commctrl/msg,,,,No
+TV_GETITEMINFO ,No,Yes,No,commctrl/msg,,,,No
+TV_GETITEMTEXTLEN,No,Yes,No,commctrl/msg,,,,No
+TV_GETSELECT,No,Yes,No,commctrl/msg,,,,No
+TV_GETSELECTCOUNT,No,Yes,No,commctrl/msg,,,,No
+TV_GETVISIBLECOUNT,No,Yes,No,commctrl/msg,,,,No
+TV_HITTEST,No,Yes,No,commctrl/msg,,,,No
+TV_INSERTITEM,No,Yes,No,commctrl/msg,,,,No
+TV_LINESATROOT,No,Yes,No,commctrl/msg,,,,No
+TV_SELITEMRANGE,No,Yes,No,commctrl/msg,,,,No
+TV_SETANCHOR,No,Yes,No,commctrl/msg,,,,No
+TV_SETCARET ,No,Yes,No,commctrl/msg,,,,No
+TV_SETFIRSTVISIBLE,No,Yes,No,commctrl/msg,,,,No
+TV_SETIMAGELIST,No,Yes,No,commctrl/msg,,,,No
+TV_SETINDENT,No,Yes,No,commctrl/msg,,,,No
+TV_SETITEMINFO,No,Yes,No,commctrl/msg,,,,No
+TV_SETITEMRECT,No,Yes,No,commctrl/msg,,,,No
+TV_SETSELECT,No,Yes,No,commctrl/msg,,,,No
+TV_SHOWBUTTONS,No,Yes,No,commctrl/msg,,,,No
+TV_SHOWLINES,No,Yes,No,commctrl/msg,,,,No
+TV_SORTCHILDREN ,No,Yes,No,commctrl/msg,,,,No
+TVN_BEGINDRAG,No,Yes,No,commctrl/msg,,,,No
+TVN_BEGINLABELEDIT,No,Yes,No,commctrl/msg,,,,No
+TVN_BEGINRDRAG,No,Yes,No,commctrl/msg,,,,No
+TVN_ENDLABELEDIT,No,Yes,No,commctrl/msg,,,,No
+TVN_GETDISPINFO,No,Yes,No,commctrl/msg,,,,No
+TVN_ITEMEXPANDED,No,Yes,No,commctrl/msg,,,,No
+TVN_ITEMEXPANDING,No,Yes,No,commctrl/msg,,,,No
+TVN_KEYDOWN,No,Yes,No,commctrl/msg,,,,No
+TVN_REMOVEITEM ,No,Yes,No,commctrl/msg,,,,No
+TVN_SELCHANGED ,No,Yes,No,commctrl/msg,,,,No
+TVN_SELCHANGING ,No,Yes,No,commctrl/msg,,,,No
+TVN_SETDISPINFO ,No,Yes,No,commctrl/msg,,,,No
+TVN_TEXTCHANGED,No,Yes,No,commctrl/msg,,,,No
+TVN_TEXTCHANGING,No,Yes,No,commctrl/msg,,,,No
+FSCTL_DISMOUNT_VOLUME,Yes,No,No,ioctl,,,,No
+FSCTL_LOCK_VOLUME,Yes,No,No,ioctl,,,,No
+FSCTL_UNLOCK_VOLUME,Yes,No,No,ioctl,,,,No
+IOCTL_DISK_CHECK_VERIFY,Yes,No,No,ioctl,,,,No
+IOCTL_DISK_EJECT_MEDIA,Yes,No,No,ioctl,,,,No
+IOCTL_DISK_FORMAT_TRACKS,Yes,No,No,ioctl,,,,No
+IOCTL_DISK_GET_DRIVE_GEOMETRY,Yes,No,No,ioctl,,,,No
+IOCTL_DISK_GET_DRIVE_LAYOUT,Yes,No,No,ioctl,,,,No
+IOCTL_DISK_GET_MEDIA_TYPES,Yes,No,No,ioctl,,,,No
+IOCTL_DISK_GET_PARTITION_INFO,Yes,No,No,ioctl,,,,No
+IOCTL_DISK_LOAD_MEDIA,Yes,No,No,ioctl,,,,No
+IOCTL_DISK_MEDIA_REMOVAL,Yes,No,No,ioctl,,,,No
+IOCTL_DISK_PERFORMANCE,Yes,No,No,ioctl,,,,No
+IOCTL_DISK_REASSIGN_BLOCKS,Yes,No,No,ioctl,,,,No
+IOCTL_DISK_SET_DRIVE_LAYOUT,Yes,No,No,ioctl,,,,No
+IOCTL_DISK_SET_PARTITION_INFO,Yes,No,No,ioctl,,,,No
+IOCTL_DISK_VERIFY,Yes,No,No,ioctl,,,,No
+IOCTL_SERIAL_LSRMST_INSERT,Yes,No,No,ioctl,,,,No
+GlobalMemoryStatus ,Yes,Yes,Yes,Kernel,,,,No
+Handler,Yes,Yes,No,Kernel,,,,No
+HandlerRoutine,Yes,Yes,No,Kernel,,,,No
+SetUnhandledExceptionFilter ,Yes,Yes,Yes,Kernel,,,,No
+AbnormalTermination,Yes,Yes,Yes,macro,,,New,No
+AbsoluteToSelfRelativeSD,Yes,No,No,macro,,,New,No
+AnsiLower,Yes,Yes,Yes,macro,,,Widened,No
+AnsiLowerBuff,Yes,Yes,Yes,macro,,,Widened,No
+AnsiNext,Yes,Yes,Yes,macro,,,Widened,No
+AnsiPrev,Yes,Yes,Yes,macro,,,Widened,No
+AnsiToOem,Yes,Yes,Yes,macro,,,Widened,No
+AnsiToOemBuff,Yes,Yes,Yes,macro,,,Widened,No
+AnsiUpper,Yes,Yes,Yes,macro,,,Widened,No
+AnsiUpperBuff,Yes,Yes,Yes,macro,,,Widened,No
+CallNextHookProc,No,No,No,macro,,,Dropped,No
+ConvertRequest,Yes,,No,macro,,,Widened,No
+CopyCursor,Yes,Yes,Yes,macro,,,New,No
+CopyMemory,Yes,Yes,Yes,macro,,,,No
+CreateDialog,Yes,Yes,Yes,macro,,,Widened,No
+CreateDialogIndirect,Yes,Yes,Yes,macro,,,Widened,No
+CreateUserObjectSecurity,Yes,No,No,macro,,,New,No
+CreateWindow,Yes,Yes,Yes,macro,,,Widened,No
+DdeRevertToSelf,Yes,,No,macro,,,New,No
+DebugProc,Yes,Yes,Yes,macro,,,Widened,No
+DebugSnapShotProcessHeaps,Yes,,No,macro,,,New,No
+DefHookProc,Yes,Yes,Yes,macro,,,Widened,No
+DefineHandleTable,Yes,Yes,Yes,macro,,,Widened,No
+DestroyUserObjectSecurity,Yes,No,No,macro,,,New,No
+DeviceModeEx,Yes,Yes,Yes,macro,,,Widened,No
+DialogBox,Yes,Yes,Yes,macro,,,Widened,No
+DialogBoxIndirect,Yes,Yes,Yes,macro,,,Widened,No
+EnableCommNotification,Yes,Yes,No,macro,,,New,No
+EnableHardwareInput,Yes,Yes,Yes,macro,,,Widened,No
+EnumDesktops,Yes,,No,macro,,,New,No
+EnumFontFamProc,Yes,Yes,Yes,macro,,,New,No
+EnumNearestFonts,No,No,No,macro,,,Dropped,No
+EnumQueueMessages,Yes,,No,macro,,,New,No
+EnumTaskWindows,Yes,Yes,Yes,macro,,,Widened,No
+EnumThreadWndProc,Yes,Yes,Yes,macro,,,New,No
+ExitWindows,Yes,Yes,Yes,macro,,,Widened,No
+ExtendedProviderFunction,Yes,,No,macro,,,New,No
+FileIoCompletionRoutine,New,,No,macro,,,New,No
+FillMemory,Yes,Yes,Yes,macro,,,,No
+FreeModule,Yes,Yes,Yes,macro,,,Widened,No
+FreeProcInstance,Yes,Yes,Yes,macro,,,Widened,No
+GetAtomHandle,Yes,Yes,Yes,macro,,,Widened,No
+GetBrushOrg,Yes,Yes,Yes,macro,,,Widened,No
+GetBValue,Yes,Yes,Yes,macro,,,Widened,No
+GetCommConfig,Yes,Yes,No,macro,,,New,No
+GetCurrentTask,Yes,Yes,Yes,macro,,,Widened,No
+GetCurrentTime,Yes,Yes,Yes,macro,,,Widened,No
+GetDriverInfo,Yes,,No,macro,,,Widened,No
+GetDriverModuleHandle,Yes,,No,macro,,,Widened,No
+GetExceptionCode,Yes,Yes,Yes,macro,,,New,No
+GetExceptionInformation,Yes,Yes,Yes,macro,,,New,No
+GetFileResource,Yes,Yes,Yes,macro,,,Widened,No
+GetFileResourceSize,Yes,Yes,Yes,macro,,,Widened,No
+GetFontMapperControls,Yes,No,No,macro,,,New,No
+GetFreeSpace,Yes,Yes,Yes,macro,,,Widened,No
+GetFreeSystemResources,Yes,Yes,Yes,macro,,,Widened,No
+GetGValue,Yes,Yes,Yes,macro,,,Widened,No
+GetJobFromHandle,Yes,,No,macro,,,New,No
+GetNextDriver,Yes,,No,macro,,,Widened,No
+GetNextWindow,Yes,Yes,Yes,macro,,,Widened,No
+GetNumTasks,Yes,Yes,Yes,macro,,,Widened,No
+GetObjectSecurity,Yes,No,No,macro,,,New,No
+GetProcessExitCode,No,No,No,macro,,,Dropped,No
+GetRotateTransform,Yes,No,No,macro,,,New,No
+GetRValue,Yes,Yes,Yes,macro,,,Widened,No
+GetSysModalWindow,Yes,Yes,Yes,macro,,,Widened,No
+GetSystemDir,No,No,No,macro,,,Dropped,No
+GetThreadExitCode,Yes,Yes,No,macro,,,New,No
+GetWindowsDir,Yes,No,No,macro,,,New,No
+GetWindowStationAttrs,Yes,,No,macro,,,New,No
+GetWindowTask,Yes,Yes,Yes,macro,,,Widened,No
+GlobalDiscard,Yes,Yes,Yes,macro,,,Widened,No
+GlobalLRUNewest,Yes,Yes,Yes,macro,,,Widened,No
+GlobalLRUOldest,Yes,Yes,Yes,macro,,,Widened,No
+HeapAlloc,Yes,Yes,Yes,macro,,,New,No
+HeapFree,Yes,Yes,Yes,macro,,,New,No
+HeapSize,Yes,Yes,Yes,macro,,,New,No
+InsertQueueMessage,Yes,,No,macro,,,New,No
+InvertTransform,Yes,No,No,macro,,,New,No
+IsGDIObject,No,No,No,macro,,,Dropped,No
+IsTask,No,No,No,macro,,,Deleted,No
+IsTwoByteCharPrefix,Yes,Yes,Yes,macro,,,Widened,No
+LANGIDFROMLCID,Yes,Yes,Yes,macro,,,,No
+LimitEMSPages,Yes,Yes,Yes,macro,,,Widened,No
+LineDDA,Yes,Yes,Yes,macro,,,Widened,No
+LocalDiscard,Yes,Yes,Yes,macro,,,Widened,No
+LocalInit,Yes,,No,macro,,,Widened,No
+LocalNotify,Yes,,No,macro,,,Widened,No
+LockData,Yes,Yes,Yes,macro,,,Widened,No
+LockSegment,Yes,Yes,Yes,macro,,,Widened,No
+LogError,Yes,,No,macro,,,Widened,No
+LogParamError,Yes,,No,macro,,,Widened,No
+MAKEINTATOM,Yes,Yes,Yes,macro,,,,No
+MAKEINTRESOURCE,Yes,Yes,Yes,macro,,,,Yes
+MAKELANGID,Yes,Yes,Yes,macro,,,,No
+MAKELCID,Yes,Yes,Yes,macro,,,,No
+MAKELONG,Yes,Yes,Yes,macro,,,,No
+MAKELPARAM,Yes,Yes,Yes,macro,,,,No
+MAKELRESULT,Yes,Yes,Yes,macro,,,,No
+MAKEPOINTS,Yes,Yes,Yes,macro,,,,No
+MakeProcInstance,Yes,Yes,Yes,macro,,,Widened,No
+MAKEROP4,Yes,Yes,Yes,macro,,,,No
+MAKEWORD,Yes,Yes,Yes,macro,,,,No
+MAKEWPARAM,Yes,Yes,Yes,macro,,,,No
+mmioFOURCC,Yes,Yes,Yes,macro,,,,No
+MoveMemory,Yes,Yes,Yes,macro,,,,No
+MultiplyTransforms,Yes,No,No,macro,,,New,No
+OemToAnsi,Yes,Yes,Yes,macro,,,Widened,No
+OemToAnsiBuff,Yes,Yes,Yes,macro,,,Widened,No
+OleCopyCompleted,Yes,Yes,Yes,macro,,,Widened,No
+OleMarkForCopy,Yes,Yes,Yes,macro,,,Widened,No
+OleSetFileFormat,Yes,,No,macro,,,Widened,No
+OpenDesktop,Yes,,No,macro,,,New,No
+OpenSpooler,Yes,,No,macro,,,New,No
+OpenWindowStation,Yes,,No,macro,,,New,No
+PALETTEINDEX,Yes,Yes,Yes,macro,,,,No
+PALETTERGB,Yes,Yes,Yes,macro,,,,No
+PeekMessageEx,No,No,No,macro,,,Dropped,No
+POINTSTOPOINT,Yes,Yes,Yes,macro,,,,No
+POINTTOPOINTS,Yes,Yes,Yes,macro,,,,No
+PostAppMessage,Yes,Yes,Yes,macro,,,Widened,No
+PRIMARYLANGID,Yes,Yes,Yes,macro,,,,No
+ReadEventLogEntry,Yes,No,No,macro,,,New,No
+ReadSpooler,Yes,,No,macro,,,New,No
+RegOpenRegistry,No,No,No,macro,,,Dropped,No
+RpcAbnormalTermination,New,,No,macro,,,New,No
+RpcEndExcept,New,,No,macro,,,New,No
+RpcEndFinally,New,,No,macro,,,New,No
+RpcExcept,New,,No,macro,,,New,No
+RpcExceptionCode,New,,No,macro,,,New,No
+RpcFinally,New,,No,macro,,,New,No
+RpcTryExcept,New,,No,macro,,,New,No
+RpcTryFinally,New,,No,macro,,,New,No
+SelfRelativeToAbsoluteSD,Yes,,No,macro,,,New,No
+SendDriverMessage,No,No,No,macro,,,Dropped,No
+SetBrushOrg,Yes,Yes,Yes,macro,,,Widened,No
+SetCommConfig,Yes,Yes,No,macro,,,New,No
+SetConvertHook,Yes,,No,macro,,,Widened,No
+SetConvertParams,Yes,,No,macro,,,Widened,No
+SetFlat,Yes,,No,macro,,,New,No
+SetFontMapperControls,Yes,No,No,macro,,,New,No
+SetObjectSecurity,Yes,No,No,macro,,,New,No
+SetQueueMsg,Yes,,No,macro,,,New,No
+SetSwapAreaSize,Yes,Yes,Yes,macro,,,Widened,No
+SetSysModalWindow,Yes,Yes,Yes,macro,,,Widened,No
+SORTIDFROMLCID,Yes,Yes,Yes,macro,,,,No
+StartDocSpooler,Yes,,No,macro,,,New,No
+StartFrameSpooler,Yes,,No,macro,,,New,No
+SUBLANGID,Yes,Yes,Yes,macro,,,,No
+TimerCount,Yes,,No,macro,,,Widened,No
+TimerProc,Yes,,No,macro,,,Widened,No
+UnLockData,No,No,No,macro,,,Dropped,No
+UnlockResource,Yes,Yes,Yes,macro,,,Widened,No
+UnlockSegment,Yes,Yes,Yes,macro,,,Widened,No
+WinMain,Yes,Yes,Yes,macro,,,Widened,No
+WordBreakProc,Yes,Yes,Yes,macro,,,New,No
+WriteEventLogEntry,Yes,No,No,macro,,,New,No
+WriteSpooler,Yes,,No,macro,,,New,No
+ZeroMemory,Yes,,Yes,macro,,,,No
+ICAbout,New,Yes,No,mm,,,New,No
+ICCompressBegin,New,Yes,No,mm,,,New,No
+ICCompressEnd,New,Yes,No,mm,,,New,No
+ICCompressGetFormat,New,Yes,No,mm,,,New,No
+ICCompressGetFormatSize,New,Yes,No,mm,,,New,No
+ICCompressGetSize,New,Yes,No,mm,,,New,No
+ICCompressQuery,New,Yes,No,mm,,,New,No
+ICConfigure,New,Yes,No,mm,,,New,No
+ICDecompressBegin,New,Yes,No,mm,,,New,No
+ICDecompressEnd,New,Yes,No,mm,,,New,No
+ICDecompressGetFormat,New,Yes,No,mm,,,New,No
+ICDecompressGetFormatSize,New,Yes,No,mm,,,New,No
+ICDecompressGetPalette,New,Yes,No,mm,,,New,No
+ICDecompressQuery,New,Yes,No,mm,,,New,No
+ICDrawEnd,New,Yes,No,mm,,,New,No
+ICDrawFlush,New,Yes,No,mm,,,New,No
+ICDrawGetTime,New,Yes,No,mm,,,New,No
+ICDrawQuery,New,Yes,No,mm,,,New,No
+ICDrawRealize,New,Yes,No,mm,,,New,No
+ICDrawSetTime,New,Yes,No,mm,,,New,No
+ICDrawStart,New,Yes,No,mm,,,New,No
+ICDrawStop,New,Yes,No,mm,,,New,No
+ICDrawWindow,New,Yes,No,mm,,,New,No
+ICGetBuffersWanted,New,Yes,No,mm,,,New,No
+ICGetDefaultKeyFrameRate,New,Yes,No,mm,,,New,No
+ICGetDefaultQuality,New,Yes,No,mm,,,New,No
+ICGetQuality,New,Yes,No,mm,,,New,No
+ICGetState,New,Yes,No,mm,,,New,No
+ICGetStateSize,New,Yes,No,mm,,,New,No
+ICQueryAbout,New,Yes,No,mm,,,New,No
+ICQueryConfigure,New,Yes,No,mm,,,New,No
+ICSetQuality,New,Yes,No,mm,,,New,No
+ICSetState,New,Yes,No,mm,,,New,No
+WM_ACTIVATE,Yes,Yes,Yes,msg,,,Changed,No
+WM_ACTIVATEAPP,Yes,Yes,Yes,msg,,,Widened,No
+WM_APP,No,Yes,No,msg,,,,No
+WM_ASKCBFORMATNAME,Yes,Yes,Yes,msg,,,Widened,No
+WM_CANCELJOURNAL,Yes,Yes,No,msg,,,,No
+WM_CANCELMODE,Yes,Yes,Yes,msg,,,Widened,No
+WM_CAPTURECHANGED,No,Yes,No,msg,,,,No
+WM_CHANGECBCHAIN,Yes,Yes,Yes,msg,,,Changed,No
+WM_CHAR,Yes,Yes,Yes,msg,,,Widened,No
+WM_CHARTOITEM,Yes,Yes,Yes,msg,,,Changed,No
+WM_CHILDACTIVATE,Yes,Yes,Yes,msg,,,Widened,No
+WM_CHOOSEFONT_GETLOGFONT,Yes,,Yes,msg,,,,No
+WM_CLEAR,Yes,Yes,Yes,msg,,,Widened,No
+WM_CLOSE,Yes,Yes,Yes,msg,,,Widened,No
+WM_COALESCE_FIRST,Yes,Yes,Yes,msg,,,Widened,No
+WM_COALESCE_LAST,Yes,Yes,Yes,msg,,,Widened,No
+WM_COMMAND,Yes,Yes,Yes,msg,,,Changed,No
+WM_COMMNOTIFY,Yes,Yes,Yes,msg,,,Widened,No
+WM_COMPACTING,Yes,Yes,Yes,msg,,,Widened,No
+WM_COMPAREITEM,Yes,Yes,Yes,msg,,,Widened,No
+WM_CONTEXTMENU,No,Yes,No,msg,,,,No
+WM_COPY,Yes,Yes,Yes,msg,,,Widened,No
+WM_COPYDATA,Yes,Yes,Yes,msg,,,Widened,No
+WM_CPL_LAUNCH,Yes,,No,msg,,,,No
+WM_CPL_LAUNCHED,Yes,,No,msg,,,,No
+WM_CREATE,Yes,Yes,Yes,msg,,,Widened,No
+WM_CTLCOLOR,Yes,Yes,Yes,msg,,,Changed,No
+WM_CTLCOLORBTN,Yes,Yes,Yes,msg,,,New,No
+WM_CTLCOLORDLG,Yes,Yes,Yes,msg,,,New,No
+WM_CTLCOLOREDIT,Yes,Yes,Yes,msg,,,New,No
+WM_CTLCOLORLISTBOX,Yes,Yes,Yes,msg,,,New,No
+WM_CTLCOLORMSGBOX,Yes,Yes,Yes,msg,,,New,No
+WM_CTLCOLORSCROLLBAR,Yes,Yes,Yes,msg,,,New,No
+WM_CTLCOLORSTATIC,Yes,Yes,Yes,msg,,,New,No
+WM_CUT,Yes,Yes,Yes,msg,,,Widened,No
+WM_DDE_ACK,Yes,Yes,Yes,msg,,,Changed,No
+WM_DDE_ADVISE,Yes,Yes,Yes,msg,,,Changed,No
+WM_DDE_DATA,Yes,Yes,Yes,msg,,,Changed,No
+WM_DDE_EXECUTE,Yes,Yes,Yes,msg,,,Changed,No
+WM_DDE_FIRST,Yes,Yes,Yes,msg,,,Widened,No
+WM_DDE_INIT,No,No,No,msg,,,Dropped,No
+WM_DDE_INITIATE,Yes,Yes,Yes,msg,,,Widened,No
+WM_DDE_LAST,Yes,Yes,Yes,msg,,,Widened,No
+WM_DDE_POKE,Yes,Yes,Yes,msg,,,Changed,No
+WM_DDE_REQUEST,Yes,Yes,Yes,msg,,,Widened,No
+WM_DDE_TERMINATE,Yes,Yes,Yes,msg,,,Widened,No
+WM_DDE_UNADVISE,Yes,Yes,Yes,msg,,,Widened,No
+WM_DEADCHAR,Yes,Yes,Yes,msg,,,Widened,No
+WM_DELETEITEM,Yes,Yes,Yes,msg,,,Widened,No
+WM_DESTROY,Yes,Yes,Yes,msg,,,Widened,No
+WM_DESTROYCLIPBOARD,Yes,Yes,Yes,msg,,,Widened,No
+WM_DEVICEBROADCAST,No,Yes,No,msg,,,,No
+WM_DEVMODECHANGE,Yes,Yes,Yes,msg,,,Widened,No
+WM_DISPLAYCHANGE,No,Yes,No,msg,,,,No
+WM_DRAWCLIPBOARD,Yes,Yes,Yes,msg,,,Widened,No
+WM_DRAWITEM,Yes,Yes,Yes,msg,,,Widened,No
+WM_DROPFILES,Yes,Yes,Yes,msg,,,Widened,No
+WM_ENABLE,Yes,Yes,Yes,msg,,,Widened,No
+WM_ENDSESSION,Yes,Yes,Yes,msg,,,Widened,No
+WM_ENTERIDLE,Yes,Yes,Yes,msg,,,Widened,No
+WM_ENTERMENULOOP,Yes,Yes,No,msg,,,,No
+WM_ERASEBKGND,Yes,Yes,Yes,msg,,,Widened,No
+WM_EXITMENULOOP,Yes,Yes,No,msg,,,,No
+WM_FONTCHANGE,Yes,Yes,Yes,msg,,,Widened,No
+WM_GETDLGCODE,Yes,Yes,Yes,msg,,,Widened,No
+WM_GETFONT,Yes,Yes,Yes,msg,,,Widened,No
+WM_GETHOTKEY,Yes,Yes,No,msg,,,New,No
+WM_GETICON,No,Yes,No,msg,,,,No
+WM_GETMINMAXINFO,Yes,Yes,Yes,msg,,,Widened,No
+WM_GETTEXT,Yes,Yes,Yes,msg,,,Widened,No
+WM_GETTEXTLENGTH,Yes,Yes,Yes,msg,,,Widened,No
+WM_HELP,No,Yes,No,msg,,,,No
+WM_HOTKEY,Yes,Yes,No,msg,,,New,No
+WM_HSCROLL,Yes,Yes,Yes,msg,,,Changed,No
+WM_HSCROLLCLIPBOARD,Yes,Yes,Yes,msg,,,Widened,No
+WM_ICONERASEBKGND,Yes,Yes,Yes,msg,,,Widened,No
+WM_INITDIALOG,Yes,Yes,Yes,msg,,,Widened,No
+WM_INITMENU,Yes,Yes,Yes,msg,,,Widened,No
+WM_INITMENUPOPUP,Yes,Yes,Yes,msg,,,Widened,No
+WM_KEYDOWN,Yes,Yes,Yes,msg,,,Widened,No
+WM_KEYFIRST,Yes,Yes,Yes,msg,,,Widened,No
+WM_KEYLAST,Yes,Yes,Yes,msg,,,Widened,No
+WM_KEYUP,Yes,Yes,Yes,msg,,,Widened,No
+WM_KILLFOCUS,Yes,Yes,Yes,msg,,,Widened,No
+WM_LBUTTONDBLCLK,Yes,Yes,Yes,msg,,,Widened,No
+WM_LBUTTONDOWN,Yes,Yes,Yes,msg,,,Widened,No
+WM_LBUTTONUP,Yes,Yes,Yes,msg,,,Widened,No
+WM_MBUTTONDBLCLK,Yes,Yes,Yes,msg,,,Widened,No
+WM_MBUTTONDOWN,Yes,Yes,Yes,msg,,,Widened,No
+WM_MBUTTONUP,Yes,Yes,Yes,msg,,,Widened,No
+WM_MDIACTIVATE,Yes,Yes,Yes,msg,,,Changed,No
+WM_MDICASCADE,Yes,Yes,Yes,msg,,,Widened,No
+WM_MDICREATE,Yes,Yes,Yes,msg,,,Widened,No
+WM_MDIDESTROY,Yes,Yes,Yes,msg,,,Widened,No
+WM_MDIGETACTIVE,Yes,Yes,Yes,msg,,,Widened,No
+WM_MDIICONARRANGE,Yes,Yes,Yes,msg,,,Widened,No
+WM_MDIMAXIMIZE,Yes,Yes,Yes,msg,,,Widened,No
+WM_MDINEXT,Yes,Yes,Yes,msg,,,Widened,No
+WM_MDIREFRESHMENU,No,Yes,No,msg,,,,No
+WM_MDIRESTORE,Yes,Yes,Yes,msg,,,Widened,No
+WM_MDISETMENU,Yes,Yes,Yes,msg,,,Changed,No
+WM_MDITILE,Yes,Yes,Yes,msg,,,Widened,No
+WM_MEASUREITEM,Yes,Yes,Yes,msg,,,Widened,No
+WM_MEDIASTATUSCHANGE,No,Yes,No,msg,,,,No
+WM_MENUCHAR,Yes,Yes,Yes,msg,,,Changed,No
+WM_MENUSELECT,Yes,Yes,Yes,msg,,,Changed,No
+WM_MOUSEACTIVATE,Yes,Yes,Yes,msg,,,Widened,No
+WM_MOUSEENTER,Yes,Yes,No,msg,,,New,No
+WM_MOUSEFIRST,Yes,Yes,Yes,msg,,,Widened,No
+WM_MOUSELAST,Yes,Yes,Yes,msg,,,Widened,No
+WM_MOUSELEAVE,Yes,Yes,No,msg,,,New,No
+WM_MOUSEMOVE,Yes,Yes,Yes,msg,,,Widened,No
+WM_MOVE,Yes,Yes,Yes,msg,,,Widened,No
+WM_MOVING,No,Yes,No,msg,,,,No
+WM_NCACTIVATE,Yes,Yes,Yes,msg,,,Widened,No
+WM_NCCALCRGN,Yes,No,No,msg,,,New,No
+WM_NCCALCSIZE,Yes,Yes,Yes,msg,,,Widened,No
+WM_NCCREATE,Yes,Yes,Yes,msg,,,Widened,No
+WM_NCDESTROY,Yes,Yes,Yes,msg,,,Widened,No
+WM_NCHITTEST,Yes,Yes,Yes,msg,,,Widened,No
+WM_NCLBUTTONDBLCLK,Yes,Yes,Yes,msg,,,Widened,No
+WM_NCLBUTTONDOWN,Yes,Yes,Yes,msg,,,Widened,No
+WM_NCLBUTTONUP,Yes,Yes,Yes,msg,,,Widened,No
+WM_NCMBUTTONDBLCLK,Yes,Yes,Yes,msg,,,Widened,No
+WM_NCMBUTTONDOWN,Yes,Yes,Yes,msg,,,Widened,No
+WM_NCMBUTTONUP,Yes,Yes,Yes,msg,,,Widened,No
+WM_NCMOUSEMOVE,Yes,Yes,Yes,msg,,,Widened,No
+WM_NCPAINT,Yes,Yes,Yes,msg,,,Widened,No
+WM_NCRBUTTONDBLCLK,Yes,Yes,Yes,msg,,,Widened,No
+WM_NCRBUTTONDOWN,Yes,Yes,Yes,msg,,,Widened,No
+WM_NCRBUTTONUP,Yes,Yes,Yes,msg,,,Widened,No
+WM_NEXTDLGCTL,Yes,Yes,Yes,msg,,,Widened,No
+WM_NULL,Yes,Yes,Yes,msg,,,Widened,No
+WM_OTHERWINDOWDESTROYED,No,No,No,msg,,,Dropped,No
+WM_PAINT,Yes,Yes,Yes,msg,,,Widened,No
+WM_PAINTCLIPBOARD,Yes,Yes,Yes,msg,,,Widened,No
+WM_PAINTICON,Yes,Yes,Yes,msg,,,Widened,No
+WM_PALETTECHANGED,Yes,Yes,Yes,msg,,,Widened,No
+WM_PALETTEISCHANGING,Yes,Yes,Yes,msg,,,Widened,No
+WM_PARENTNOTIFY,Yes,Yes,Yes,msg,,,Changed,No
+WM_PASTE,Yes,Yes,Yes,msg,,,Widened,No
+WM_PENWINFIRST,Yes,Yes,Yes,msg,,,Widened,No
+WM_PENWINLAST,Yes,Yes,Yes,msg,,,Widened,No
+WM_POWER,Yes,Yes,Yes,msg,,,Widened,No
+WM_POWERBROADCAST,No,Yes,No,msg,,,New,No
+WM_PRINT,No,Yes,No,msg,,,,No
+WM_PRINTCLIENT,No,Yes,No,msg,,,,No
+WM_QUERYDRAGICON,Yes,Yes,Yes,msg,,,Widened,No
+WM_QUERYENDSESSION,Yes,Yes,Yes,msg,,,Widened,No
+WM_QUERYNEWPALETTE,Yes,Yes,Yes,msg,,,Widened,No
+WM_QUERYOPEN,Yes,Yes,Yes,msg,,,Widened,No
+WM_QUEUESYNC,Yes,Yes,Yes,msg,,,Widened,No
+WM_QUIT,Yes,Yes,Yes,msg,,,Widened,No
+WM_RASDIALEVENT,Yes,Yes,No,msg,,,,No
+WM_RBUTTONDBLCLK,Yes,Yes,Yes,msg,,,Widened,No
+WM_RBUTTONDOWN,Yes,Yes,Yes,msg,,,Widened,No
+WM_RBUTTONUP,Yes,Yes,Yes,msg,,,Widened,No
+WM_RENDERALLFORMATS,Yes,Yes,Yes,msg,,,Widened,No
+WM_RENDERFORMAT,Yes,Yes,Yes,msg,,,Widened,No
+WM_SETCURSOR,Yes,Yes,Yes,msg,,,Widened,No
+WM_SETFOCUS,Yes,Yes,Yes,msg,,,Widened,No
+WM_SETFONT,Yes,Yes,Yes,msg,,,Widened,No
+WM_SETHOTKEY,Yes,Yes,No,msg,,,New,No
+WM_SETICON,No,Yes,No,msg,,,,No
+WM_SETREDRAW,Yes,Yes,Yes,msg,,,Widened,No
+WM_SETTEXT,Yes,Yes,Yes,msg,,,Widened,No
+WM_SHOWWINDOW,Yes,Yes,Yes,msg,,,Widened,No
+WM_SIZE,Yes,Yes,Yes,msg,,,Widened,No
+WM_SIZECLIPBOARD,Yes,Yes,Yes,msg,,,Widened,No
+WM_SIZING,No,Yes,No,msg,,,,No
+WM_SPOOLERSTATUS,Yes,Yes,Yes,msg,,,Widened,No
+WM_STYLECHANGED,No,Yes,No,msg,,,,No
+WM_STYLECHANGING,No,Yes,No,msg,,,,No
+WM_SYSCHAR,Yes,Yes,Yes,msg,,,Widened,No
+WM_SYSCOLORCHANGE,Yes,Yes,Yes,msg,,,Widened,No
+WM_SYSCOMMAND,Yes,Yes,Yes,msg,,,Widened,No
+WM_SYSDEADCHAR,Yes,Yes,Yes,msg,,,Widened,No
+WM_SYSKEYDOWN,Yes,Yes,Yes,msg,,,Widened,No
+WM_SYSKEYUP,Yes,Yes,Yes,msg,,,Widened,No
+WM_TIMECHANGE,Yes,Yes,Yes,msg,,,Widened,No
+WM_TIMER,Yes,Yes,Yes,msg,,,Widened,No
+WM_UNDO,Yes,Yes,Yes,msg,,,Widened,No
+WM_USER,Yes,Yes,Yes,msg,,,Widened,No
+WM_VKEYTOITEM,Yes,Yes,Yes,msg,,,Changed,No
+WM_VSCROLL,Yes,Yes,Yes,msg,,,Changed,No
+WM_VSCROLLCLIPBOARD,Yes,Yes,Yes,msg,,,Widened,No
+WM_WINDOWPOSCHANGED,Yes,Yes,Yes,msg,,,Widened,No
+WM_WINDOWPOSCHANGING,Yes,Yes,Yes,msg,,,Widened,No
+WM_WININICHANGE,Yes,Yes,Yes,msg,,,Widened,No
+BM_GETBITMAP,No,Yes,No,msg/button,,,,No
+BM_GETCHECK,Yes,Yes,Yes,msg/button,,,Widened,No
+BM_GETICON,No,Yes,No,msg/button,,,,No
+BM_GETIMAGE,No,Yes,No,msg/button,,,Dropped,No
+BM_GETSTATE,Yes,Yes,Yes,msg/button,,,Widened,No
+BM_SETBITMAP,No,Yes,No,msg/button,,,,No
+BM_SETCHECK,Yes,Yes,Yes,msg/button,,,Widened,No
+BM_SETICON,No,Yes,No,msg/button,,,,No
+BM_SETIMAGE,No,Yes,No,msg/button,,,Dropped,No
+BM_SETSTATE,Yes,Yes,Yes,msg/button,,,Widened,No
+BM_SETSTYLE,Yes,Yes,Yes,msg/button,,,Widened,No
+BN_CLICKED,Yes,Yes,Yes,msg/button,,,Widened,No
+BN_DISABLE,Yes,Yes,Yes,msg/button,,,Widened,No
+BN_DOUBLECLICKED,Yes,Yes,Yes,msg/button,,,Widened,No
+BN_HILITE,Yes,Yes,Yes,msg/button,,,Widened,No
+BN_PAINT,Yes,Yes,Yes,msg/button,,,Widened,No
+BN_UNHILITE,Yes,Yes,Yes,msg/button,,,Widened,No
+CB_ADDSTRING,Yes,Yes,Yes,msg/combobox,,,Widened,No
+CB_DELETESTRING,Yes,Yes,Yes,msg/combobox,,,Widened,No
+CB_DIR,Yes,Yes,Yes,msg/combobox,,,Widened,No
+CB_FINDSTRING,Yes,Yes,Yes,msg/combobox,,,Widened,No
+CB_FINDSTRINGEXACT,Yes,Yes,Yes,msg/combobox,,,,No
+CB_GETCOUNT,Yes,Yes,Yes,msg/combobox,,,Widened,No
+CB_GETCURSEL,Yes,Yes,Yes,msg/combobox,,,Widened,No
+CB_GETDROPPEDCONTROLRECT,Yes,Yes,Yes,msg/combobox,,,Widened,No
+CB_GETDROPPEDSTATE,Yes,Yes,Yes,msg/combobox,,,Widened,No
+CB_GETDROPPEDWIDTH,No,Yes,No,msg/combobox,,,,No
+CB_GETEDITSEL,Yes,Yes,Yes,msg/combobox,,,Widened,No
+CB_GETEXTENDEDUI,Yes,Yes,Yes,msg/combobox,,,Widened,No
+CB_GETHORIZONTALEXTENT,No,Yes,No,msg/combobox,,,,No
+CB_GETITEMDATA,Yes,Yes,Yes,msg/combobox,,,Widened,No
+CB_GETITEMHEIGHT,Yes,Yes,Yes,msg/combobox,,,Widened,No
+CB_GETLBTEXT,Yes,Yes,Yes,msg/combobox,,,Widened,No
+CB_GETLBTEXTLEN,Yes,Yes,Yes,msg/combobox,,,Widened,No,,,,,,,,,,,,,,,
+CB_GETLOCALE,Yes,Yes,No,msg/combobox,,,,No,,,,,,,,,,,,,,,
+CB_GETTOPINDEX,No,Yes,No,msg/combobox,,,,No,,,,,,,,,,,,,,,
+CB_INITSTORAGE,No,Yes,No,msg/combobox,,,,No,,,,,,,,,,,,,,,
+CB_INSERTSTRING,Yes,Yes,Yes,msg/combobox,,,Widened,No,,,,,,,,,,,,,,,Available
+CB_LIMITTEXT,Yes,Yes,Yes,msg/combobox,,,Widened,No,,,,,,,,,,,,,,,
+CB_MSGMAX,Yes,Yes,Yes,msg/combobox,,,Widened,No,,,,,,,,,,,,,,,
+CB_RESETCONTENT,Yes,Yes,Yes,msg/combobox,,,Widened,No,,,,,,,,,,,,,,,
+CB_SELECTSTRING,Yes,Yes,Yes,msg/combobox,,,Widened,No,,,,,,,,,,,,,,,
+CB_SETCURSEL,Yes,Yes,Yes,msg/combobox,,,Widened,No,,,,,,,,,,,,,,,
+CB_SETDROPPEDWIDTH,No,Yes,No,msg/combobox,,,,No,,,,,,,,,,,,,,,
+CB_SETEDITSEL,Yes,Yes,Yes,msg/combobox,,,Widened,No,,,,,,,,,,,,,,,
+CB_SETEXTENDEDUI,Yes,Yes,Yes,msg/combobox,,,Widened,No,,,,,,,,,,,,,,,
+CB_SETHORIZONTALEXTENT,No,Yes,No,msg/combobox,,,,No,,,,,,,,,,,,,,,
+CB_SETITEMDATA,Yes,Yes,Yes,msg/combobox,,,Widened,No,,,,,,,,,,,,,,,
+CB_SETITEMHEIGHT,Yes,Yes,Yes,msg/combobox,,,Widened,No,,,,,,,,,,,,,,,
+CB_SETLOCALE,Yes,Yes,No,msg/combobox,,,,No
+CB_SETTOPINDEX,No,Yes,No,msg/combobox,,,,No
+CB_SHOWDROPDOWN,Yes,Yes,Yes,msg/combobox,,,Widened,No
+CBN_CLOSEUP,Yes,Yes,Yes,msg/combobox,,,Widened,No
+CBN_DBLCLK,Yes,Yes,Yes,msg/combobox,,,Widened,No
+CBN_DROPDOWN,Yes,Yes,Yes,msg/combobox,,,Widened,No
+CBN_EDITCHANGE,Yes,Yes,Yes,msg/combobox,,,Widened,No
+CBN_EDITUPDATE,Yes,Yes,Yes,msg/combobox,,,Widened,No
+CBN_ERRSPACE,Yes,Yes,Yes,msg/combobox,,,Widened,No
+CBN_KILLFOCUS,Yes,Yes,Yes,msg/combobox,,,Widened,No
+CBN_SELCHANGE,Yes,Yes,Yes,msg/combobox,,,Widened,No
+CBN_SELENDCANCEL,Yes,Yes,No,msg/combobox,,,,No
+CBN_SELENDOK,Yes,Yes,No,msg/combobox,,,,No
+CBN_SETFOCUS,Yes,Yes,Yes,msg/combobox,,,Widened,No
+CPL_DBLCLK,Yes,Yes,No,msg/cpanel,,,,No
+CPL_EXIT,Yes,Yes,No,msg/cpanel,,,,No
+CPL_GETCOUNT,Yes,Yes,No,msg/cpanel,,,,No
+CPL_INIT,Yes,Yes,No,msg/cpanel,,,,No
+CPL_INQUIRE,Yes,Yes,No,msg/cpanel,,,,No
+CPL_NEWINQUIRE,Yes,Yes,No,msg/cpanel,,,,No
+CPL_SELECT,Yes,Yes,No,msg/cpanel,,,,No
+CPL_STOP,Yes,Yes,No,msg/cpanel,,,,No
+DM_GETDEFID,Yes,Yes,Yes,msg/dialog,,,New,No
+DM_REPOSITION,No,Yes,No,msg/dialog,,,,No
+DM_SETDEFID,Yes,Yes,Yes,msg/dialog,,,New,No
+EM_CANUNDO,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EM_CHARFROMPOS,No,Yes,No,msg/editcontrol,,,,No
+EM_EMPTYUNDOBUFFER,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EM_FMTLINES,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EM_GETFIRSTVISIBLELINE,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EM_GETHANDLE,Yes,Yes,No,msg/editcontrol,,,Widened,No
+EM_GETLIMITTEXT,No,Yes,No,msg/editcontrol,,,,No
+EM_GETLINE,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EM_GETLINECOUNT,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EM_GETMARGINS,No,Yes,No,msg/editcontrol,,,,No
+EM_GETMODIFY,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EM_GETPASSWORDCHAR,Yes,Yes,No,msg/editcontrol,,,,No
+EM_GETRECT,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EM_GETSEL,Yes,Yes,Yes,msg/editcontrol,,,Changed,No
+EM_GETTHUMB,Yes,Yes,Yes,msg/editcontrol,,,New,No
+EM_GETWORDBREAKPROC,Yes,Yes,Yes,msg/editcontrol,,,,No
+EM_LIMITTEXT,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EM_LINEFROMCHAR,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EM_LINEINDEX,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EM_LINELENGTH,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EM_LINESCROLL,Yes,Yes,Yes,msg/editcontrol,,,Changed,No
+EM_POSFROMCHAR,No,Yes,No,msg/editcontrol,,,,No
+EM_REPLACESEL,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EM_SCROLL,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EM_SCROLLCARET,Yes,Yes,No,msg/editcontrol,,,,No
+EM_SETHANDLE,Yes,Yes,No,msg/editcontrol,,,Widened,No
+EM_SETLIMITTEXT,No,Yes,No,msg/editcontrol,,,,No
+EM_SETMARGINS,No,Yes,No,msg/editcontrol,,,,No
+EM_SETMODIFY,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EM_SETPASSWORDCHAR,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EM_SETREADONLY,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EM_SETRECT,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EM_SETRECTNP,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EM_SETSEL,Yes,Yes,Yes,msg/editcontrol,,,Changed,No
+EM_SETTABSTOPS,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EM_SETWORDBREAK,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EM_SETWORDBREAKPROC,Yes,Yes,Yes,msg/editcontrol,,,,No
+EM_UNDO,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EN_CHANGE,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EN_ERRSPACE,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EN_HSCROLL,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EN_KILLFOCUS,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EN_MAXTEXT,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EN_SETFOCUS,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EN_UPDATE,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+EN_VSCROLL,Yes,Yes,Yes,msg/editcontrol,,,Widened,No
+FM_GETDRIVEINFO,Yes,No,No,msg/filemgr,,"""Chicago: Only supports 16-bit FileManager""",,Yes
+FM_GETFILESEL,Yes,No,No,msg/filemgr,,"""Chicago: Only supports 16-bit FileManager""",,Yes
+FM_GETFILESELLFN,Yes,No,No,msg/filemgr,,"""Chicago: Only supports 16-bit FileManager""",,Yes
+FM_GETFOCUS,Yes,No,No,msg/filemgr,,"""Chicago: Only supports 16-bit FileManager""",,No
+FM_GETSELCOUNT,Yes,No,No,msg/filemgr,,"""Chicago: Only supports 16-bit FileManager""",,No
+FM_GETSELCOUNTLFN,Yes,No,No,msg/filemgr,,"""Chicago: Only supports 16-bit FileManager""",,No
+FM_REFRESH_WINDOWS,Yes,No,No,msg/filemgr,,"""Chicago: Only supports 16-bit FileManager""",,No
+FM_RELOAD_EXTENSIONS,Yes,No,No,msg/filemgr,,"""Chicago: Only supports 16-bit FileManager""",,No
+FMEVENT_HELPMENUITEM,Yes,No,No,msg/filemgr,,"""Chicago: Only supports 16-bit FileManager""",,No
+FMEVENT_HELPSTRING,Yes,No,No,msg/filemgr,,"""Chicago: Only supports 16-bit FileManager""",,No
+FMEVENT_INITMENU,Yes,No,No,msg/filemgr,,"""Chicago: Only supports 16-bit FileManager""",,No
+FMEVENT_LOAD,Yes,No,No,msg/filemgr,,"""Chicago: Only supports 16-bit FileManager""",,No
+FMEVENT_SELCHANGE,Yes,No,No,msg/filemgr,,"""Chicago: Only supports 16-bit FileManager""",,No
+FMEVENT_TOOLBARLOAD,Yes,No,No,msg/filemgr,,"""Chicago: Only supports 16-bit FileManager""",,No
+FMEVENT_UNLOAD,Yes,No,No,msg/filemgr,,"""Chicago: Only supports 16-bit FileManager""",,No
+FMEVENT_USER_REFRESH,Yes,No,No,msg/filemgr,,"""Chicago: Only supports 16-bit FileManager""",,No
+LB_SELITEMRANGEEX,Yes,Yes,No,msg/lisbox,,,,No
+LB_ADDFILE,Yes,Yes,No,msg/listbox,,,,No
+LB_ADDSTRING,Yes,Yes,Yes,msg/listbox,,,Widened,No
+LB_DELETESTRING,Yes,Yes,Yes,msg/listbox,,"""Chicago: wParam is 16-bits""",Widened,No
+LB_DIR,Yes,Yes,Yes,msg/listbox,,,Widened,No
+LB_FINDSTRING,Yes,Yes,Yes,msg/listbox,,"""Chicago: wParam is 16-bits""",Widened,No
+LB_FINDSTRINGEXACT,Yes,Yes,Yes,msg/listbox,,"""Chicago: wParam is 16-bits""",Widened,No
+LB_GETANCHORINDEX,No,Yes,No,msg/listbox,,,,No
+LB_GETCARETINDEX,Yes,Yes,Yes,msg/listbox,,,Widened,No
+LB_GETCOUNT,Yes,Yes,Yes,msg/listbox,,,Widened,No
+LB_GETCURSEL,Yes,Yes,Yes,msg/listbox,,,Widened,No
+LB_GETHORIZONTALEXTENT,Yes,Yes,Yes,msg/listbox,,,Widened,No
+LB_GETITEMDATA,Yes,Yes,Yes,msg/listbox,,"""Chicago: wParam is 16-bits""",Widened,No
+LB_GETITEMHEIGHT,Yes,Yes,Yes,msg/listbox,,"""Chicago: wParam is 16-bits""",Widened,No
+LB_GETITEMRECT,Yes,Yes,Yes,msg/listbox,,"""Chicago: wParam is 16-bits""",Widened,No
+LB_GETLOCALE,Yes,Yes,No,msg/listbox,,,New,No
+LB_GETSEL,Yes,Yes,Yes,msg/listbox,,"""Chicago: wParam is 16-bits""",Widened,No
+LB_GETSELCOUNT,Yes,Yes,Yes,msg/listbox,,,Widened,No
+LB_GETSELITEMS,Yes,Yes,Yes,msg/listbox,,"""Chicago: wParam is 16-bits""",Widened,No
+LB_GETTEXT,Yes,Yes,Yes,msg/listbox,,"""Chicago: wParam is 16-bits""",Widened,No
+LB_GETTEXTLEN,Yes,Yes,Yes,msg/listbox,,"""Chicago: wParam is 16-bits""",Widened,No
+LB_GETTOPINDEX,Yes,Yes,Yes,msg/listbox,,,Widened,No
+LB_INITSTORAGE,No,Yes,No,msg/listbox,,,New,No
+LB_INSERTSTRING,Yes,Yes,Yes,msg/listbox,,"""Chicago: wParam is 16-bits""",Widened,No
+LB_ITEMFROMPOINT,No,Yes,No,msg/listbox,,,New,No
+LB_MSGMAX,Yes,Yes,Yes,msg/listbox,,,Widened,No
+LB_RESETCONTENT,Yes,Yes,Yes,msg/listbox,,,Widened,No
+LB_SELECTSTRING,Yes,Yes,Yes,msg/listbox,,"""Chicago: wParam is 16-bits""",Widened,No
+LB_SELITEMRANGE,Yes,Yes,Yes,msg/listbox,,"""Chicago: wParam is 16-bits""",Widened,No
+LB_SETANCHORINDEX,No,Yes,No,msg/listbox,,,New,No
+LB_SETCARETINDEX,Yes,Yes,Yes,msg/listbox,,"""Chicago: wParam is 16-bits""",Widened,No
+LB_SETCOLUMNWIDTH,Yes,Yes,Yes,msg/listbox,,,Widened,No
+LB_SETCOUNT,Yes,Yes,No,msg/listbox,,,,No
+LB_SETCURSEL,Yes,Yes,Yes,msg/listbox,,"""Chicago: wParam is 16-bits""",Widened,No
+LB_SETHORIZONTALEXTENT,Yes,Yes,Yes,msg/listbox,,,Widened,No
+LB_SETITEMDATA,Yes,Yes,Yes,msg/listbox,,"""Chicago: wParam is 16-bits""",Widened,No
+LB_SETITEMHEIGHT,Yes,Yes,Yes,msg/listbox,,"""Chicago: wParam is 16-bits""",Widened,No
+LB_SETLOCALE,Yes,Yes,No,msg/listbox,,,New,No
+LB_SETSEL,Yes,Yes,Yes,msg/listbox,,"""Chicago: wParam is 16-bits""",Widened,No
+LB_SETTABSTOPS,Yes,Yes,Yes,msg/listbox,,,Widened,No
+LB_SETTOPINDEX,Yes,Yes,Yes,msg/listbox,,"""Chicago: wParam is 16-bits""",Widened,No
+LBN_DBLCLK,Yes,Yes,Yes,msg/listbox,,,Widened,No
+LBN_ERRSPACE,Yes,Yes,Yes,msg/listbox,,,Widened,No
+LBN_KILLFOCUS,Yes,Yes,Yes,msg/listbox,,,Widened,No
+LBN_SELCANCEL,Yes,Yes,Yes,msg/listbox,,,Widened,No
+LBN_SELCHANGE,Yes,Yes,Yes,msg/listbox,,,Widened,No
+LBN_SETFOCUS,Yes,Yes,Yes,msg/listbox,,,Widened,No
+MCI_BREAK,Yes,Yes,Yes,msg/mm,,,,No
+MCI_CLOSE,Yes,Yes,Yes,msg/mm,,,,No
+MCI_COPY,Yes,Yes,Yes,msg/mm,,,,No
+MCI_CUE,Yes,Yes,Yes,msg/mm,,,,No
+MCI_CUT,Yes,Yes,Yes,msg/mm,,,,No
+MCI_DELETE,Yes,Yes,Yes,msg/mm,,,,No
+MCI_ESCAPE,Yes,Yes,Yes,msg/mm,,,,No
+MCI_FREEZE,Yes,Yes,Yes,msg/mm,,,,No
+MCI_GETDEVCAPS,Yes,Yes,Yes,msg/mm,,,,No
+MCI_HMS_HOUR,Yes,Yes,Yes,msg/mm,,,,No
+MCI_HMS_MINUTE,Yes,Yes,Yes,msg/mm,,,,No
+MCI_HMS_SECOND,Yes,Yes,Yes,msg/mm,,,,No
+MCI_INFO,Yes,Yes,Yes,msg/mm,,,,No
+MCI_LOAD,Yes,Yes,Yes,msg/mm,,,,No
+MCI_MAKE_HMS,Yes,Yes,Yes,msg/mm,,,,No
+MCI_MAKE_MSF,Yes,Yes,Yes,msg/mm,,,,No
+MCI_MAKE_TMSF,Yes,Yes,Yes,msg/mm,,,,No
+MCI_MSF_FRAME,Yes,Yes,Yes,msg/mm,,,,No
+MCI_MSF_MINUTE,Yes,Yes,Yes,msg/mm,,,,No
+MCI_MSF_SECOND,Yes,Yes,Yes,msg/mm,,,,No
+MCI_OPEN,Yes,Yes,Yes,msg/mm,,,,No
+MCI_PASTE,Yes,Yes,Yes,msg/mm,,,,No
+MCI_PAUSE,Yes,Yes,Yes,msg/mm,,,,No
+MCI_PLAY,Yes,Yes,Yes,msg/mm,,,,No
+MCI_PUT,Yes,Yes,Yes,msg/mm,,,,No
+MCI_REALIZE,Yes,Yes,Yes,msg/mm,,,,No
+MCI_RECORD,Yes,Yes,Yes,msg/mm,,,,No
+MCI_RESUME,Yes,Yes,Yes,msg/mm,,,,No
+MCI_SAVE,Yes,Yes,Yes,msg/mm,,,,No
+MCI_SEEK,Yes,Yes,Yes,msg/mm,,,,No
+MCI_SET,Yes,Yes,Yes,msg/mm,,,,No
+MCI_SPIN,Yes,Yes,Yes,msg/mm,,,,No
+MCI_STATUS,Yes,Yes,Yes,msg/mm,,,,No
+MCI_STEP,Yes,Yes,Yes,msg/mm,,,,No
+MCI_STOP,Yes,Yes,Yes,msg/mm,,,,No
+MCI_SYSINFO,Yes,Yes,Yes,msg/mm,,,,No
+MCI_TMSF_FRAME,Yes,Yes,Yes,msg/mm,,,,No
+MCI_TMSF_MINUTE,Yes,Yes,Yes,msg/mm,,,,No
+MCI_TMSF_SECOND,Yes,Yes,Yes,msg/mm,,,,No
+MCI_TMSF_TRACK,Yes,Yes,Yes,msg/mm,,,,No
+MCI_UNFREEZE,Yes,Yes,Yes,msg/mm,,,,No
+MCI_UPDATE,Yes,Yes,Yes,msg/mm,,,,No
+MCI_WHERE,Yes,Yes,Yes,msg/mm,,,,No
+MCI_WINDOW,Yes,Yes,Yes,msg/mm,,,,No
+MIM_CLOSE,Yes,Yes,Yes,msg/mm,,,,No
+MIM_DATA,Yes,Yes,Yes,msg/mm,,,,No
+MIM_ERROR,Yes,Yes,Yes,msg/mm,,,,No
+MIM_LONGDATA,Yes,Yes,Yes,msg/mm,,,,No
+MIM_LONGERROR,Yes,Yes,Yes,msg/mm,,,,No
+MIM_OPEN,Yes,Yes,Yes,msg/mm,,,,No
+MM_JOY1BUTTONDOWN,Yes,Yes,Yes,msg/mm,,,,No
+MM_JOY1BUTTONUP,Yes,Yes,Yes,msg/mm,,,,No
+MM_JOY1MOVE,Yes,Yes,Yes,msg/mm,,,,No
+MM_JOY1ZMOVE,Yes,Yes,Yes,msg/mm,,,,No
+MM_JOY2BUTTONDOWN,Yes,Yes,Yes,msg/mm,,,,No
+MM_JOY2BUTTONUP,Yes,Yes,Yes,msg/mm,,,,No
+MM_JOY2MOVE,Yes,Yes,Yes,msg/mm,,,,No
+MM_JOY2ZMOVE,Yes,Yes,Yes,msg/mm,,,,No
+MM_MCINOTIFY,Yes,Yes,Yes,msg/mm,,,,No
+MM_MIM_CLOSE,Yes,Yes,Yes,msg/mm,,,,No
+MM_MIM_DATA,Yes,Yes,Yes,msg/mm,,,,No
+MM_MIM_ERROR,Yes,Yes,Yes,msg/mm,,,,No
+MM_MIM_LONGDATA,Yes,Yes,Yes,msg/mm,,,,No
+MM_MIM_LONGERROR,Yes,Yes,Yes,msg/mm,,,,No
+MM_MIM_OPEN,Yes,Yes,Yes,msg/mm,,,,No
+MM_MOM_CLOSE,Yes,Yes,Yes,msg/mm,,,,No
+MM_MOM_DONE,Yes,Yes,Yes,msg/mm,,,,No
+MM_MOM_OPEN,Yes,Yes,Yes,msg/mm,,,,No
+MM_WIM_CLOSE,Yes,Yes,Yes,msg/mm,,,,No
+MM_WIM_DATA,Yes,Yes,Yes,msg/mm,,,,No
+MM_WIM_OPEN,Yes,Yes,Yes,msg/mm,,,,No
+MM_WOM_CLOSE,Yes,Yes,Yes,msg/mm,,,,No
+MM_WOM_DONE,Yes,Yes,Yes,msg/mm,,,,No
+MM_WOM_OPEN,Yes,Yes,Yes,msg/mm,,,,No
+MMIOM_CLOSE,Yes,Yes,Yes,msg/mm,,,,No
+MMIOM_OPEN,Yes,Yes,Yes,msg/mm,,,,No
+MMIOM_READ,Yes,Yes,Yes,msg/mm,,,,No
+MMIOM_SEEK,Yes,Yes,Yes,msg/mm,,,,No
+MMIOM_WRITE,Yes,Yes,Yes,msg/mm,,,,No
+MMIOM_WRITEFLUSH,Yes,Yes,Yes,msg/mm,,,,No
+MOM_CLOSE,Yes,Yes,Yes,msg/mm,,,,No
+MOM_DONE,Yes,Yes,Yes,msg/mm,,,,No
+MOM_OPEN,Yes,Yes,Yes,msg/mm,,,,No
+SBM_ENABLE_ARROWS,Yes,Yes,No,msg/scrollbar,,,New,No
+SBM_GETPOS,Yes,Yes,No,msg/scrollbar,,,New,No
+SBM_GETRANGE,Yes,Yes,No,msg/scrollbar,,,New,No
+SBM_GETSCROLLINFO,No,Yes,No,msg/scrollbar,,,New,No
+SBM_SETPOS,Yes,Yes,No,msg/scrollbar,,,New,No
+SBM_SETRANGE,Yes,Yes,No,msg/scrollbar,,,New,No
+SBM_SETRANGEREDRAW,Yes,Yes,No,msg/scrollbar,,,New,No
+SBM_SETSCROLLINFO,No,Yes,No,msg/scrollbar,,,New,No
+STM_GETBITMAP,No,Yes,No,msg/static control,,,New,No
+STM_GETICON,Yes,Yes,Yes,msg/static control,,,Widened,No
+STM_GETMETAPICT,No,Yes,No,msg/static control,,,New,No
+STM_MSGMAX,Yes,Yes,Yes,msg/static control,,,Widened,No
+STM_SETBITMAP,No,Yes,No,msg/static control,,,New,No
+STM_SETICON,Yes,Yes,Yes,msg/static control,,,Widened,No
+STM_SETMETAPICT,No,Yes,No,msg/static control,,,New,No
+STN_CLICKED,No,Yes,No,msg/static control,,,New,No
+STN_DBLCLK,No,Yes,No,msg/static control,,,New,No
+ConnectToPrinterDlg,Yes,,No,printing,,,,No
+IContextMenu::AddRef,No,Yes,No,Shell Extensions,,,New,No
+IContextMenu::InvokeCommand,No,Yes,No,Shell Extensions,,,New,No
+IContextMenu::QueryContextMenu,No,Yes,No,Shell Extensions,,,New,No
+IContextMenu::QueryInterface,No,Yes,No,Shell Extensions,,,New,No
+IContextMenu::Release,No,Yes,No,Shell Extensions,,,New,No
+IExtractIcon::AddRef,No,Yes,No,Shell Extensions,,,New,No
+IExtractIcon::ExtractIcon,No,Yes,No,Shell Extensions,,,New,No
+IExtractIcon::GetIconLocation,No,Yes,No,Shell Extensions,,,New,No
+IExtractIcon::QueryInterface,No,Yes,No,Shell Extensions,,,New,No
+IExtractIcon::Release,No,Yes,No,Shell Extensions,,,New,No
+IPersistFolder::AddRef,No,Yes,No,Shell Extensions,,,New,No
+IPersistFolder::GetClassID,No,Yes,No,Shell Extensions,,,New,No
+IPersistFolder::Initialize,No,Yes,No,Shell Extensions,,,New,No
+IPersistFolder::QueryInterface,No,Yes,No,Shell Extensions,,,New,No
+IPersistFolder::Release,No,Yes,No,Shell Extensions,,,New,No
+IShellBrowser::AddRef,No,Yes,No,Shell Extensions,,,New,No
+IShellBrowser::AddViewPropertySheetPages,No,Yes,No,Shell Extensions,,,New,No
+IShellBrowser::BrowseObject,No,Yes,No,Shell Extensions,,,New,No
+IShellBrowser::GetMenu,No,Yes,No,Shell Extensions,,,New,No
+IShellBrowser::GetViewStateStream,No,Yes,No,Shell Extensions,,,New,No
+IShellBrowser::GetWindow,No,Yes,No,Shell Extensions,,,New,No
+IShellBrowser::GetWindowRect,No,Yes,No,Shell Extensions,,,New,No
+IShellBrowser::QueryInterface,No,Yes,No,Shell Extensions,,,New,No
+IShellBrowser::RefreshTree,No,Yes,No,Shell Extensions,,,New,No
+IShellBrowser::Release,No,Yes,No,Shell Extensions,,,New,No
+IShellBrowser::SetAccelerators,No,Yes,No,Shell Extensions,,,New,No
+IShellBrowser::SetToolBarItems,No,Yes,No,Shell Extensions,,,New,No
+IShellBrowser::UpdateMainWindow,No,Yes,No,Shell Extensions,,,New,No
+IShellExtInit::AddRef,No,Yes,No,Shell Extensions,,,New,No
+IShellExtInit::Initialize,No,Yes,No,Shell Extensions,,,New,No
+IShellExtInit::QueryInterface,No,Yes,No,Shell Extensions,,,New,No
+IShellExtInit::Release,No,Yes,No,Shell Extensions,,,New,No
+IShellFolder::AddRef,No,Yes,No,Shell Extensions,,,New,No
+IShellFolder::BindToObject,No,Yes,No,Shell Extensions,,,New,No
+IShellFolder::BindToStorage,No,Yes,No,Shell Extensions,,,New,No
+IShellFolder::CompareIDs,No,Yes,No,Shell Extensions,,,New,No
+IShellFolder::CreateViewObject,No,Yes,No,Shell Extensions,,,New,No
+IShellFolder::EnumObjects,No,Yes,No,Shell Extensions,,,New,No
+IShellFolder::GetAttributesOf,No,Yes,No,Shell Extensions,,,New,No
+IShellFolder::GetUIObjectOf,No,Yes,No,Shell Extensions,,,New,No
+IShellFolder::LockContainer,No,Yes,No,Shell Extensions,,,New,No
+IShellFolder::MonikerToIdList,No,Yes,No,Shell Extensions,,,New,No
+IShellFolder::ParseDisplayName,No,Yes,No,Shell Extensions,,,New,No
+IShellFolder::QueryInterface,No,Yes,No,Shell Extensions,,,New,No
+IShellFolder::Release,No,Yes,No,Shell Extensions,,,New,No
+IShellFolder::SetNameOf,No,Yes,No,Shell Extensions,,,New,No
+IShellPropSheetExt::AddPages,No,Yes,No,Shell Extensions,,,New,No
+IShellPropSheetExt::AddRef,No,Yes,No,Shell Extensions,,,New,No
+IShellPropSheetExt::QueryInterface,No,Yes,No,Shell Extensions,,,New,No
+IShellPropSheetExt::Release,No,Yes,No,Shell Extensions,,,New,No
+IShellView::AddPropertySheetPages,No,Yes,No,Shell Extensions,,,New,No
+IShellView::AddRef,No,Yes,No,Shell Extensions,,,New,No
+IShellView::CreateViewWindow,No,Yes,No,Shell Extensions,,,New,No
+IShellView::DestroyViewWindow,No,Yes,No,Shell Extensions,,,New,No
+IShellView::GetCurrentInfo,No,Yes,No,Shell Extensions,,,New,No
+IShellView::LoadViewState,No,Yes,No,Shell Extensions,,,New,No
+IShellView::MenuCommand,No,Yes,No,Shell Extensions,,,New,No
+IShellView::MenuHelp,No,Yes,No,Shell Extensions,,,New,No
+IShellView::MenuInit,No,Yes,No,Shell Extensions,,,New,No
+IShellView::QueryInterface,No,Yes,No,Shell Extensions,,,New,No
+IShellView::Release,No,Yes,No,Shell Extensions,,,New,No
+IShellView::SaveViewState,No,Yes,No,Shell Extensions,,,New,No
+IShellView::SelectItem,No,Yes,No,Shell Extensions,,,New,No
+IShellView::SetCurrentInfo,No,Yes,No,Shell Extensions,,,New,No
+BL_ADDBUTTON,No,Yes,No,Shell/CommCtrl,,,,No
+BL_DELETEBUTTON,No,Yes,No,Shell/CommCtrl,,,,No
+BL_GETCARETINDEX,No,Yes,No,Shell/CommCtrl,,,,No
+BL_GETCOUNT,No,Yes,No,Shell/CommCtrl,,,,No
+BL_GETCURSEL,No,Yes,No,Shell/CommCtrl,,,,No
+BL_GETITEMDATA,No,Yes,No,Shell/CommCtrl,,,,No
+BL_GETITEMRECT,No,Yes,No,Shell/CommCtrl,,,,No
+BL_GETOPINDEX,No,Yes,No,Shell/CommCtrl,,,,No
+BL_GETTEXT,No,Yes,No,Shell/CommCtrl,,,,No
+BL_GETTEXTLEN,No,Yes,No,Shell/CommCtrl,,,,No
+BL_INSERTBUTTON,No,Yes,No,Shell/CommCtrl,,,,No
+BL_RESETCONTENT,No,Yes,No,Shell/CommCtrl,,,,No
+BL_SETCARETINDEX,No,Yes,No,Shell/CommCtrl,,,,No
+BL_SETCURSEL,No,Yes,No,Shell/CommCtrl,,,,No
+BL_SETITEMDATA,No,Yes,No,Shell/CommCtrl,,,,No
+BL_SETOPTINDEX,No,Yes,No,Shell/CommCtrl,,,,No
+BLN_CLICKED,No,Yes,No,Shell/CommCtrl,,,,No
+BLN_KILLFOCUS,No,Yes,No,Shell/CommCtrl,,,,No
+BLN_SELCANCEL,No,Yes,No,Shell/CommCtrl,,,,No
+BLN_SELCHANGE,No,Yes,No,Shell/CommCtrl,,,,No
+BLN_SETFOCUS,No,Yes,No,Shell/CommCtrl,,,,No
+CreateMappedBitmap,No,Yes,No,Shell/CommCtrl,,,,No
+CreateStatusWindow,No,Yes,No,Shell/CommCtrl,,,,No
+CreateToolbarEx,No,Yes,No,Shell/CommCtrl,,,,No
+CreateUpDownControl,No,Yes,No,Shell/CommCtrl,,,,No
+DrawInsert,No,Yes,No,Shell/CommCtrl,,,,No
+DrawStatusText,No,Yes,No,Shell/CommCtrl,,,,No
+HKM_GETHOTKEY,No,Yes,No,Shell/CommCtrl,,,,No
+HKM_SETHOTKEY,No,Yes,No,Shell/CommCtrl,,,,No
+HKM_SETRULES,No,Yes,No,Shell/CommCtrl,,,,No
+LBItemFromPt,No,Yes,No,Shell/CommCtrl,,,,No
+MakeDragList,No,Yes,No,Shell/CommCtrl,,,,No
+PBM_DELTAPOS,No,Yes,No,Shell/CommCtrl,,,,No
+PBM_SETPOS,No,Yes,No,Shell/CommCtrl,,,,No
+PBM_SETRANGE,No,Yes,No,Shell/CommCtrl,,,,No
+PBM_SETSTEP,No,Yes,No,Shell/CommCtrl,,,,No
+PBM_STEPIT,No,Yes,No,Shell/CommCtrl,,,,No
+SB_GETBORDERS,No,Yes,No,Shell/CommCtrl,,,,No
+SB_GETPARTS,No,Yes,No,Shell/CommCtrl,,,,No
+SB_GETTEXT,No,Yes,No,Shell/CommCtrl,,,,No
+SB_GETTEXTLENGTH,No,Yes,No,Shell/CommCtrl,,,,No
+SB_SETBORDERS,No,Yes,No,Shell/CommCtrl,,,,No
+SB_SETMINHEIGHT,No,Yes,No,Shell/CommCtrl,,,,No
+SB_SETPARTS,No,Yes,No,Shell/CommCtrl,,,,No
+SB_SETTEXT,No,Yes,No,Shell/CommCtrl,,,,No
+SB_SIMPLE,No,Yes,No,Shell/CommCtrl,,,,No
+TB_ADDBITMAP,No,Yes,No,Shell/CommCtrl,,,,No
+TB_ADDBUTTONS,No,Yes,No,Shell/CommCtrl,,,,No
+TB_ADDSTRING,No,Yes,No,Shell/CommCtrl,,,,No
+TB_AUTOSIZE,No,Yes,No,Shell/CommCtrl,,,,No
+TB_BOTTOM,No,Yes,No,Shell/CommCtrl,,,,No
+TB_BUTTONCOUNT,No,Yes,No,Shell/CommCtrl,,,,No
+TB_BUTTONSTRUCTSIZE,No,Yes,No,Shell/CommCtrl,,,,No
+TB_CHECKBUTTON,No,Yes,No,Shell/CommCtrl,,,,No
+TB_COMMANDTOINDEX,No,Yes,No,Shell/CommCtrl,,,,No
+TB_CUSTOMIZE,No,Yes,No,Shell/CommCtrl,,,,No
+TB_DELETEBUTTON,No,Yes,No,Shell/CommCtrl,,,,No
+TB_ENABLEBUTTON,No,Yes,No,Shell/CommCtrl,,,,No
+TB_ENDTRACK,No,Yes,No,Shell/CommCtrl,,,,No
+TB_GETBUTTON,No,Yes,No,Shell/CommCtrl,,,,No
+TB_GETITEMRECT,No,Yes,No,Shell/CommCtrl,,,,No
+TB_GETSTATE,No,Yes,No,Shell/CommCtrl,,,,No
+TB_HIDEBUTTON,No,Yes,No,Shell/CommCtrl,,,,No
+TB_INDETERMINATE,No,Yes,No,Shell/CommCtrl,,,,No
+TB_INSERTBUTTON,No,Yes,No,Shell/CommCtrl,,,,No
+TB_ISBUTTONCHECKED,No,Yes,No,Shell/CommCtrl,,,,No
+TB_ISBUTTONENABLED,No,Yes,No,Shell/CommCtrl,,,,No
+TB_ISBUTTONHIDDEN,No,Yes,No,Shell/CommCtrl,,,,No
+TB_ISBUTTONINDETERMINATE,No,Yes,No,Shell/CommCtrl,,,,No
+TB_ISBUTTONPRESSED,No,Yes,No,Shell/CommCtrl,,,,No
+TB_LINEDOWN,No,Yes,No,Shell/CommCtrl,,,,No
+TB_LINEUP,No,Yes,No,Shell/CommCtrl,,,,No
+TB_PAGEDOWN,No,Yes,No,Shell/CommCtrl,,,,No
+TB_PAGEUP,No,Yes,No,Shell/CommCtrl,,,,No
+TB_PRESSBUTTON,No,Yes,No,Shell/CommCtrl,,,,No
+TB_SAVERESTORE,No,Yes,No,Shell/CommCtrl,,,,No
+TB_SETBITMAPSIZE,No,Yes,No,Shell/CommCtrl,,,,No
+TB_SETBUTTONSIZE,No,Yes,No,Shell/CommCtrl,,,,No
+TB_SETSTATE,No,Yes,No,Shell/CommCtrl,,,,No
+TB_THUMBPOSITION,No,Yes,No,Shell/CommCtrl,,,,No
+TB_THUMBTRACK,No,Yes,No,Shell/CommCtrl,,,,No
+TB_TOP,No,Yes,No,Shell/CommCtrl,,,,No
+TBM_CLEARSEL,No,Yes,No,Shell/CommCtrl,,,,No
+TBM_CLEARTICS,No,Yes,No,Shell/CommCtrl,,,,No
+TBM_GETNUMTICS,No,Yes,No,Shell/CommCtrl,,,,No
+TBM_GETPOS,No,Yes,No,Shell/CommCtrl,,,,No
+TBM_GETPTICS,No,Yes,No,Shell/CommCtrl,,,,No
+TBM_GETRANGEMAX,No,Yes,No,Shell/CommCtrl,,,,No
+TBM_GETRANGEMIN,No,Yes,No,Shell/CommCtrl,,,,No
+TBM_GETSELEND,No,Yes,No,Shell/CommCtrl,,,,No
+TBM_GETSELSTART,No,Yes,No,Shell/CommCtrl,,,,No
+TBM_GETTIC,No,Yes,No,Shell/CommCtrl,,,,No
+TBM_GETTICPOS,No,Yes,No,Shell/CommCtrl,,,,No
+TBM_SETPOS,No,Yes,No,Shell/CommCtrl,,,,No
+TBM_SETRANGE,No,Yes,No,Shell/CommCtrl,,,,No
+TBM_SETRANGEMAX,No,Yes,No,Shell/CommCtrl,,,,No
+TBM_SETRANGEMIN,No,Yes,No,Shell/CommCtrl,,,,No
+TBM_SETSEL,No,Yes,No,Shell/CommCtrl,,,,No
+TBM_SETSELEND,No,Yes,No,Shell/CommCtrl,,,,No
+TBM_SETSELSTART,No,Yes,No,Shell/CommCtrl,,,,No
+TBM_SETTIC,No,Yes,No,Shell/CommCtrl,,,,No
+TBN_ADJUSTINFO,No,Yes,No,Shell/CommCtrl,,,,No
+TBN_BEGINADJUST,No,Yes,No,Shell/CommCtrl,,,,No
+TBN_BEGINDRAG,No,Yes,No,Shell/CommCtrl,,,,No
+TBN_CUSTHELP,No,Yes,No,Shell/CommCtrl,,,,No
+TBN_ENDADJUST,No,Yes,No,Shell/CommCtrl,,,,No
+TBN_ENDDRAG,No,Yes,No,Shell/CommCtrl,,,,No
+TBN_QUERYDELETE,No,Yes,No,Shell/CommCtrl,,,,No
+TBN_QUERYINSERT,No,Yes,No,Shell/CommCtrl,,,,No
+TBN_RESET,No,Yes,No,Shell/CommCtrl,,,,No
+TBN_TOOLBARCHANGE,No,Yes,No,Shell/CommCtrl,,,,No
+UDM_GETACCEL,No,Yes,No,Shell/CommCtrl,,,,No
+UDM_GETBASE,No,Yes,No,Shell/CommCtrl,,,,No
+UDM_GETBUDDY,No,Yes,No,Shell/CommCtrl,,,,No
+UDM_GETPOS,No,Yes,No,Shell/CommCtrl,,,,No
+UDM_GETRANGE,No,Yes,No,Shell/CommCtrl,,,,No
+UDM_SETACCEL,No,Yes,No,Shell/CommCtrl,,,,No
+UDM_SETBASE,No,Yes,No,Shell/CommCtrl,,,,No
+UDM_SETBUDDY,No,Yes,No,Shell/CommCtrl,,,,No
+UDM_SETPOS,No,Yes,No,Shell/CommCtrl,,,,No
+UDM_SETRANGE,No,Yes,No,Shell/CommCtrl,,,,No
+FORWARD_WM_NOTIFY,No,Yes,No,shell/macro,,,,No
+HANDLE_WM_NOTIFY,No,Yes,No,shell/macro,,,,No
+NM_DBLCLK ,No,Yes,No,shell/msg,,,,No
+NM_RETURN,No,Yes,No,shell/msg,,,,No
+NM_SETFOCUS ,No,Yes,No,shell/msg,,,,No
+PSN_APPLY    ,No,Yes,No,shell/msg,,,,No
+PSN_CANCELTOCLOSE,No,Yes,No,shell/msg,,,,No
+PSN_CHANGED,No,Yes,No,shell/msg,,,,No
+PSN_GETSIBLINGS ,No,Yes,No,shell/msg,,,,No
+PSN_GUISTART,No,Yes,No,shell/msg,,,,No
+PSN_HASHELP,No,Yes,No,shell/msg,,,,No
+PSN_HELP   ,No,Yes,No,shell/msg,,,,No
+PSN_KILLACTIVE ,No,Yes,No,shell/msg,,,,No
+PSN_REBOOT,No,Yes,No,shell/msg,,,,No
+PSN_RESET,No,Yes,No,shell/msg,,,,No
+PSN_SETACTIVE,No,Yes,No,shell/msg,,,,No
+ListView_GetBkColor,No,Yes,No,Shell/Shell10,,,New,No
+ListView_GetCallbackMask,No,Yes,No,Shell/Shell11,,,New,No
+ListView_GetColumn,No,Yes,No,Shell/Shell12,,,New,No
+ListView_GetColumnWidth,No,Yes,No,Shell/Shell13,,,New,No
+ListView_GetEditControl,No,Yes,No,Shell/Shell14,,,New,No
+ListView_GetImageList,No,Yes,No,Shell/Shell15,,,New,No
+ListView_GetItem,No,Yes,No,Shell/Shell16,,,New,No
+ListView_GetItemCount,No,Yes,No,Shell/Shell17,,,New,No
+ListView_GetItemPosition,No,Yes,No,Shell/Shell18,,,New,No
+ListView_GetItemRect,No,Yes,No,Shell/Shell19,,,New,No
+ListView_Arrange,No,Yes,No,Shell/Shell2,,,New,No
+ListView_GetItemState,No,Yes,No,Shell/Shell20,,,New,No
+ListView_GetItemText,No,Yes,No,Shell/Shell21,,,New,No
+ListView_GetNextItem,No,Yes,No,Shell/Shell22,,,New,No
+ListView_GetOrigin,No,Yes,No,Shell/Shell23,,,New,No
+ListView_GetStringWidth,No,Yes,No,Shell/Shell24,,,New,No
+ListView_GetTextBkColor,No,Yes,No,Shell/Shell25,,,New,No
+ListView_GetTextColor,No,Yes,No,Shell/Shell26,,,New,No
+ListView_GetViewRect,No,Yes,No,Shell/Shell27,,,New,No
+ListView_HitTest,No,Yes,No,Shell/Shell28,,,New,No
+ListView_InsertColumn,No,Yes,No,Shell/Shell29,,,New,No
+ListView_DeleteAllItems,No,Yes,No,Shell/Shell3,,,New,No
+ListView_InsertItem,No,Yes,No,Shell/Shell30,,,New,No
+ListView_Read,No,Yes,No,Shell/Shell31,,,New,No
+ListView_RedrawItems,No,Yes,No,Shell/Shell32,,,New,No
+ListView_Scroll,No,Yes,No,Shell/Shell33,,,New,No
+ListView_SetBkColor,No,Yes,No,Shell/Shell34,,,New,No
+ListView_SetCallbackMask,No,Yes,No,Shell/Shell35,,,New,No
+ListView_SetColumn,No,Yes,No,Shell/Shell36,,,New,No
+ListView_SetColumnWidth,No,Yes,No,Shell/Shell37,,,New,No
+ListView_SetImageList,No,Yes,No,Shell/Shell38,,,New,No
+ListView_SetItem,No,Yes,No,Shell/Shell39,,,New,No
+ListView_DeleteColumn,No,Yes,No,Shell/Shell4,,,New,No
+ListView_SetItemPosition,No,Yes,No,Shell/Shell40,,,New,No
+ListView_SetItemState,No,Yes,No,Shell/Shell41,,,New,No
+ListView_SetItemText,No,Yes,No,Shell/Shell42,,,New,No
+ListView_SetTextBkColor,No,Yes,No,Shell/Shell43,,,New,No
+ListView_SetTextColor,No,Yes,No,Shell/Shell44,,,New,No
+ListView_Write,No,Yes,No,Shell/Shell45,,,New,No
+LVN_BEGINDRAG,No,Yes,No,Shell/Shell46,,,New,No
+LVN_BEGINLABELEDIT,No,Yes,No,Shell/Shell47,,,New,No
+LVN_BEGINRDRAG,No,Yes,No,Shell/Shell48,,,New,No
+LVN_COLUMNCLICK,No,Yes,No,Shell/Shell49,,,New,No
+ListView_DeleteItem,No,Yes,No,Shell/Shell5,,,New,No
+LVN_DELETEALLITEMS,No,Yes,No,Shell/Shell50,,,New,No
+LVN_DELETEITEM,No,Yes,No,Shell/Shell51,,,New,No
+LVN_ENDDRAG,No,Yes,No,Shell/Shell52,,,New,No
+LVN_ENDLABELEDIT,No,Yes,No,Shell/Shell53,,,New,No
+LVN_ENDRDRAG,No,Yes,No,Shell/Shell54,,,New,No
+LVN_GETDISPINFO,No,Yes,No,Shell/Shell55,,,New,No
+LVN_INSERTITEM,No,Yes,No,Shell/Shell56,,,New,No
+LVN_ITEMCHANGED,No,Yes,No,Shell/Shell57,,,New,No
+LVN_ITEMCHANGING,No,Yes,No,Shell/Shell58,,,New,No
+LVN_KEYDOWN,No,Yes,No,Shell/Shell59,,,New,No
+ListView_DragItem,No,Yes,No,Shell/Shell6,,,New,No
+LVN_PEN,No,Yes,No,Shell/Shell60,,,New,No
+LVN_SETDISPINFO,No,Yes,No,Shell/Shell61,,,New,No
+NM_CLICK,No,Yes,No,Shell/Shell62,,,New,No
+NM_DBLCLK,No,Yes,No,Shell/Shell63,,,New,No
+NM_KILLFOCUS,No,Yes,No,Shell/Shell64,,,New,No
+NM_OUTOFMEMORY,No,Yes,No,Shell/Shell65,,,New,No
+NM_RCLICK,No,Yes,No,Shell/Shell66,,,New,No
+NM_RDBLCLK,No,Yes,No,Shell/Shell67,,,New,No
+NM_RETURN,No,Yes,No,Shell/Shell68,,,New,No
+NM_SETFOCUS,No,Yes,No,Shell/Shell69,,,New,No
+ListView_EditLabel,No,Yes,No,Shell/Shell7,,,New,No
+TabCtrl_AdjustRect,No,Yes,No,Shell/Shell70,,,New,No
+TabCtrl_DeleteAllItems,No,Yes,No,Shell/Shell71,,,New,No
+TabCtrl_DeleteItem,No,Yes,No,Shell/Shell72,,,New,No
+TabCtrl_GetCurSelection,No,Yes,No,Shell/Shell73,,,New,No
+TabCtrl_GetImageList,No,Yes,No,Shell/Shell74,,,New,No
+TabCtrl_GetItem,No,Yes,No,Shell/Shell75,,,New,No
+TabCtrl_GetItemCount,No,Yes,No,Shell/Shell76,,,New,No
+TabCtrl_GetItemRect,No,Yes,No,Shell/Shell77,,,New,No
+TabCtrl_InsertItem,No,Yes,No,Shell/Shell78,,,New,No
+TabCtrl_SetCurSel,No,Yes,No,Shell/Shell79,,,New,No
+ListView_EnsureVisible,No,Yes,No,Shell/Shell8,,,New,No
+TabCtrl_SetImageList,No,Yes,No,Shell/Shell80,,,New,No
+TabCtrl_SetItem,No,Yes,No,Shell/Shell81,,,New,No
+TCN_SELCHANGE,No,Yes,No,Shell/Shell82,,,New,No
+TCN_SELCHANGING,No,Yes,No,Shell/Shell83,,,New,No
+ListView_FindItem,No,Yes,No,Shell/Shell9,,,New,No
+Cls_OnNotify,No,Yes ,No,shell2,,,,No
+DoContextMenu,No,Yes,No,shell2,,,,No
+EndFileTypeActions,No,Yes,No,shell2,,,,No
+EnumFileTypeActions,No,Yes,No,shell2,,,,No
+FillActionLists,No,Yes,No,shell2,,,,No
+FillActionMenu,No,Yes,No,shell2,,,,No
+GetActionKey,No,Yes,No,shell2,,,,No
+GetFileTypeInfo,No,Yes,No,shell2,,,,No
+Hotkey_ChangePending,No,Yes,No,shell2,,,,No
+Hotkey_DeleteAllPending,No,Yes,No,shell2,,,,No
+Hotkey_DeletePending,No,Yes,No,shell2,,,,No
+Hotkey_GetPending,No,Yes,No,shell2,,,,No
+Hotkey_SetByInstance,No,Yes,No,shell2,,,,No
+Hotkey_SetPending,No,Yes,No,shell2,,,,No
+InitFileTypeActions,No,Yes,No,shell2,,,,No
+Link_BeginEnum,No,Yes,No,shell2,,,,No
+Link_Copy,No,Yes,No,shell2,,,,No
+Link_Create,No,Yes,No,shell2,,,,No
+Link_Delete,No,Yes,No,shell2,,,,No
+Link_EndEnum,No,Yes,No,shell2,,,,No
+Link_Enum,No,Yes,No,shell2,,,,No
+Link_GetParameters,No,Yes,No,shell2,,,,No
+Link_GetSubject,No,Yes,No,shell2,,,,No
+Link_Rename,No,Yes,No,shell2,,,,No
+Prop_Get,No,Yes,No,shell2,,,,No
+Prop_Set,No,Yes,No,shell2,,,,No
+SendNotify,No,Yes,No,shell2,,,,No
+Shell_GetCachedImageIndex,No,Yes,No,shell2,,,,No
+Shell_GetCurrentDate,No,Yes,No,shell2,,,,No
+Shell_GetCurrentTime,No,Yes,No,shell2,,,,No
+Shell_GetFileIcon,No,Yes,No,shell2,,,,No
+Shell_GetIconIndex,No,Yes,No,shell2,,,,No
+Shell_GetIconLocation,No,Yes,No,shell2,,,,No
+Shell_GetImageLists,No,Yes,No,shell2,,,,No
+Shell_Initialize,No,Yes,No,shell2,,,,No
+Shell_InvokeCommand,No,Yes,No,shell2,,,,No
+Shell_RenameObject,No,Yes,No,shell2,,,,No
+Shell_SysColorChange,No,Yes,No,shell2,,,,No
+Shell_Terminate,No,Yes,No,shell2,,,,No
+RGB,Yes,Yes,Yes,struct,,,,No
+BS_DIBPATTERN,Yes,Yes,No,style/brush,,"""Chicago: Only supports 8x8 brushes""",New,No
+BS_DIBPATTERN8X8,Yes,,No,style/brush,,,New,No
+BS_DIBPATTERNPT,Yes,,No,style/brush,,,New,No
+BS_HATCHED,Yes,Yes,No,style/brush,,,New,No
+BS_HOLLOW,Yes,Yes,No,style/brush,,,New,No
+BS_INDEXED,Yes,Yes,No,style/brush,,,New,No
+BS_NULL,Yes,Yes,No,style/brush,,,New,No
+BS_PATTERN,Yes,Yes,No,style/brush,,,New,No
+BS_PATTERN8X8,Yes,,No,style/brush,,,New,No
+BS_SOLID,Yes,Yes,No,style/brush,,,New,No
+BS_3STATE,Yes,Yes,No,style/button,,,,No
+BS_AUTO3STATE,Yes,Yes,No,style/button,,,,No
+BS_AUTOCHECKBOX,Yes,Yes,No,style/button,,,,No
+BS_AUTORADIOBUTTON,Yes,Yes,No,style/button,,,,No
+BS_BOTTOM,No,Yes,No,style/button,,,,No
+BS_CENTER,No,Yes,No,style/button,,,,No
+BS_CHECKBOX,Yes,Yes,No,style/button,,,,No
+BS_DEFPUSHBUTTON,Yes,Yes,No,style/button,,,,No
+BS_GROUPBOX,Yes,Yes,No,style/button,,,,No
+BS_LEFT,No,Yes,No,style/button,,,,No
+BS_MULTILINE,No,Yes,No,style/button,,,,No
+BS_NOTIFY,No,Yes,No,style/button,,,,No
+BS_OWNERDRAW,Yes,Yes,No,style/button,,,,No
+BS_PUSHBOX,No,Yes,No,style/button,,,,No
+BS_PUSHBUTTON,Yes,Yes,No,style/button,,,,No
+BS_PUSHLIKE,No,Yes,No,style/button,,,,No
+BS_RADIOBUTTON,Yes,Yes,No,style/button,,,,No
+BS_RIGHT,No,Yes,No,style/button,,,,No
+BS_RIGHTBUTTON,No,Yes,No,style/button,,,,No
+BS_TOP,No,Yes,No,style/button,,,,No
+BS_VCENTER,No,Yes,No,style/button,,,,No
+CBS_AUTOHSCROLL,Yes,Yes,Yes,style/combobox,,,,No
+CBS_DISABLENOSCROLL,Yes,Yes,Yes,style/combobox,,,,No
+CBS_DROPDOWN,Yes,Yes,Yes,style/combobox,,,,No
+CBS_DROPDOWNLIST,Yes,Yes,Yes,style/combobox,,,,No
+CBS_HASSTRINGS,Yes,Yes,Yes,style/combobox,,,,No
+CBS_LOWERCASE,No,Yes,No,style/combobox,,,,No
+CBS_NOINTEGRALHEIGHT,Yes,Yes,Yes,style/combobox,,,,No
+CBS_OEMCONVERT,Yes,Yes,Yes,style/combobox,,,,No
+CBS_OWNERDRAWFIXED,Yes,Yes,Yes,style/combobox,,,,No
+CBS_OWNERDRAWVARIABLE,Yes,Yes,Yes,style/combobox,,,,No
+CBS_SIMPLE,Yes,Yes,Yes,style/combobox,,,,No
+CBS_SORT,Yes,Yes,Yes,style/combobox,,,,No
+CBS_UPPERCASE,No,Yes,No,style/combobox,,,,No
+LBS_DISABLENOSCROLL,Yes,Yes,Yes,style/listbox,,,,No
+LBS_EXTENDEDSEL,Yes,Yes,Yes,style/listbox,,,,No
+LBS_HASSTRINGS,Yes,Yes,Yes,style/listbox,,,,No
+LBS_MULTICOLUMN,Yes,Yes,Yes,style/listbox,,,,No
+LBS_MULTIPLESEL,Yes,Yes,Yes,style/listbox,,,,No
+LBS_NODATA,Yes,Yes,Yes,style/listbox,,,,No
+LBS_NOINTEGRALHEIGHT,Yes,Yes,Yes,style/listbox,,,,No
+LBS_NOREDRAW,Yes,Yes,Yes,style/listbox,,,,No
+LBS_NOTIFY,Yes,Yes,Yes,style/listbox,,,,No
+LBS_OWNERDRAWFIXED,Yes,Yes,Yes,style/listbox,,,,No
+LBS_OWNERDRAWVARIABLE,Yes,Yes,Yes,style/listbox,,,,No
+LBS_SORT,Yes,Yes,Yes,style/listbox,,,,No
+LBS_STANDARD,Yes,Yes,Yes,style/listbox,,,,No
+LBS_USETABSTOPS,Yes,Yes,Yes,style/listbox,,,,No
+LBS_WANTKEYBOARDINPUT,Yes,Yes,Yes,style/listbox,,,,No
+PS_ALTERNATE,Yes,No,No,style/pen,,,New,No
+PS_COSMETIC,Yes,Yes,No,style/pen,,,New,No
+PS_DASH,Yes,Yes,Yes,style/pen,,"""Chicago: Doesn't support this in a wideline""",Widened,No
+PS_DASHDOT,Yes,Yes,Yes,style/pen,,"""Chicago: Doesn't support this in a wideline""",Widened,No
+PS_DASHDOTDOT,Yes,Yes,Yes,style/pen,,"""Chicago: Doesn't support this in a wideline""",Widened,No
+PS_DOT,Yes,Yes,Yes,style/pen,,"""Chicago: Doesn't support this in a wideline""",Widened,No
+PS_ENDCAP_FLAT,Yes,Yes,No,style/pen,,"""Chicago: Supported only in a path""",New,No
+PS_ENDCAP_ROUND,Yes,Yes,No,style/pen,,"""Chicago: Supported only in a path""",New,No
+PS_ENDCAP_SQUARE,Yes,Yes,No,style/pen,,"""Chicago: Supported only in a path""",New,No
+PS_GEOMETRIC,Yes,Yes,No,style/pen,,,New,No
+PS_INSIDEFRAME,Yes,Yes,Yes,style/pen,,,Widened,No
+PS_JOIN_BEVEL,Yes,Yes,No,style/pen,,"""Chicago: Supported only in a path""",New,No
+PS_JOIN_MITER,Yes,Yes,No,style/pen,,"""Chicago: Supported only in a path""",New,No
+PS_JOIN_ROUND,Yes,Yes,No,style/pen,,"""Chicago: Supported only in a path""",New,No
+PS_NULL,Yes,Yes,Yes,style/pen,,,Widened,No
+PS_SOLID,Yes,Yes,Yes,style/pen,,,Widened,No
+PS_USERSTYLE,Yes,No,No,style/pen,,,New,No
+WS_EX_ABSPOSITION,No,Yes,No,style/window,,,,No
+WS_EX_ACCEPTFILES,Yes,Yes,Yes,style/window,,,,No
+WS_EX_CLIENTEDGE,No,Yes,No,style/window,,,,No
+WS_EX_DLGMODALFRAME,Yes,Yes,Yes,style/window,,,,No
+WS_EX_MDICHILD,No,Yes,No,style/window,,,,No
+WS_EX_NOPARENTNOTIFY,Yes,Yes,Yes,style/window,,,,No
+WS_EX_SMCAPTION,No,Yes,No,style/window,,,,No
+WS_EX_TOPMOST,Yes,Yes,Yes,style/window,,,,No
+WS_EX_TRANSPARENT,Yes,Yes,Yes,style/window,,,,No
+WS_EX_WINDOWEDGE,No,Yes,No,style/window,,,,No
+AbortProc,No,No,No,,,,Dropped,No
+AccessResource,No,No,No,,,,Dropped,No
+AddFontModule,No,No,No,,,,Dropped,No
+AddPrinterConnection,No,No,No,,,,Dropped,No
+AdvancedSetupDialog,No,No,No,,,,Dropped,No
+AllocDiskSpace,No,No,No,,,,Dropped,No
+AllocDSToCSAlias,No,No,No,,,,Dropped,No
+AllocFileHandles,No,No,No,,,,Dropped,No
+AllocGDIMem,No,No,No,,,,Dropped,No
+AllocMem,No,No,No,,,,Dropped,No
+AllocResource,No,No,No,,,,Dropped,No
+AllocSelector,No,No,No,,,,Dropped,No
+AllocUserMem,No,No,No,,,,Dropped,No
+Catch,No,No,No,,,,Dropped,No
+ChangeSelector,No,No,No,,,,Dropped,No
+ClassFirst,No,No,No,,,,Dropped,No
+ClassNext,No,No,No,,,,Dropped,No
+CloseComm,No,No,No,,,,Dropped,No
+CloseDriver,No,No,No,,,,Dropped,No
+CloseSound,No,No,No,,,,Dropped,No
+CountVoiceNotes,No,No,No,,,,Dropped,No
+CreateDIBIcon,No,No,No,,,,Dropped,No
+DeletePrinterConnection,No,No,No,,,,Dropped,No
+DlgDirSelect,No,No,No,,,,Dropped,No
+DlgDirSelectComboBox,No,No,No,,,,Dropped,No
+DOS3Call,No,No,No,,,,Dropped,No
+ExtCreateFontIndirect,No,No,No,,,,Dropped,No
+FlushComm,No,No,No,,,,Dropped,No
+FreeAllGDIMem,No,No,No,,,,Dropped,No
+FreeAllMem,No,No,No,,,,Dropped,No
+FreeAllUserMem,No,No,No,,,,Dropped,No
+FreeSelector,No,No,No,,,,Dropped,No
+GetAspectRatioFilter,No,No,No,,,,Dropped,No
+GetBitmapDimension,No,No,No,,,,Dropped,No
+GetCodeHandle,No,No,No,,,,Dropped,No
+GetCodeInfo,No,No,No,,,,Dropped,No
+GetCommError,No,No,No,,,,Dropped,No
+GetCurrentPDB,No,No,No,,,,Dropped,No
+GetCurrentPosition,No,No,No,,,,Dropped,No
+GetDOSEnvironment,No,No,No,,,,Dropped,No
+GetEnvironment,No,No,No,,,,Dropped,No
+GetInstanceData,No,No,No,,,,Dropped,No
+GetMetaFileBits,No,No,No,,,,Dropped,No
+GetModuleUsage,No,No,No,,,,Dropped,No
+GetSystemDebugState,No,No,No,,,,Dropped,No
+GetTempDrive,No,No,No,,,,Dropped,No
+GetTextExtent,No,No,No,,,,Dropped,No
+GetTextExtentEx,No,No,No,,,,Dropped,No
+GetThresholdEvent,No,No,No,,,,Dropped,No
+GetThresholdStatus,No,No,No,,,,Dropped,No
+GetViewportExt,No,No,No,,,,Dropped,No
+GetViewportOrg,No,No,No,,,,Dropped,No
+GetWindowExt,No,No,No,,,,Dropped,No
+GetWindowOrg,No,No,No,,,,Dropped,No
+GetWinFlags,No,No,No,,,,Dropped,No
+GlobalDosAlloc,No,No,No,,,,Dropped,No
+GlobalDosFree,No,No,No,,,,Dropped,No
+GlobalEntryHandle,No,No,No,,,,Dropped,No
+GlobalEntryModule,No,No,No,,,,Dropped,No
+GlobalFirst,No,No,No,,,,Dropped,No
+GlobalInfo,No,No,No,,,,Dropped,No
+GlobalNext,No,No,No,,,,Dropped,No
+GlobalNotify,No,No,No,,,,Dropped,No
+GlobalPageLock,No,No,No,,,,Dropped,No
+GlobalPageUnlock,No,No,No,,,,Dropped,No
+InterruptRegister,No,No,No,,,,Dropped,No
+InterruptUnRegister,No,No,No,,,,Dropped,No
+LocalFirst,No,No,No,,,,Dropped,No
+LocalInfo,No,No,No,,,,Dropped,No
+LocalNext,No,No,No,,,,Dropped,No
+LockInput,No,No,No,,,,Dropped,No
+MemManInfo,No,No,No,,,,Dropped,No
+MemoryRead,No,No,No,,,,Dropped,No
+MemoryWrite,No,No,No,,,,Dropped,No
+ModuleFindHandle,No,No,No,,,,Dropped,No
+ModuleFindName,No,No,No,,,,Dropped,No
+ModuleFirst,No,No,No,,,,Dropped,No
+ModuleNext,No,No,No,,,,Dropped,No
+MoveTo,No,No,No,,,,Dropped,No
+NetBIOSCall,No,No,No,,,,Dropped,No
+NotifyRegister,No,No,No,,,,Dropped,No
+NotifyUnRegister,No,No,No,,,,Dropped,No
+OffsetViewportOrg,No,No,No,,,,Dropped,No
+OffsetWindowOrg,No,No,No,,,,Dropped,No
+OpenComm,No,No,No,,,,Dropped,No
+OpenDriver,No,No,No,,,,Dropped,No
+OpenSound,No,No,No,,,,Dropped,No
+ProfClear,No,No,No,,,,Dropped,No
+ProfFinish,No,No,No,,,,Dropped,No
+ProfFlush,No,No,No,,,,Dropped,No
+ProfInsChk,No,No,No,,,,Dropped,No
+ProfSampRate,No,No,No,,,,Dropped,No
+ProfSetup,No,No,No,,,,Dropped,No
+ProfStart,No,No,No,,,,Dropped,No
+ProfStop,No,No,No,,,,Dropped,No
+ReadComm,No,No,No,,,,Dropped,No
+RemoveFontModule,No,No,No,,,,Dropped,No
+ScaleViewportExt,No,No,No,,,,Dropped,No
+ScaleWindowExt,No,No,No,,,,Dropped,No
+SetBitmapDimension,No,No,No,,,,Dropped,No
+SetEnvironment,No,No,No,,,,Dropped,No
+SetMetaFileBits,No,No,No,,,,Dropped,No
+SetResourceHandler,No,No,No,,,,Dropped,No
+SetSoundNoise,No,No,No,,,,Dropped,No
+SetViewportExt,No,No,No,,,,Dropped,No
+SetViewportOrg,No,No,No,,,,Dropped,No
+SetVoiceAccent,No,No,No,,,,Dropped,No
+SetVoiceEnvelope,No,No,No,,,,Dropped,No
+SetVoiceNote,No,No,No,,,,Dropped,No
+SetVoiceQueueSize,No,No,No,,,,Dropped,No
+SetVoiceSound,No,No,No,,,,Dropped,No
+SetVoiceThreshold,No,No,No,,,,Dropped,No
+SetWindowExt,No,No,No,,,,Dropped,No
+SetWindowOrg,No,No,No,,,,Dropped,No
+StackTraceCSIPFirst,No,No,No,,,,Dropped,No
+StackTraceFirst,No,No,No,,,,Dropped,No
+StackTraceNext,No,No,No,,,,Dropped,No
+StartSound,No,No,No,,,,Dropped,No
+StopSound,No,No,No,,,,Dropped,No
+SwapRecording,No,No,No,,,,Dropped,No
+SwitchStackBack,No,No,No,,,,Dropped,No
+SwitchStackTo,No,No,No,,,,Dropped,No
+SyncAllVoices,No,No,No,,,,Dropped,No
+SystemHeapInfo,No,No,No,,,,Dropped,No
+TaskFindHandle,No,No,No,,,,Dropped,No
+TaskFirst,No,No,No,,,,Dropped,No
+TaskGetCSIP,No,No,No,,,,Dropped,No
+TaskNext,No,No,No,,,,Dropped,No
+TaskSetCSIP,No,No,No,,,,Dropped,No
+TaskSwitch,No,No,No,,,,Dropped,No
+TerminateApp,No,No,No,,,,Dropped,No
+Throw,No,No,No,,,,Dropped,No
+UnAllocDiskSpace,No,No,No,,,,Dropped,No
+UnAllocFileHandles,No,No,No,,,,Dropped,No
+UngetCommChar,No,No,No,,,,Dropped,No
+ValidateCodeSegments,No,No,No,,,,Dropped,No
+ValidateFreeSpaces,No,No,No,,,,Dropped,No
+WaitSoundState,No,No,No,,,,Dropped,No
+WriteComm,No,No,No,,,,Dropped,No
+Yield,No,No,No,,,,Dropped,No

@@ -1,0 +1,6 @@
+*
+!msvc20
+!mstools
+!wine-tool
+!entrypoint
+!README.md
