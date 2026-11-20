@@ -1,0 +1,10 @@
+*
+!ntsdk
+!nt-tool
+!README.md
+!tools
+!nt31sdk/mstools
+!nt35sdk/msvc20
+!nt35sdk/mstools
+!nt40sdk/msdev
+!nt40sdk/mstools

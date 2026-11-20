@@ -1,0 +1,6 @@
+-------------------------------------------------------------------------------
+ACC NOTES
+-------------------------------------------------------------------------------
+The acc compiler is provided to assemble the LARGEINT sample only.  If you
+are currently using this compiler, you should convert to using the CL and
+ASAXP compilers for C/C++ and Assembly only.

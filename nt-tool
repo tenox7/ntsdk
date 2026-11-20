@@ -1,0 +1,19 @@
+#!/bin/sh
+# nt-tool TOOL ARGS...: run a tool of the SDK (cl, link, nmake, rc, midl, ...) with ntrun.
+# The commands cl, link, nmake and so on are links to this file. An absolute Unix path, alone
+# or after an option (-Fo/abs, -I/abs, -out:/abs), becomes a Z: path. The SDK and the CPU are
+# those of the environment (see ntsdk).
+t=$(basename "$0")
+[ "$t" != nt-tool ] || { t=$1; shift; }
+[ -n "$NTRUN_PATH" ] || exec ntsdk nt-tool "$t" "$@"
+abs() { d=$(dirname "$1"); [ "$d" != / ] && [ -d "$d" ]; }
+for a; do
+  shift
+  case $a in
+  /*) if abs "$a"; then a="Z:$a"
+      else p=$(printf '%s' "$a" | sed -nE 's#^/[A-Za-z]+:?(/.*)$#\1#p'); [ -n "$p" ] && abs "$p" && a="${a%"$p"}Z:$p"; fi ;;
+  -*) p=$(printf '%s' "$a" | sed -nE 's#^-[A-Za-z]+:?(/.*)$#\1#p'); [ -n "$p" ] && abs "$p" && a="${a%"$p"}Z:$p" ;;
+  esac
+  set -- "$@" "$a"
+done
+exec ntrun "$t" "$@"

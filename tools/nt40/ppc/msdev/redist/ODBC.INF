@@ -1,0 +1,56 @@
+[Source Media Descriptions]
+  "1", "ODBC Drivers Setup", "setup.exe", "."
+
+[ODBC Drivers]
+"SQL Server"=
+
+[SQL Server]
+"Setup"=1,sqlsrv32.dll,,,,1995-09-15,,,,,,,,,,314368,,,,02.50.01.27,
+"Driver"=1,sqlsrv32.dll,,,,1995-09-15,,,,,,,,,,314368,,,,02.50.01.27,
+"WinSysNT02"=1,msvcrt40.dll,,,,1995-07-25,,,,,,,,,SHARED,509440,,,,04.00.00.5282,
+"Ctl3d"=1,ctl3d32.dll,,,,1995-09-09,,,,,,,,,SHARED,50176,,,,02.29.00.00,
+"Help"=1,drvssrvr.hlp,,,,1995-09-15,,,,,,,,,,87427,,,,02.50.01.27,
+"Network"=1,dbnmpntw.dll,,,,1995-09-06,,,,,,,,,SHARED,27136,,,,1995.09.06.00,
+
+[SQL Server-Keys]
+APILevel=2
+ConnectFunctions=YYY
+DriverODBCVer=02.50
+FileUsage=0
+SQLLevel=1
+
+[ODBC Translators]
+"MS Code Page Translator"=
+
+[MS Code Page Translator]
+"Setup"=1,mscpxl32.dll,,,,1995-09-09,,,,,,,,,,20992,,,,02.50.01.26,
+"Translator"=1,mscpxl32.dll,,,,1995-09-09,,,,,,,,,,20992,,,,02.50.01.26,
+"Code Page 850"=1,12520850.cpx,,,,1995-09-09,,,,,,,,,,2233,,,,02.50.01.26,
+"Code Page 437"=1,12520437.cpx,,,,1995-09-09,,,,,,,,,,2151,,,,02.50.01.26,
+"Ctl3d"=1,ctl3d32.dll,,,,1995-09-09,,,,,,,,,SHARED,50176,,,,02.29.00.00,
+"WinSysNT02"=1,msvcrt40.dll,,,,1995-07-25,,,,,,,,,SHARED,509440,,,,04.00.00.5282,
+
+[ODBC Driver Manager]
+"Driver"=1,odbc32.dll,,,,1995-09-21,,,,,,,,,,99840,,,,02.50.33.21,
+"Cursor"=1,odbccr32.dll,,,,1995-09-21,,,,,,,,,,289280,,,,02.50.33.21,
+"Ctl3d"=1,ctl3d32.dll,,,,1995-09-09,,,,,,,,,SHARED,50176,,,,02.29.00.00,
+"WinSysNT02"=1,msvcrt40.dll,,,,1995-07-25,,,,,,,,,SHARED,509440,,,,04.00.00.5282,
+"Intl"=1,odbcint.dll,,,,1995-09-21,,,,,,,,,,34304,,,,02.50.33.21,
+
+[ODBC]
+"Main"=1,odbccp32.dll,,,,1995-09-21,,,,,,,,,,165376,,,,02.50.33.21,
+"Help"=1,odbcinst.hlp,,,,1995-09-21,,,,,,,,,,18321,,,,02.50.33.21,
+"Ctl3d"=1,ctl3d32.dll,,,,1995-09-09,,,,,,,,,SHARED,50176,,,,02.29.00.00,
+"CtlPnl"=1,odbccp32.cpl,,,,1995-10-25,,,,,,,,,,9216,,,,02.50.33.21,
+"WinSysNT02"=1,msvcrt40.dll,,,,1995-07-25,,,,,,,,,SHARED,509440,,,,04.00.00.5282,
+"Intl"=1,odbcint.dll,,,,1995-09-21,,,,,,,,,,34304,,,,02.50.33.21,
+"Help01"=1,odbcinst.cnt,,,,1995-09-21,,,,,,,,,,544,,,,02.50.33.21,
+
+[Generic Thunk ODBC Driver Manager]
+"Thunk1"=1,odbc32gt.dll,,,,1995-09-21,,,,,,,,,,9728,,,,02.50.33.21,
+"Thunk2"=1,odbc16gt.dll,,,,1995-09-21,,,,,,,,,,23440,,,,02.10.24.01,
+
+[Generic Thunk ODBC]
+"Thunk1"=1,ds32gt.dll,,,,1995-09-21,,,,,,,,,,6656,,,,02.50.33.21,
+"Thunk2"=1,ds16gt.dll,,,,1995-09-21,,,,,,,,,,5024,,,,02.10.23.23,
+

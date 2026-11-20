@@ -1,0 +1,97 @@
+#!/bin/sh
+# ntsdk [SDK] [CPU] [COMMAND ...]: set the environment of one SDK for one CPU, then run the command.
+#   SDK: nt31, nt35 or nt40.         Default: $NTSDK, or nt40.
+#   CPU: x86, mips, alpha or ppc.    Default: $NTCPU, or x86.
+# With no command: a shell. With no arguments at all: the instructions.
+# This is the entry point of the image, and a command in it: "ntsdk nt35 mips nmake".
+
+[ $# -gt 0 ] || set -- help
+sdk=${NTSDK:-nt40}
+cpu=${NTCPU:-x86}
+while [ $# -gt 0 ]; do
+    case $(printf '%s' "$1" | tr A-Z a-z) in
+    nt31 | nt35 | nt40) sdk=$(printf '%s' "$1" | tr A-Z a-z) ;;
+    x86 | i386) cpu=x86 ;;
+    mips) cpu=mips ;;
+    alpha | axp) cpu=alpha ;;
+    ppc | powerpc) cpu=ppc ;;
+    *) break ;;
+    esac
+    shift
+done
+case $1 in help | -h | --help) exec cat /usr/local/share/ntsdk/README.md ;; esac
+
+# NTRUN_PATH, NTRUN_DLLPATH, INCLUDE or LIB from "docker run -e" stays as it is.
+if [ -z "$NTSDK_SET" ]; then
+    u_path=$NTRUN_PATH
+    u_dll=$NTRUN_DLLPATH
+    u_inc=$INCLUDE
+    u_lib=$LIB
+fi
+
+r=/opt/$sdk/$cpu
+if [ ! -d "$r" ]; then
+    echo "ntsdk: there is no $sdk for $cpu. nt31 and nt35: x86, mips, alpha. nt40: x86, mips, alpha, ppc." >&2
+    exit 2
+fi
+
+# The tools see the folder of the SDK as drive C:, and the container as drive Z:.
+NTSDK=$sdk
+NTCPU=$cpu
+NTRUN_DRIVE_C=$r
+case $sdk-$cpu in
+nt31-*)
+    # the Win32 SDK for Windows NT 3.1, as its SETENV sets it
+    NTRUN_PATH='C:\mstools\bin'
+    INCLUDE='C:\mstools\h'
+    LIB='C:\mstools\lib'
+    NTRUN_DLLPATH=/opt/sys/$cpu
+    ;;
+nt35-x86)
+    # Visual C++ 2.0, then the Win32 SDK for Windows NT 3.5
+    NTRUN_PATH='C:\msvc20\bin;C:\mstools\bin'
+    INCLUDE='C:\msvc20\include;C:\msvc20\mfc\include;C:\mstools\h'
+    LIB='C:\msvc20\lib;C:\msvc20\mfc\lib;C:\mstools\lib'
+    NTRUN_DLLPATH=$r/msvc20/redist:/opt/sys/$cpu
+    ;;
+nt35-mips)
+    # Visual C++ 2.0 for MIPS
+    NTRUN_PATH='C:\msvc20\bin'
+    INCLUDE='C:\msvc20\include;C:\msvc20\mfc\include'
+    LIB='C:\msvc20\lib;C:\msvc20\mfc\lib'
+    NTRUN_DLLPATH=$r/msvc20/redist:/opt/sys/$cpu
+    ;;
+nt35-alpha)
+    # the Win32 SDK for Windows NT 3.5 for Alpha: it has its own compiler and C library
+    NTRUN_PATH='C:\mstools\bin'
+    INCLUDE='C:\mstools\h;C:\mstools\h\crt;C:\mstools\idl'
+    LIB='C:\mstools\lib;C:\mstools\lib\crt'
+    NTRUN_DLLPATH=/opt/sys/$cpu
+    ;;
+nt40-*)
+    # the Win32 SDK for Windows NT 4.0, then Visual C++ 4.x, as the SETENV of the SDK sets it
+    NTRUN_PATH='C:\mstools\bin;C:\msdev\bin'
+    INCLUDE='C:\mstools\include;C:\msdev\include;C:\msdev\mfc\include'
+    LIB='C:\mstools\lib;C:\msdev\lib;C:\msdev\mfc\lib'
+    NTRUN_DLLPATH=$r/msdev/redist:/opt/sys/$cpu
+    ;;
+esac
+# the variables of a Windows NT system of that CPU; the makefiles of the SDKs read CPU
+case $cpu in
+x86) CPU=i386 PROCESSOR_ARCHITECTURE=x86 ;;
+mips) CPU=MIPS PROCESSOR_ARCHITECTURE=MIPS ;;
+alpha) CPU=ALPHA PROCESSOR_ARCHITECTURE=ALPHA ;;
+ppc) CPU=PPC PROCESSOR_ARCHITECTURE=PPC ;;
+esac
+OS=Windows_NT
+[ -z "$u_path" ] || NTRUN_PATH=$u_path
+[ -z "$u_dll" ] || NTRUN_DLLPATH=$u_dll
+[ -z "$u_inc" ] || INCLUDE=$u_inc
+[ -z "$u_lib" ] || LIB=$u_lib
+NTSDK_SET=1
+export NTSDK NTCPU NTSDK_SET NTRUN_DRIVE_C NTRUN_PATH NTRUN_DLLPATH INCLUDE LIB CPU PROCESSOR_ARCHITECTURE OS
+
+if [ $# -eq 0 ]; then
+    if command -v bash > /dev/null; then set -- bash; else set -- sh; fi
+fi
+exec "$@"
