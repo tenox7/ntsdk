@@ -2,7 +2,8 @@
 # nt-tool TOOL ARGS...: run a tool of the SDK (cl, link, nmake, rc, midl, ...) with ntrun.
 # The commands cl, link, nmake and so on are links to this file. An absolute Unix path, alone
 # or after an option (-Fo/abs, -I/abs, -out:/abs), becomes a Z: path. The SDK and the CPU are
-# those of the environment (see ntsdk).
+# those of the environment (see ntsdk). The nt52 SDK has no dumpbin and editbin programs: there
+# the two commands are "link -dump" and "link -edit", which is what these programs do.
 t=$(basename "$0")
 [ "$t" != nt-tool ] || { t=$1; shift; }
 [ -n "$NTRUN_PATH" ] || exec ntsdk nt-tool "$t" "$@"
@@ -16,4 +17,8 @@ for a; do
   esac
   set -- "$@" "$a"
 done
+case $NTSDK-$t in
+nt52-dumpbin) t=link; set -- -dump "$@" ;;
+nt52-editbin) t=link; set -- -edit "$@" ;;
+esac
 exec ntrun "$t" "$@"

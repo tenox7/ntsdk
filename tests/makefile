@@ -13,6 +13,11 @@ RES = hello.res
 LFLAGS = -link -nodefaultlib:oldnames.lib
 !ENDIF
 
+# The libraries of the nt52 SDK for Itanium need this library: it has the code of the -GS check.
+!IF "$(NTSDK)" == "nt52"
+LIBS = bufferoverflowu.lib
+!ENDIF
+
 all: hello.exe
 
 hello.res: hello.rc
@@ -22,4 +27,4 @@ hello.rbj: hello.res
 	cvtres -$(CPU) hello.res -o hello.rbj
 
 hello.exe: hello.c $(RES)
-	cl -nologo -O2 -DWIN32 hello.c $(RES) kernel32.lib libc.lib $(LFLAGS)
+	cl -nologo -O2 -DWIN32 hello.c $(RES) kernel32.lib libc.lib $(LIBS) $(LFLAGS)

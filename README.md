@@ -1,9 +1,10 @@
 # ntsdk
 
-The original Microsoft tools for Windows NT in one Docker image. Build programs for Windows NT 3.1, 3.5, 3.51 and 4.0, for x86, MIPS, Alpha and PowerPC, and for 64-bit Alpha (AXP64), on Linux or macOS.
+The original Microsoft tools for Windows NT in one Docker image. Build programs for Windows NT 3.1, 3.5, 3.51 and 4.0, for x86, MIPS, Alpha and PowerPC, for 64-bit Alpha (AXP64) and for Itanium (IA-64), on Linux or macOS.
 
 - The image has the Win32 SDKs for Windows NT 3.1, 3.5 and 4.0 and the Visual C++ of that time, for each CPU.
 - It has the Platform SDK for Windows 2000 RC2 with the compiler for 64-bit Alpha too (see AXP64).
+- It has the Platform SDK for Windows Server 2003 SP1 with the cross compiler for Itanium too (see Itanium).
 - [ntrun](https://github.com/tenox7/ntrun) runs the tools. It is an emulator for 32-bit Windows NT console programs of these four CPUs.
 - There is no Wine in the image. The image is a native `linux/amd64` and `linux/arm64` image.
 - The programs are the same files as from a build on a real Windows NT machine, but for the time stamps (see Tests).
@@ -18,11 +19,12 @@ docker run --rm -v "$PWD":/src tenox7/ntsdk nt40 alpha nmake      # Windows NT 4
 docker run --rm -v "$PWD":/src tenox7/ntsdk nt35 mips nmake       # Windows NT 3.5, MIPS
 docker run --rm -v "$PWD":/src tenox7/ntsdk nt31 x86 nmake        # Windows NT 3.1, x86
 docker run --rm -v "$PWD":/src tenox7/ntsdk axp64 nmake           # 64-bit Alpha (AXP64)
+docker run --rm -v "$PWD":/src tenox7/ntsdk ia64 nmake            # Itanium (IA-64)
 ```
 
-- The first words are the SDK (`nt31`, `nt35`, `nt40` or `nt50`) and the CPU (`x86`, `mips`, `alpha`, `ppc` or `axp64`). Then comes the command.
+- The first words are the SDK (`nt31`, `nt35`, `nt40`, `nt50` or `nt52`) and the CPU (`x86`, `mips`, `alpha`, `ppc`, `axp64` or `ia64`). Then comes the command.
 - Without them you get `nt40` and `x86`.
-- `axp64` is only in `nt50`, and `nt50` has only `axp64`: one of the two words is sufficient.
+- `axp64` is only in `nt50`, and `nt50` has only `axp64`: one of the two words is sufficient. The same for `ia64` and `nt52`.
 - With no command, the container prints this text.
 
 ## SDKs and CPUs
@@ -38,6 +40,7 @@ docker run --rm -v "$PWD":/src tenox7/ntsdk axp64 nmake           # 64-bit Alpha
 | `nt40` | `x86` | Win32 SDK for Windows NT 4.0 (`rc` 4.00, `midl` 3.00), then Visual C++ 4.2 (`cl` 10.20, `link` 4.20, `nmake` 1.61, MFC 4.2) |
 | `nt40` | `mips` `alpha` `ppc` | Win32 SDK for Windows NT 4.0, then Visual C++ 4.1 for that CPU (`cl` 10.10, `link` 3.10, `nmake` 1.61, MFC 4.1, `asaxp` for Alpha, `pas` for PowerPC) |
 | `nt50` | `axp64` | Platform SDK for Windows 2000 RC2 (September 1999) with its compiler for 64-bit Alpha: `cl` 13.00, `link` 6.20, `rc` 5.00, `mc` 1.11, `midl` 5.03, `asaxp`, MFC 4.2. `nmake` 6.00 is that of Visual C++ 6.0 for Alpha. |
+| `nt52` | `ia64` | Platform SDK for Windows Server 2003 SP1 (April 2005) with its cross compiler for Itanium: `cl` 14.00, `link` 8.00, `nmake` 7.00, `rc` 5.2, `mc` 1.12, `midl` 6.00, `ias` 8.00, MFC 4.2 |
 
 - **Windows NT 3.51:** use `nt35`. Its programs are marked for Windows NT 3.10, so they run on 3.5, 3.51 and 4.0.
 - **PowerPC:** Windows NT 3.51 was the first Windows NT for PowerPC. Use `nt40 ppc` and link with `-subsystem:console,3.51`, or `windows,3.51` for a program with windows.
@@ -52,6 +55,7 @@ docker run --rm -v "$PWD":/src tenox7/ntsdk nt35 mips cl -DWIN32 hello.c
 docker run --rm -v "$PWD":/src tenox7/ntsdk nt40 alpha dumpbin -headers hello.exe
 docker run --rm -v "$PWD":/src tenox7/ntsdk nt40 alpha ntrun hello.exe       # run the program
 docker run --rm -v "$PWD":/src tenox7/ntsdk axp64 cl hello.c                 # 64-bit Alpha
+docker run --rm -v "$PWD":/src tenox7/ntsdk ia64 cl hello.c bufferoverflowu.lib   # Itanium
 docker run --rm -it -v "$PWD":/src tenox7/ntsdk nt31 mips                    # a shell
 ```
 
@@ -64,9 +68,9 @@ docker run --rm -v "$PWD":/src tenox7/ntsdk sh -c '
   done'
 ```
 
-- **These tools are commands:** `cl cl386 mcl claxp acc cc link link32 lib lib32 nmake rc cvtres mc midl masm386 asaxp pas mip2coff a2coff dumpbin editbin bscmake cvpack cvdump undname uuidgen rebase`. An SDK has only some of them.
+- **These tools are commands:** `cl cl386 mcl claxp acc cc link link32 lib lib32 nmake rc cvtres mc midl masm386 asaxp pas ias mip2coff a2coff dumpbin editbin bscmake cvpack cvdump undname uuidgen rebase`. An SDK has only some of them.
 - **Any other tool:** `ntrun TOOL ARGS`, for example `ntrun where cl.exe`.
-- **Run a program:** `ntrun hello.exe` runs a console program for each of the four CPUs. Programs with windows and programs for AXP64 do not run in the image.
+- **Run a program:** `ntrun hello.exe` runs a console program for each of the four CPUs. Programs with windows and programs for AXP64 or Itanium do not run in the image.
 - **GNU make** is in the image too.
 
 ## Paths and environment
@@ -78,13 +82,14 @@ docker run --rm -v "$PWD":/src tenox7/ntsdk sh -c '
 
 | Variable | Value |
 |---|---|
-| `CPU` | `i386`, `MIPS`, `ALPHA`, `PPC` or `ALPHA64`, for the makefiles of the SDKs (`ntwin32.mak`, `win32.mak`) |
+| `CPU` | `i386`, `MIPS`, `ALPHA`, `PPC`, `ALPHA64` or `IA64`, for the makefiles of the SDKs (`ntwin32.mak`, `win32.mak`) |
 | `INCLUDE`, `LIB` | The folders of the SDK and the compiler, see below |
 | `NTRUN_PATH` | The `PATH` of the tools |
 | `NTRUN_DLLPATH` | The folders with the DLLs of the tools: `redist` of Visual C++ and `/opt/sys/CPU` |
 | `NTSDK`, `NTCPU` | The SDK and the CPU, for example `nt40` and `alpha` |
-| `PROCESSOR_ARCHITECTURE`, `OS` | As on Windows NT: `x86`, `MIPS`, `ALPHA` or `PPC`, and `Windows_NT`. For `axp64` it is `ALPHA`, the CPU of the tools. |
+| `PROCESSOR_ARCHITECTURE`, `OS` | As on Windows NT: `x86`, `MIPS`, `ALPHA` or `PPC`, and `Windows_NT`. For `axp64` it is `ALPHA` and for `ia64` it is `x86`, the CPU of the tools. |
 | `CL` | For `axp64` only: `-Ap64`, in front of your own `CL` |
+| `APPVER`, `TARGETOS` | For `ia64` only: `5.02` and `WINNT`, for `win32.mak` |
 
 | SDK | `INCLUDE` | `LIB` |
 |---|---|---|
@@ -94,6 +99,7 @@ docker run --rm -v "$PWD":/src tenox7/ntsdk sh -c '
 | `nt35 alpha` | `C:\mstools\h;C:\mstools\h\crt;C:\mstools\idl` | `C:\mstools\lib;C:\mstools\lib\crt` |
 | `nt40` | `C:\mstools\include;C:\msdev\include;C:\msdev\mfc\include` | `C:\mstools\lib;C:\msdev\lib;C:\msdev\mfc\lib` |
 | `nt50 axp64` | `C:\mssdk\include;C:\mssdk\include\win64\crt;C:\mssdk\include\win64\mfc;C:\mssdk\include\win64\atl;C:\vc98\include` | `C:\mssdk\lib\win64;C:\mssdk\lib\win64\crt;C:\mssdk\lib\win64\mfc;C:\mssdk\lib\win64\atl` |
+| `nt52 ia64` | `C:\mssdk\include\crt;C:\mssdk\include\crt\sys;C:\mssdk\include\mfc;C:\mssdk\include\atl;C:\mssdk\include` | `C:\mssdk\lib\ia64;C:\mssdk\lib\ia64\mfc` |
 
 - To change `INCLUDE`, `LIB`, `NTRUN_PATH` or `NTRUN_DLLPATH`, use `-e`, for example `-e 'INCLUDE=Z:\src\inc;C:\mstools\include;C:\msdev\include'`.
 - The redistributable DLLs, such as `MSVCRT20.DLL` and `MFC40.DLL`, are in `redist` of Visual C++: `/opt/nt40/alpha/msdev/redist`.
@@ -128,13 +134,31 @@ docker run --rm -v "$PWD":/src tenox7/ntsdk axp64 dumpbin -headers hello.exe    
 - **Debug data:** use a `.pdb` file, which is the default of `link -debug`. `-pdb:none` does not work: `cvpack` of this SDK is the 32-bit tool of Visual C++ 6.0, and it cannot read a 64-bit program.
 - **`__FILE__` in a header is the full path**, for example `z:\src\stb_image.h`. A program that uses it has the name of your folder in it.
 
+## Itanium
+
+The Platform SDK for Windows Server 2003 SP1 has a cross compiler for Itanium (IA-64). Its tools are x86 programs, and `ntrun` runs them.
+
+```
+docker run --rm -v "$PWD":/src tenox7/ntsdk ia64 cl hello.c bufferoverflowu.lib
+docker run --rm -v "$PWD":/src tenox7/ntsdk ia64 dumpbin -headers hello.exe      # 200 machine (IA64), PE32+
+```
+
+- **Add `bufferoverflowu.lib` to each link.** The libraries of this SDK need it for the `-GS` check. Without it the linker says `unresolved external symbol __security_cookie`. `win32.mak` adds it.
+- **You cannot run these programs in the image.** `ntrun` runs 32-bit programs only.
+- **No `.pdb` files.** `cl -Zi` and `link -debug` stop with `MSPDB80.DLL: unable to connect`: these tools use a server program for `.pdb` files, and `ntrun` cannot run it. `cl -Z7` works (debug data in the object file).
+- **Makefiles with `win32.mak` work with `nmake NODEBUG=1`.** Without `NODEBUG=1` they use `-Zi`. `CPU` is `IA64` and `APPVER` is `5.02`.
+- **C++ and MFC work.** The MFC 4.2 libraries are the release libraries, static and for the DLL.
+- **`dumpbin` and `editbin`** are `link -dump` and `link -edit` here. This SDK has no such programs.
+- **midl:** use `midl -win64`. **The assembler** is `ias`.
+- **The linker writes unused memory into some bytes of a C++ program.** So two links of the same C++ program on two systems do not give the same file. The object files are the same.
+
 ## Tests
 
 ```
 tests/run.sh tenox7/ntsdk
 ```
 
-- It builds a small program with `nmake` for each SDK and CPU (11 combinations) and runs it with `ntrun`. The AXP64 program cannot run: the test reads its header with `dumpbin`.
+- It builds a small program with `nmake` for each SDK and CPU (12 combinations) and runs it with `ntrun`. The AXP64 and Itanium programs cannot run: the test reads their headers with `dumpbin`.
 - For x86 it builds the same program with the Wine image of that SDK and compares the files. The object and resource files must be the same.
 - The emulator has its own tests in the [ntrun](https://github.com/tenox7/ntrun) repository. They run in this image.
 
@@ -145,6 +169,7 @@ Checked with a larger program (an rsh daemon with a resource file, built with `n
 - `nt40` for MIPS, Alpha and PowerPC with Visual C++ 4.1 only: the same file as from a build on Windows NT, but for the time stamps.
 - The object files for x86 are the same as from the Wine images.
 - `nt50` for AXP64, two other programs (a console program, and a 628 KB program with windows, compiled with `/Ox`): the same files as from a build with the same tools on Windows for Alpha, but for the time stamps.
+- `nt52` for Itanium: there is no build from a real Windows system to compare with. 12 object files (C, C++, MFC, a 500 KB program with `/Ox`, the assembler) and a linked C program are the same files as from the same tools under Wine 8, but for the time stamps. Under Wine the linker of this SDK stops with an internal error for most programs; in this image it does not.
 
 ## Build the image
 
@@ -167,6 +192,7 @@ The Dockerfile gets ntrun from its repository and compiles it. The tools come fr
 | `tools/nt40/CPU/mstools` | Win32 SDK for Windows NT 4.0: `MSTOOLS\BIN\CPU` with `MSTOOLS\BIN\WINNT\CPU` as `bin`, `MSTOOLS\LIB\CPU` with `MSTOOLS\LIB\WINNT\CPU` as `lib` (expanded). The headers are those of x86. |
 | `tools/nt50/axp64/mssdk` | Platform SDK for Windows 2000 RC2 (September 1999), the setup for Alpha (`psdk-alpha.msi`): `Bin\Win64` as `bin/win64`, the console build tools of `Bin` as `bin`, `Include` as `include`, `Lib\Win64` as `lib/win64` (MFC: the release libraries only) |
 | `tools/nt50/axp64/vc98` | Visual C++ 6.0 for Alpha: `nmake`, `dumpbin` and `editbin` (`bin`), `MSVCRT.DLL` and `MSVCP60.DLL` for the tools (`redist`), and the 16 headers that the headers of the SDK include and the SDK does not have, such as `zmouse.h` for MFC (`include`) |
+| `tools/nt52/ia64/mssdk` | Platform SDK for Windows Server 2003 SP1 (April 2005), the setup for x86 (`PSDK-x86.msi`): `Bin\win64` (the cross compiler for IA-64) as `bin/win64`, `nmake`, `rc`, `mc`, `midl` and `uuidgen` of `Bin` as `bin`, `Include` as `include`, `Lib\IA64` as `lib/ia64` (MFC: the release libraries only) |
 | `tools/sys/CPU` | The C runtime DLLs of Windows NT 4.0 for that CPU (`CRTDLL.DLL`, `MSVCRT.DLL` ...). Some tools need them. |
 
 ## The Wine images

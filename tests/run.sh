@@ -4,8 +4,8 @@
 # 1. For each SDK and CPU: build the test program (hello.c, hello.rc, makefile) with nmake
 #    and run it with ntrun, in the image. The program prints the CPU type of its own file
 #    and the version of its compiler.
-#    ntrun cannot run a program for 64-bit Alpha (axp64): there the test reads the header
-#    of the program with dumpbin.
+#    ntrun cannot run a program for 64-bit Alpha (axp64) or Itanium (ia64): there the test
+#    reads the header of the program with dumpbin.
 # 2. x86: build the same program with the Wine image of that SDK and compare the files
 #    (pecmp.pl, which does not look at the time stamps). The object and resource files
 #    must be the same. A Wine image that is not on this machine is left out.
@@ -40,9 +40,10 @@ echo "== $image"
 while read -r sdk cpu machine compiler; do
     d=$work/$sdk-$cpu
     build "$d" "$image" $sdk $cpu
-    if [ $cpu = axp64 ]; then
+    case $cpu in axp64) name=Alpha64 ;; ia64) name=IA64 ;; *) name= ;; esac
+    if [ -n "$name" ]; then
         docker run --rm -v "$d":/src "$image" $sdk $cpu dumpbin -headers hello.exe > "$d/hello.txt" 2> "$d/hello.err"
-        if grep -q " ${machine#0} machine (Alpha64)" "$d/hello.txt" && grep -q "PE32+" "$d/hello.txt" &&
+        if grep -q " ${machine#0} machine ($name)" "$d/hello.txt" && grep -q "PE32+" "$d/hello.txt" &&
             grep -q "\.rsrc" "$d/hello.txt"; then
             ok "$sdk $cpu (built, not run: a 64-bit program)"
         else
@@ -69,6 +70,7 @@ nt40 mips 0166 1010
 nt40 alpha 0184 1010
 nt40 ppc 01f0 1010
 nt50 axp64 0284 1300
+nt52 ia64 0200 1400
 EOF
 
 echo "== the Wine images"

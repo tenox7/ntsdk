@@ -1,8 +1,9 @@
 #!/bin/sh
 # ntsdk [SDK] [CPU] [COMMAND ...]: set the environment of one SDK for one CPU, then run the command.
-#   SDK: nt31, nt35, nt40 or nt50.           Default: $NTSDK, or nt40.
-#   CPU: x86, mips, alpha, ppc or axp64.     Default: $NTCPU, or x86.
+#   SDK: nt31, nt35, nt40, nt50 or nt52.          Default: $NTSDK, or nt40.
+#   CPU: x86, mips, alpha, ppc, axp64 or ia64.    Default: $NTCPU, or x86.
 #   axp64 (64-bit Alpha) is only in nt50, and nt50 has only axp64: one of the two words is enough.
+#   The same for ia64 (Itanium) and nt52.
 # With no command: a shell. With no arguments at all: the instructions.
 # This is the entry point of the image, and a command in it: "ntsdk nt35 mips nmake".
 
@@ -13,12 +14,13 @@ asdk=
 acpu=
 while [ $# -gt 0 ]; do
     case $(printf '%s' "$1" | tr A-Z a-z) in
-    nt31 | nt35 | nt40 | nt50) asdk=$(printf '%s' "$1" | tr A-Z a-z) ;;
+    nt31 | nt35 | nt40 | nt50 | nt52) asdk=$(printf '%s' "$1" | tr A-Z a-z) ;;
     x86 | i386) acpu=x86 ;;
     mips) acpu=mips ;;
     alpha | axp) acpu=alpha ;;
     ppc | powerpc) acpu=ppc ;;
     axp64 | alpha64) acpu=axp64 ;;
+    ia64 | itanium) acpu=ia64 ;;
     *) break ;;
     esac
     shift
@@ -26,8 +28,8 @@ done
 case $1 in help | -h | --help) exec cat /usr/local/share/ntsdk/README.md ;; esac
 
 # An argument is stronger than the environment. The word that is not given comes from the other.
-sdkof() { case $1 in axp64) echo nt50 ;; *) echo nt40 ;; esac; }
-cpuof() { case $1 in nt50) echo axp64 ;; *) echo x86 ;; esac; }
+sdkof() { case $1 in axp64) echo nt50 ;; ia64) echo nt52 ;; *) echo nt40 ;; esac; }
+cpuof() { case $1 in nt50) echo axp64 ;; nt52) echo ia64 ;; *) echo x86 ;; esac; }
 [ -z "$asdk" ] || sdk=$asdk
 [ -z "$acpu" ] || cpu=$acpu
 if [ -z "$sdk" ]; then
@@ -59,10 +61,15 @@ if [ -n "$NTSDK_CL" ]; then
     esac
 fi
 NTSDK_CL=
+# The same for APPVER and TARGETOS, which the nt52 environment sets for win32.mak.
+[ -z "$NTSDK_APPVER" ] || [ "$APPVER" != "$NTSDK_APPVER" ] || unset APPVER
+[ -z "$NTSDK_TARGETOS" ] || [ "$TARGETOS" != "$NTSDK_TARGETOS" ] || unset TARGETOS
+NTSDK_APPVER=
+NTSDK_TARGETOS=
 
 r=/opt/$sdk/$cpu
 if [ ! -d "$r" ]; then
-    echo "ntsdk: there is no $sdk for $cpu. nt31 and nt35: x86, mips, alpha. nt40: x86, mips, alpha, ppc. nt50: axp64." >&2
+    echo "ntsdk: there is no $sdk for $cpu. nt31 and nt35: x86, mips, alpha. nt40: x86, mips, alpha, ppc. nt50: axp64. nt52: ia64." >&2
     exit 2
 fi
 
@@ -118,6 +125,16 @@ nt50-axp64)
     NTSDK_CL=-Ap64
     CL="$NTSDK_CL${CL:+ $CL}"
     ;;
+nt52-ia64)
+    # the Platform SDK for Windows Server 2003 SP1 with its cross compiler for Itanium, as its
+    # SETENV /SRV64 sets it. The tools are x86 programs.
+    NTRUN_PATH='C:\mssdk\bin\win64;C:\mssdk\bin'
+    INCLUDE='C:\mssdk\include\crt;C:\mssdk\include\crt\sys;C:\mssdk\include\mfc;C:\mssdk\include\atl;C:\mssdk\include'
+    LIB='C:\mssdk\lib\ia64;C:\mssdk\lib\ia64\mfc'
+    NTRUN_DLLPATH=/opt/sys/x86
+    [ -n "$APPVER" ] || { APPVER=5.02; NTSDK_APPVER=5.02; }
+    [ -n "$TARGETOS" ] || { TARGETOS=WINNT; NTSDK_TARGETOS=WINNT; }
+    ;;
 esac
 # the variables of a Windows NT system of that CPU; the makefiles of the SDKs read CPU
 case $cpu in
@@ -126,6 +143,7 @@ mips) CPU=MIPS PROCESSOR_ARCHITECTURE=MIPS ;;
 alpha) CPU=ALPHA PROCESSOR_ARCHITECTURE=ALPHA ;;
 ppc) CPU=PPC PROCESSOR_ARCHITECTURE=PPC ;;
 axp64) CPU=ALPHA64 PROCESSOR_ARCHITECTURE=ALPHA ;;
+ia64) CPU=IA64 PROCESSOR_ARCHITECTURE=x86 ;;
 esac
 OS=Windows_NT
 [ -z "$u_path" ] || NTRUN_PATH=$u_path
@@ -133,8 +151,11 @@ OS=Windows_NT
 [ -z "$u_inc" ] || INCLUDE=$u_inc
 [ -z "$u_lib" ] || LIB=$u_lib
 NTSDK_SET=1
-export NTSDK NTCPU NTSDK_SET NTSDK_CL NTRUN_DRIVE_C NTRUN_PATH NTRUN_DLLPATH INCLUDE LIB CPU PROCESSOR_ARCHITECTURE OS
+export NTSDK NTCPU NTSDK_SET NTSDK_CL NTSDK_APPVER NTSDK_TARGETOS NTRUN_DRIVE_C NTRUN_PATH NTRUN_DLLPATH INCLUDE LIB \
+    CPU PROCESSOR_ARCHITECTURE OS
 if [ -n "$CL" ]; then export CL; else unset CL; fi
+[ -z "$APPVER" ] || export APPVER
+[ -z "$TARGETOS" ] || export TARGETOS
 
 if [ $# -eq 0 ]; then
     if command -v bash > /dev/null; then set -- bash; else set -- sh; fi
