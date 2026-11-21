@@ -1,25 +1,48 @@
 #!/bin/sh
 # ntsdk [SDK] [CPU] [COMMAND ...]: set the environment of one SDK for one CPU, then run the command.
-#   SDK: nt31, nt35 or nt40.         Default: $NTSDK, or nt40.
-#   CPU: x86, mips, alpha or ppc.    Default: $NTCPU, or x86.
+#   SDK: nt31, nt35, nt40 or nt50.           Default: $NTSDK, or nt40.
+#   CPU: x86, mips, alpha, ppc or axp64.     Default: $NTCPU, or x86.
+#   axp64 (64-bit Alpha) is only in nt50, and nt50 has only axp64: one of the two words is enough.
 # With no command: a shell. With no arguments at all: the instructions.
 # This is the entry point of the image, and a command in it: "ntsdk nt35 mips nmake".
 
 [ $# -gt 0 ] || set -- help
-sdk=${NTSDK:-nt40}
-cpu=${NTCPU:-x86}
+sdk=$NTSDK
+cpu=$NTCPU
+asdk=
+acpu=
 while [ $# -gt 0 ]; do
     case $(printf '%s' "$1" | tr A-Z a-z) in
-    nt31 | nt35 | nt40) sdk=$(printf '%s' "$1" | tr A-Z a-z) ;;
-    x86 | i386) cpu=x86 ;;
-    mips) cpu=mips ;;
-    alpha | axp) cpu=alpha ;;
-    ppc | powerpc) cpu=ppc ;;
+    nt31 | nt35 | nt40 | nt50) asdk=$(printf '%s' "$1" | tr A-Z a-z) ;;
+    x86 | i386) acpu=x86 ;;
+    mips) acpu=mips ;;
+    alpha | axp) acpu=alpha ;;
+    ppc | powerpc) acpu=ppc ;;
+    axp64 | alpha64) acpu=axp64 ;;
     *) break ;;
     esac
     shift
 done
 case $1 in help | -h | --help) exec cat /usr/local/share/ntsdk/README.md ;; esac
+
+# An argument is stronger than the environment. The word that is not given comes from the other.
+sdkof() { case $1 in axp64) echo nt50 ;; *) echo nt40 ;; esac; }
+cpuof() { case $1 in nt50) echo axp64 ;; *) echo x86 ;; esac; }
+[ -z "$asdk" ] || sdk=$asdk
+[ -z "$acpu" ] || cpu=$acpu
+if [ -z "$sdk" ]; then
+    sdk=$(sdkof "$cpu")
+fi
+if [ -z "$cpu" ]; then
+    cpu=$(cpuof "$sdk")
+fi
+if [ ! -d "/opt/$sdk/$cpu" ]; then
+    if [ -n "$acpu" ] && [ -z "$asdk" ]; then
+        sdk=$(sdkof "$cpu")
+    elif [ -n "$asdk" ] && [ -z "$acpu" ]; then
+        cpu=$(cpuof "$sdk")
+    fi
+fi
 
 # NTRUN_PATH, NTRUN_DLLPATH, INCLUDE or LIB from "docker run -e" stays as it is.
 if [ -z "$NTSDK_SET" ]; then
@@ -28,10 +51,18 @@ if [ -z "$NTSDK_SET" ]; then
     u_inc=$INCLUDE
     u_lib=$LIB
 fi
+# CL (options for each cl command) is yours. Only the option that an outer ntsdk put in front goes away.
+if [ -n "$NTSDK_CL" ]; then
+    case $CL in
+    "$NTSDK_CL") CL= ;;
+    "$NTSDK_CL "*) CL=${CL#"$NTSDK_CL "} ;;
+    esac
+fi
+NTSDK_CL=
 
 r=/opt/$sdk/$cpu
 if [ ! -d "$r" ]; then
-    echo "ntsdk: there is no $sdk for $cpu. nt31 and nt35: x86, mips, alpha. nt40: x86, mips, alpha, ppc." >&2
+    echo "ntsdk: there is no $sdk for $cpu. nt31 and nt35: x86, mips, alpha. nt40: x86, mips, alpha, ppc. nt50: axp64." >&2
     exit 2
 fi
 
@@ -75,6 +106,18 @@ nt40-*)
     LIB='C:\mstools\lib;C:\msdev\lib;C:\msdev\mfc\lib'
     NTRUN_DLLPATH=$r/msdev/redist:/opt/sys/$cpu
     ;;
+nt50-axp64)
+    # the Platform SDK for Windows 2000 RC2 with its compiler for 64-bit Alpha, as its SETWIN64
+    # sets it; nmake is that of Visual C++ 6.0 for Alpha. The tools are 32-bit Alpha programs.
+    # Without -Ap64 the compiler makes 32-bit code, and this SDK has no 32-bit libraries:
+    # -Ap64 goes in front of CL, so each cl command has it.
+    NTRUN_PATH='C:\mssdk\bin\win64;C:\mssdk\bin;C:\vc98\bin'
+    INCLUDE='C:\mssdk\include;C:\mssdk\include\win64\crt;C:\mssdk\include\win64\mfc;C:\mssdk\include\win64\atl;C:\vc98\include'
+    LIB='C:\mssdk\lib\win64;C:\mssdk\lib\win64\crt;C:\mssdk\lib\win64\mfc;C:\mssdk\lib\win64\atl'
+    NTRUN_DLLPATH=$r/vc98/redist:/opt/sys/alpha
+    NTSDK_CL=-Ap64
+    CL="$NTSDK_CL${CL:+ $CL}"
+    ;;
 esac
 # the variables of a Windows NT system of that CPU; the makefiles of the SDKs read CPU
 case $cpu in
@@ -82,6 +125,7 @@ x86) CPU=i386 PROCESSOR_ARCHITECTURE=x86 ;;
 mips) CPU=MIPS PROCESSOR_ARCHITECTURE=MIPS ;;
 alpha) CPU=ALPHA PROCESSOR_ARCHITECTURE=ALPHA ;;
 ppc) CPU=PPC PROCESSOR_ARCHITECTURE=PPC ;;
+axp64) CPU=ALPHA64 PROCESSOR_ARCHITECTURE=ALPHA ;;
 esac
 OS=Windows_NT
 [ -z "$u_path" ] || NTRUN_PATH=$u_path
@@ -89,7 +133,8 @@ OS=Windows_NT
 [ -z "$u_inc" ] || INCLUDE=$u_inc
 [ -z "$u_lib" ] || LIB=$u_lib
 NTSDK_SET=1
-export NTSDK NTCPU NTSDK_SET NTRUN_DRIVE_C NTRUN_PATH NTRUN_DLLPATH INCLUDE LIB CPU PROCESSOR_ARCHITECTURE OS
+export NTSDK NTCPU NTSDK_SET NTSDK_CL NTRUN_DRIVE_C NTRUN_PATH NTRUN_DLLPATH INCLUDE LIB CPU PROCESSOR_ARCHITECTURE OS
+if [ -n "$CL" ]; then export CL; else unset CL; fi
 
 if [ $# -eq 0 ]; then
     if command -v bash > /dev/null; then set -- bash; else set -- sh; fi

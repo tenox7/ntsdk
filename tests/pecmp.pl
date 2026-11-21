@@ -63,7 +63,7 @@ sub mask_object {
     my ($machine, $nsec) = unpack('vv', substr($$r, $off, 4));
     if ($machine == 0 && $nsec == 0xffff) {
         zero($r, $off + 8, 4);
-    } elsif (grep { $machine == $_ } 0x14c, 0x162, 0x166, 0x184, 0x1f0) {
+    } elsif (grep { $machine == $_ } 0x14c, 0x162, 0x166, 0x184, 0x1f0, 0x284) {
         zero($r, $off + 4, 4);
     }
 }
